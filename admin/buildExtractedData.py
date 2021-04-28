@@ -17,6 +17,22 @@ idRE = re.compile('^([^ ]+)')
 # space, followed by the title itself.  Group 1: title
 titleRE = re.compile('^[^ ]+ Title (.*)$')
 
+# status comes after a line beginning with the ID, a little later having a Priority field, then a
+# Status label, followed by the status value, a space, and a hyphen, then space and Date.
+statusRE = re.compile('^[^ ]+ Priority.*Status ([^ ]+) - Date')
+
+# The modifiedBy date is found on a line beginning with the ID, then a space, then "TR #", and a 
+# little later the label "Modification Date ", followed by a date.
+modifiedRE = re.compile('^[^ ]+ TR # .*Modification Date ([^ ]+)')
+
+# The createdBy date is found on the lowest line for the TR that begins with an ID, then has a 
+# status, then a space, a hyphen, and a space, then "set by", and a little later "effective"
+# followed by a space and a date..
+createdRE = re.compile('^[^ ]+ [^ ]+ - set by .* - effective ([0-9/]+)')
+
+# The createdYear can be drawn from the createdBy date once matched by the createdRE regex.
+createdYearRE = re.compile('[0-9]+.[0-9]+.([0-9]+)')
+
 ###--- classes ---###
 
 class TR:
@@ -80,6 +96,21 @@ for line in input:
         match = titleRE.match(line)
         if match:
                 tr.setTitle(match.group(1)) 
+
+        match = statusRE.match(line)
+        if match:
+                tr.setStatus(match.group(1))
+
+        match = modifiedRE.match(line)
+        if match:
+                tr.setModified(match.group(1))
+
+        match = createdRE.match(line)
+        if match:
+                tr.setCreated(match.group(1))
+                yearMatch = createdYearRE.match(tr.created)
+                if yearMatch:
+                        tr.setYear(yearMatch.group(1))
 
 if (tr.id != None):
         print(tr.formatted())
