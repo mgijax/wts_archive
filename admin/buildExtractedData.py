@@ -64,8 +64,8 @@ class TR:
                 self.status = status.strip()
 
         def formatted(self):
-                return '%s\t%s\t%s\t%s\t%s\t%s' % (self.id, self.title, self.status, self.created,
-                        self.modified, self.createdYear)
+                return '%s\t%s\t%s\t%s\t%s\t%s' % (self.id, self.status, self.created,
+                        self.modified, self.createdYear, self.title)
 
 ###--- functions ---###
 
