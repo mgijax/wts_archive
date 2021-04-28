@@ -1,0 +1,6 @@
+
+# default configuration file for wts_archive product
+
+WTS_ARCHIVE_PATH=/mgi/all/wts_projects/archive/
+export WTS_ARCHIVE_PATH
+
