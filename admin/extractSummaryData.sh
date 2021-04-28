@@ -11,7 +11,7 @@ if [ "${WTS_ARCHIVE_PATH}" == "" ]; then
 fi
 
 if [ -e ${WTS_ARCHIVE_PATH}noTags.txt ]; then
-        echo "Error: Missing ${WTS_ARCHIVE_PATH}noTags.txt - run buildCombinedFile.sh"
+        echo "Error: Missing ${WTS_ARCHIVE_PATH}noTags.txt - run buildNoTags.sh"
         exit 1
 fi
 
