@@ -1,0 +1,627 @@
+Summary,Description,PI,Sort Order,TR directory,Status,Priority,Labels,Labels,Components,Components,Components,Components,Components,Components,Components,Outward issue link (1. Relates),Outward issue link (1. Relates),Outward issue link (1. Relates),Outward issue link (1. Relates),Outward issue link (1. Relates),Outward issue link (1. Relates),Outward issue link (1. Relates)
+Add a way to search from the strain page for model strains (TR2778),"http://wts.informatics.jax.org/wts_projects/archive/2700/TR2778.html
+Requested by: dmk",Carol,,,Requirements,Low,WTS1,,MMHCdb,,,,,,,,,,,,,
+Advanced graphical dictionary browser (TR3537),"http://wts.informatics.jax.org/wts_projects/archive/3500/TR3537.html
+Requested by: ringwald",Martin,,,PI-Decide,,WTS1,,Frontend/WI_Pub,,,,,,,,,,,,,
+Interactive sorting of GXD matrix displays (TR3896),"http://wts.informatics.jax.org/wts_projects/archive/3800/TR3896.html
+Requested by: ringwald",Martin,,,PI-Decide,,WTS1,,Frontend/WI_Pub,,,,,,,,,,,,,
+Comparison of GXD matrices (TR3897),"http://wts.informatics.jax.org/wts_projects/archive/3800/TR3897.html
+Requested by: ringwald",Martin,,,PI-Decide,,WTS1,,Frontend/WI_Pub,,,,,,,,,,,,,
+GenBank Human/Rat Sequence Load (TR5415),"http://wts.informatics.jax.org/wts_projects/archive/5400/TR5415.html
+Requested by: cjb",Carol,,,PI-Decide,Low,WTS1,,Backend/Load,,,,,,,,,,,,,
+Refseq Human/Rat Sequence Load (TR5416),"http://wts.informatics.jax.org/wts_projects/archive/5400/TR5416.html
+Requested by: cjb",Carol,,,PI-Decide,Low,WTS1,,Backend/Load,,,,,,,,,,,,,
+SWISS-PROT/TrEMBL Human/Rat Sequence Load (TR5417),"http://wts.informatics.jax.org/wts_projects/archive/5400/TR5417.html
+Requested by: cjb",Carol,,,PI-Decide,Low,WTS1,,Backend/Load,,,,,,,,,,,,,
+Add Note field to Sequence EI (TR6022),"http://wts.informatics.jax.org/wts_projects/archive/6000/TR6022.html
+Requested by: yz",Carol,,http://wts.informatics.jax.org/wts_projects/6000/6022/,PI-Decide,Medium,WTS1,,Backend/PWI,Frontend/WI_Pub,,,,,,,,,,,,
+Merge markers with orthologs (TR6240),"http://wts.informatics.jax.org/wts_projects/archive/6200/TR6240.html
+Requested by: yz",Carol,,,PI-Decide,Low,WTS1,,Backend/PWI,,,,,,,,,,,,,
+Searching Deleted Symbols in the WI (TR6371),"http://wts.informatics.jax.org/wts_projects/archive/6300/TR6371.html
+Requested by: lec",Joel,,,PI-Decide,Medium,WTS1,,Backend/PWI,Frontend/WI_Pub,,,,,,,,,,,,
+Forward sequences to Seq Analysis Tools (TR6509),"http://wts.informatics.jax.org/wts_projects/archive/6500/TR6509.html
+Requested by: cjb",Carol,,,PI-Decide,Low,WTS1,,Unknown,,,,,,,,,,,,,
+Provide links to Reactome and more (TR6539),"http://wts.informatics.jax.org/wts_projects/archive/6500/TR6539.html
+Requested by: jblake",Judy,,,PI-Decide,Medium,WTS1,,Backend/PWI,Backend/Load,Frontend/WI_Pub,User_Support,,,,,,,,,,
+Improving QTL annotations and WI presentation (TR7581),"http://wts.informatics.jax.org/wts_projects/archive/7500/TR7581.html
+Requested by: cjb",Carol,,http://wts.informatics.jax.org/wts_projects/7500/7581,PI-Decide,High,WTS1,,Backend/PWI,Backend/Load,DB_Admin,Frontend/WI_Pub,,,,,,,,,,
+Add to Reference detail...Disease Models (TR7717),"http://wts.informatics.jax.org/wts_projects/archive/7700/TR7717.html
+Requested by: csmith",Cindy,,,PI-Decide,High,WTS1,,Frontend/WI_Pub,,,,,,,,,,,,,
+add allele mutation abbreviations to Allele Summary (TR8109),"http://wts.informatics.jax.org/wts_projects/archive/8100/TR8109.html
+Requested by: csmith",Cindy,,http://wts.informatics.jax.org/wts_projects/8100/8109,PI-Decide,,WTS1,,Frontend/WI_Pub,,,,,,,,,,,,,
+search for phenotypes that differ on genetic backgrounds (TR8217),"http://wts.informatics.jax.org/wts_projects/archive/8200/TR8217.html
+Requested by: csmith",Cindy,,,PI-Decide,,WTS1,,Frontend/WI_Pub,,,,,,,,,,,,,
+permission to delete loaded sequence (TR8393),"http://wts.informatics.jax.org/wts_projects/archive/8300/TR8393.html
+Requested by: yz",Carol,,,PI-Decide,,WTS1,,Unknown,,,,,,,,,,,,,
+New genotype attribute- inducible expression (TR8595),"http://wts.informatics.jax.org/wts_projects/archive/8500/TR8595.html
+Requested by: csmith",Cindy,,,PI-Decide,Medium,WTS1,,Backend/PWI,DB_Admin,Frontend/WI_Pub,,,,,,,,,,,
+Add add'l option to Submit Data page (TR8818),"http://wts.informatics.jax.org/wts_projects/archive/8800/TR8818.html
+Requested by: cjb",Carol,,,PI-Decide,,WTS1,,Frontend/WI_Pub,,,,,,,,,,,,,
+Enhancement suggestions for the Batch Query tool (TR9348),"http://wts.informatics.jax.org/wts_projects/archive/9300/TR9348.html
+Requested by: jeffc",Joel,,,PI-Decide,,WTS1,,Frontend/WI_Pub,,,,,,,,,,,,,
+links from alleles to MTB (TR9464),"http://wts.informatics.jax.org/wts_projects/archive/9400/TR9464.html
+Requested by: smb",Cindy,,,PI-Decide,,WTS1,,Frontend/WI_Pub,,,,,,,,,,,,,
+Sequences without Accession ids (TR9778),"http://wts.informatics.jax.org/wts_projects/archive/9700/TR9778.html
+Requested by: cjb",Carol,,,PI-Decide,High,WTS1,,Backend/Load,,,,,,,,,,,,,
+Remove marker associations for sequences marked as deleted (TR9818),"http://wts.informatics.jax.org/wts_projects/archive/9800/TR9818.html
+Requested by: cjb",Carol,,http://wts.informatics.jax.org/wts_projects/9800/9818,In Progress,High,WTS1,,Backend/Data_Cleanup,Data,Backend/PWI,Backend/Load,Backend/QC_Reports,Backend/Public_Reports,Frontend/WI_Pub,,,,,,,
+Review EntrezGene Load Logic/Process (TR9849),"http://wts.informatics.jax.org/wts_projects/archive/9800/TR9849.html
+Requested by: cjb",Carol,,,PI-Decide,High,WTS1,,Backend/Load,,,,,,,,,,,,,
+Missing gene trap public report (TR9954),"http://wts.informatics.jax.org/wts_projects/archive/9900/TR9954.html
+Requested by: cjb",Carol,,,PI-Decide,High,WTS1,,Backend/Load,Backend/Public_Reports,,,,,,,,,,,,
+Post BAC End sequence files to MGI FTP site (TR10498),"http://wts.informatics.jax.org/wts_projects/archive/10400/TR10498.html
+Requested by: cjb",Carol,,http://wts.informatics.jax.org/wts_projects/10400/10498,PI-Decide,Medium,WTS1,,Backend/Public_Reports,,,,,,,,,,,,,
+Remove Marker Type: BAC/YAC (TR10586),"http://wts.informatics.jax.org/wts_projects/archive/10500/TR10586.html
+Requested by: cjb",Carol,,,PI-Decide,High,WTS1,,Unknown,,,,,,,,,,,,,
+Allowing curators to override the chosen representative protein? (TR10588),"http://wts.informatics.jax.org/wts_projects/archive/10500/TR10588.html
+Requested by: drs",Carol,,http://wts.informatics.jax.org/wts_projects/10500/10588,IS-READY,,WTS1,,Backend/PWI,Backend/Load,,,,,,,,,,,,
+Loading the cell ontology (TR10937),"http://wts.informatics.jax.org/wts_projects/archive/10900/TR10937.html
+Requested by: hjd",Judy,,,PI-Decide,High,WTS1,,Backend/PWI,Backend/Load,Frontend/WI_Pub,,,,,,,,,,,
+Reciprocal links from MGI to QTL Archive (TR10973),"http://wts.informatics.jax.org/wts_projects/archive/10900/TR10973.html
+Requested by: djr",Carol,,http://wts.informatics.jax.org/wts_projects/10900/10973,In Progress,High,WTS1,,Backend/Load,Frontend/WI_Pub,,,,,,I20-72,I20-67,GF-116,,,,
+Add OrthoDisease graph link to human banner (TR11113),"http://wts.informatics.jax.org/wts_projects/archive/11100/TR11113.html
+Requested by: mdolan",Judy,,,PI-Decide,Medium,WTS1,,Frontend/WI_Pub,,,,,,,,,,,,,
+Allow searching for phenotypes by zygosity (TR11220),"http://wts.informatics.jax.org/wts_projects/archive/11200/TR11220.html
+Requested by: drs",Carol,,,PI-Decide,,WTS1,,Unknown,,,,,,,,,,,,,
+GXD QF: restore ability to specify multiple structures (TR11297),"http://wts.informatics.jax.org/wts_projects/archive/11200/TR11297.html
+Requested by: ringwald",Martin,,http://wts.informatics.jax.org/wts_projects/11200/11297,PI-Decide,,WTS1,,Frontend/WI_Pub,,,,,,,,,,,,,
+Additional gene sets (vocabs) for GXD queries (TR11304),"http://wts.informatics.jax.org/wts_projects/archive/11300/TR11304.html
+Requested by: ringwald",Martin,,,PI-Decide,,WTS1,,Frontend/WI_Pub,,,,,,,,,,,,,
+Curator defined allele to disease associations (TR11310),"http://wts.informatics.jax.org/wts_projects/archive/11300/TR11310.html
+Requested by: smb",Cindy,,,Open,,WTS1,,Unknown,,,,,,,,,,,,,
+Targeted Allele Load (TAL) bug in de-orphaning an alele (TR11324),"http://wts.informatics.jax.org/wts_projects/archive/11300/TR11324.html
+Requested by: csmith",Cindy,,,PI-Decide,,WTS1,,Backend/Load,,,,,,,,,,,,,
+reference summary page includes private allele data in gene/marker counts (TR11345),"http://wts.informatics.jax.org/wts_projects/archive/11300/TR11345.html
+Requested by: csmith",Cindy,,,PI-Decide,High,WTS1,,Frontend/WI_Pub,,,,,,,,,,,,,
+VCF file upload & search improvements (TR11583),"http://wts.informatics.jax.org/wts_projects/archive/11500/TR11583.html
+Requested by: smb",Cindy,,,PI-Decide,,WTS1,,Frontend/WI_Pub,,,,,,,,,,,,,
+UniProt id mapping issues (TR11586),"http://wts.informatics.jax.org/wts_projects/archive/11500/TR11586.html
+Requested by: hjd",Judy,,http://wts.informatics.jax.org/wts_projects/11500/11586,In Progress,High,WTS1,,Unknown,,,,,,,,,,,,,
+Batch Query Pagination not Working Right (TR11606),"http://wts.informatics.jax.org/wts_projects/archive/11600/TR11606.html
+Requested by: csmith",Cindy,,,PI-Decide,,WTS1,,Unknown,,,,,,,,,,,,,
+HMDC URL length bug (TR11609),"http://wts.informatics.jax.org/wts_projects/archive/11600/TR11609.html
+Requested by: smb",Cindy,,http://wts.informatics.jax.org/wts_projects/11600/11609,IS-READY,,WTS1,,Unknown,,,,,,,,,,,,,
+HMDC gene text file bug (TR11612),"http://wts.informatics.jax.org/wts_projects/archive/11600/TR11612.html
+Requested by: smb",Cindy,,,IS-READY,,WTS1,,Frontend/WI_Pub,,,,,,,,,,,,,
+EMAPA browser: display secondary ids in term detail section (TR11634),"http://wts.informatics.jax.org/wts_projects/archive/11600/TR11634.html
+Requested by: cms",Martin,,,PI-Decide,,WTS1,,Frontend/WI_Pub,,,,,,,,,,,,,
+Revise Contributed Data Sets page (TR11653),"http://wts.informatics.jax.org/wts_projects/archive/11600/TR11653.html
+Requested by: csmith",Cindy,,,PI-Decide,Low,WTS1,,Unknown,,,,,,,,,,,,,
+Future changes to UniProt Accession Formats (TR11659),"http://wts.informatics.jax.org/wts_projects/archive/11600/TR11659.html
+Requested by: hjd",Judy,,http://wts.informatics.jax.org/wts_projects/11600/11659,Requirements,High,WTS1,,Backend/Load,,,,,,,,,,,,,
+Minor changes to Recombinase Activity Detail Page (TR11741),"http://wts.informatics.jax.org/wts_projects/archive/11700/TR11741.html
+Requested by: csmith",Cindy,,,PI-Decide,,WTS1,,Unknown,,,,,,,,,,,,,
+QC: GXD assays that incorrectly have reporter gene associations (TR11746),"http://wts.informatics.jax.org/wts_projects/archive/11700/TR11746.html
+Requested by: cms",Martin,,,PI-Decide,,WTS1,,Backend/Custom_SQL,,,,,,,,,,,,,
+tRNA and miRNA data missing from MGI.gff3 (TR11761),"http://wts.informatics.jax.org/wts_projects/archive/11700/TR11761.html
+Requested by: yz",Carol,,,IS-READY,,WTS1,,Unknown,,,,,,,,,,,,,
+Replace YUI in public products (TR11778),"http://wts.informatics.jax.org/wts_projects/archive/11700/TR11778.html
+Requested by: jsb",Richard,,,PI-Decide,,WTS1,,Frontend/WI_Pub,SE_Infrastructure,,,,,,,,,,,,
+Add imprinted gene info to gene detail pages? (TR11798),"http://wts.informatics.jax.org/wts_projects/archive/11700/TR11798.html
+Requested by: drs",Carol,,,PI-Decide,,WTS1,,Unknown,,,,,,,,,,,,,
+GXD query form: anatomy autofill bugs (TR11800),"http://wts.informatics.jax.org/wts_projects/archive/11800/TR11800.html
+Requested by: jfinger",Martin,,,PI-Decide,,WTS1,,Frontend/WI_Pub,,,,,,,,,,,,,
+GXD Matrix horizontal scroll bar (TR11803),"http://wts.informatics.jax.org/wts_projects/archive/11800/TR11803.html
+Requested by: jfinger",Martin,,,PI-Decide,,WTS1,,Frontend/WI_Pub,,,,,,,,,,,,,
+matrix views for all (TR11827),"http://wts.informatics.jax.org/wts_projects/archive/11800/TR11827.html
+Requested by: dph",Judy,,http://wts.informatics.jax.org/wts_projects/11800/11827,PI-Decide,,WTS1,,Unknown,,,,,,,,,,,,,
+Edit date tracker in GO annotation properties (TR11874),"http://wts.informatics.jax.org/wts_projects/archive/11800/TR11874.html
+Requested by: hjd",Judy,,,PI-Decide,Medium,WTS1,,Unknown,,,,,,,,,,,,,
+Infer GO annotations from mouse to mouse genes in same Homologene class (TR11875),"http://wts.informatics.jax.org/wts_projects/archive/11800/TR11875.html
+Requested by: mdolan",Judy,,,PI-Decide,,WTS1,,Unknown,,,,,,,,,,,,,
+Link to Jax mirror ftp site for Sanger mouse genomes data (TR11876),"http://wts.informatics.jax.org/wts_projects/archive/11800/TR11876.html
+Requested by: cjb",Carol,,,In Progress,High,WTS1,,Unknown,,,,,,,,,,,,,
+Suggestions from MGI user survey (TR11902),"http://wts.informatics.jax.org/wts_projects/archive/11900/TR11902.html
+Requested by: jb",Carol,,,PI-Decide,,WTS1,,Unknown,,,,,,,,,,,,,
+create public page listing all external loads: transparency and integration of d (TR11911),"http://wts.informatics.jax.org/wts_projects/archive/11900/TR11911.html
+Requested by: jb",Carol,,http://wts.informatics.jax.org/wts_projects/11900/11911,In Progress,,WTS1,,Unknown,,,,,,,,,,,,,
+GO table 'inferred_from' rollover tip wish list (TR11917),"http://wts.informatics.jax.org/wts_projects/archive/11900/TR11917.html
+Requested by: mdolan",Judy,,,PI-Decide,Low,WTS1,,Unknown,,,,,,,,,,,,,
+Expresses component qualifiers (TR11928),"http://wts.informatics.jax.org/wts_projects/archive/11900/TR11928.html
+Requested by: smb",Cindy,,,PI-Decide,,WTS1,,Unknown,,,,,,,,,,,,,
+New docking site attribute (TR11929),"http://wts.informatics.jax.org/wts_projects/archive/11900/TR11929.html
+Requested by: smb",Cindy,,,PI-Decide,,WTS1,,Unknown,,,,,,,,,,,,,
+Add field to probes table (TR11933),"http://wts.informatics.jax.org/wts_projects/archive/11900/TR11933.html
+Requested by: jfinger",Martin,,,PI-Decide,,WTS1,,Backend/PWI,DB_Admin,,,,,,,,,,,,
+GXD assay detail: links from GXD notes fields go to summary not detail (TR11943),"http://wts.informatics.jax.org/wts_projects/archive/11900/TR11943.html
+Requested by: jfinger",Martin,,,PI-Decide,,WTS1,,Frontend/WI_Pub,,,,,,,,,,,,,
+custom RNA report for EBI interconnections with RNA Central (TR11957),"http://wts.informatics.jax.org/wts_projects/archive/11900/TR11957.html
+Requested by: jblake",Judy,,http://wts.informatics.jax.org/wts_projects/11900/11957,IS-READY,High,WTS1,,Unknown,,,,,,,,,,,,,
+Vocab browser single quote bug (TR11969),"http://wts.informatics.jax.org/wts_projects/archive/11900/TR11969.html
+Requested by: smb",Cindy,,,PI-Decide,,WTS1,,Unknown,,,,,,,,,,,,,
+Roll up rules - EC vs IES (TR11981),"http://wts.informatics.jax.org/wts_projects/archive/11900/TR11981.html
+Requested by: smb",Cindy,,,PI-Decide,,WTS1,,Backend/Load,,,,,,,,,,,,,
+report of phenotypes rolled up to allele level (TR11995),"http://wts.informatics.jax.org/wts_projects/archive/11900/TR11995.html
+Requested by: smb",Cindy,,,IS-READY,,WTS1,,Unknown,,,,,,,,,,,,,
+femover/IMSR interaction improvements (TR12000),"http://wts.informatics.jax.org/wts_projects/archive/12000/TR12000.html
+Requested by: pf",Joel,9,,IS-READY,Medium,WTS1,Top_10,Frontend/WI_Pub,,,,,,,,,,,,,
+Accessing MGI data via Google searches (TR12013),"http://wts.informatics.jax.org/wts_projects/archive/12000/TR12013.html
+Requested by: ringwald",Martin,,,PI-Decide,High,WTS1,,Unknown,,,,,,,,,,,,,
+hobbiton IOError: [Errno 28] No space left on device (TR12081),"http://wts.informatics.jax.org/wts_projects/archive/12000/TR12081.html
+Requested by: yz",Carol,,,In Progress,High,WTS1,,Unknown,,,,,,,,,,,,,
+Postgres : schema/data cleanup issues (TR12083),"http://wts.informatics.jax.org/wts_projects/archive/12000/TR12083.html
+Requested by: lec",Joel,,http://wts.informatics.jax.org/wts_projects/12000/12083,In Progress,,WTS1,,DB_Admin,SE_Infrastructure,,,,,,,,,,,,
+Add preparation notes field to GXD for specimens (TR12091),"http://wts.informatics.jax.org/wts_projects/archive/12000/TR12091.html
+Requested by: jfinger",Martin,,http://wts.informatics.jax.org/wts_projects/12000/12091,PI-Decide,,WTS1,,Backend/PWI,,,,,,,,,,,,,
+Display preparation notes field on GXD assay detail page (TR12092),"http://wts.informatics.jax.org/wts_projects/archive/12000/TR12092.html
+Requested by: jfinger",Martin,,http://wts.informatics.jax.org/wts_projects/12000/12092,PI-Decide,,WTS1,,Frontend/WI_Pub,Backend/PWI,,,,,,,,,,,,
+Populate GXD preparation notes field with data (TR12093),"http://wts.informatics.jax.org/wts_projects/archive/12000/TR12093.html
+Requested by: jfinger",Martin,,,PI-Decide,,WTS1,,Backend/Data_Cleanup,,,,,,,,,,,,,
+Loading protein complexes into MGI (TR12107),"http://wts.informatics.jax.org/wts_projects/archive/12100/TR12107.html
+Requested by: hjd",Judy,,,PI-Decide,High,WTS1,,Unknown,,,,,,,,,,,,,
+missing homology: mitochondrial tRNAs (TR12113),"http://wts.informatics.jax.org/wts_projects/archive/12100/TR12113.html
+Requested by: cjb",Carol,,,PI-Decide,Medium,WTS1,,Unknown,,,,,,,,,,,,,
+Double label fields in GXD assay EI (TR12126),"http://wts.informatics.jax.org/wts_projects/archive/12100/TR12126.html
+Requested by: jfinger",Martin,,,PI-Decide,,WTS1,,Backend/PWI,Backend/PWI,Frontend/WI_Pub,DB_Admin,,,,,,,,,,
+"VLAD improvements, add back human data (TR12130)","http://wts.informatics.jax.org/wts_projects/archive/12100/TR12130.html
+Requested by: jblake",Judy,,,PI-Decide,,WTS1,,Unknown,,,,,,,,,,,,,
+Improve Batch Query functionality and visibility (TR12179),"http://wts.informatics.jax.org/wts_projects/archive/12100/TR12179.html
+Requested by: jak",Joel,,http://wts.informatics.jax.org/wts_projects/12100/12179,PI-Decide,,WTS1,,Frontend/WI_Pub,,,,,,,,,,,,,
+add Stacked Slimgrids as output option from marker queries (TR12180),"http://wts.informatics.jax.org/wts_projects/archive/12100/TR12180.html
+Requested by: jak",Joel,,http://wts.informatics.jax.org/wts_projects/12100/12180,PI-Decide,,WTS1,,Frontend/WI_Pub,,,,,,,,,,,,,
+"""Mutation Details"" subheader missing in many alleles (TR12186)","http://wts.informatics.jax.org/wts_projects/archive/12100/TR12186.html
+Requested by: csmith",Cindy,,,PI-Decide,High,WTS1,,Frontend/WI_Pub,,,,,,,,,,,,,
+Update MRK_Homology_Class2.rpt to include current homology data in MGI (TR12204),"http://wts.informatics.jax.org/wts_projects/archive/12200/TR12204.html
+Requested by: cjb",Carol,10,http://wts.informatics.jax.org/wts_projects/12200/12204,In Progress,Medium,WTS1,Top_10,Unknown,,,,,,,,,,,,,
+Antibody SQL report (TR12205),"http://wts.informatics.jax.org/wts_projects/archive/12200/TR12205.html
+Requested by: jfinger",Martin,,http://wts.informatics.jax.org/wts_projects/12200/12205,IS-READY,,WTS1,,Backend/Custom_SQL,,,,,,,,,,,,,
+Inducer controlled voc for pick-list (TR12212),"http://wts.informatics.jax.org/wts_projects/archive/12200/TR12212.html
+Requested by: mnk",Cindy,,,PI-Decide,Medium,WTS1,,Unknown,,,,,,,,,,,,,
+GXD batch search: add current mouse symbols/synonyms option (TR12282),"http://wts.informatics.jax.org/wts_projects/archive/12200/TR12282.html
+Requested by: cms",Martin,,,PI-Decide,,WTS1,,Frontend/WI_Pub,,,,,,,,,,,,,
+GXD QF: some eligible searches do not trigger GXD literature searches (TR12283),"http://wts.informatics.jax.org/wts_projects/archive/12200/TR12283.html
+Requested by: cms",Martin,,,PI-Decide,,WTS1,,Frontend/WI_Pub,,,,,,,,,,,,,
+GXD batch search: more You searched for information (TR12284),"http://wts.informatics.jax.org/wts_projects/archive/12200/TR12284.html
+Requested by: cms",Martin,,,PI-Decide,,WTS1,,Frontend/WI_Pub,,,,,,,,,,,,,
+Curatorial tool: strain loader (TR12329),"http://wts.informatics.jax.org/wts_projects/archive/12300/TR12329.html
+Requested by: csmith",Cindy,,,PI-Decide,,WTS1,,Unknown,,,,,,,,,,,,,
+Curatorial tool: allele loader (TR12330),"http://wts.informatics.jax.org/wts_projects/archive/12300/TR12330.html
+Requested by: csmith",Cindy,,,PI-Decide,,WTS1,,Unknown,,,,,,,,,,,,,
+load or link to IMPC/iMITS molecular images (TR12334),"http://wts.informatics.jax.org/wts_projects/archive/12300/TR12334.html
+Requested by: csmith",Cindy,,,Requirements,,WTS1,,Unknown,,,,,,,,,,,,,
+New GO loads from GOA (TR12342),"http://wts.informatics.jax.org/wts_projects/archive/12300/TR12342.html
+Requested by: hjd",Judy,,,Requirements,,WTS1,,Unknown,,,,,,,,,,,,,
+Extend relationships between markers to include QTL (TR12347),"http://wts.informatics.jax.org/wts_projects/archive/12300/TR12347.html
+Requested by: jrecla",Carol,12,http://wts.informatics.jax.org/wts_projects/12300/12347,Requirements,,WTS1,Top_10,Backend/Load,,,,,,,DADT-315,,,,,,
+GXD assay detail pWI page: add image summary link (TR12352),"http://wts.informatics.jax.org/wts_projects/archive/12300/TR12352.html
+Requested by: cms",Martin,,,PI-Decide,,WTS1,,Backend/PWI,,,,,,,,,,,,,
+P-WI GXD Index Summary by Ref improvement (TR12380),"http://wts.informatics.jax.org/wts_projects/archive/12300/TR12380.html
+Requested by: jfinger",Martin,,,PI-Decide,,WTS1,,Backend/PWI,,,,,,,,,,,,,
+HMDC - add feature type filter (TR12390),"http://wts.informatics.jax.org/wts_projects/archive/12300/TR12390.html
+Requested by: smb",Cindy,,,PI-Decide,,WTS1,,Unknown,,,,,,,,,,,,,
+HMDC - links to search results (TR12391),"http://wts.informatics.jax.org/wts_projects/archive/12300/TR12391.html
+Requested by: smb",Cindy,,,PI-Decide,,WTS1,,Unknown,,,,,,,,,,,,,
+HMDC - transgene tool tip improvement (TR12393),"http://wts.informatics.jax.org/wts_projects/archive/12300/TR12393.html
+Requested by: smb",Cindy,,,PI-Decide,,WTS1,,Unknown,,,,,,,,,,,,,
+HMDC - deletion/inversion tooltip improvement (TR12394),"http://wts.informatics.jax.org/wts_projects/archive/12300/TR12394.html
+Requested by: smb",Cindy,,,PI-Decide,,WTS1,,Unknown,,,,,,,,,,,,,
+HMDC - EC handling bug (TR12396),"http://wts.informatics.jax.org/wts_projects/archive/12300/TR12396.html
+Requested by: smb",Cindy,,,PI-Decide,,WTS1,,Frontend/WI_Pub,,,,,,,,,,,,,
+HMDC - Human marker not in a homology class bug (TR12397),"http://wts.informatics.jax.org/wts_projects/archive/12300/TR12397.html
+Requested by: smb",Cindy,,,PI-Decide,,WTS1,,Frontend/WI_Pub,,,,,,,,,,,,,
+antibody summary pWI page: further improvements (TR12402),"http://wts.informatics.jax.org/wts_projects/archive/12400/TR12402.html
+Requested by: cms",Martin,,,PI-Decide,Medium,WTS1,,Backend/PWI,,,,,,,,,,,,,
+pWI: update failures in GXD index summary table (TR12429),"http://wts.informatics.jax.org/wts_projects/archive/12400/TR12429.html
+Requested by: cms",Martin,,http://wts.informatics.jax.org/wts_projects/12400/12429,Requirements,,WTS1,,Backend/PWI,,,,,,,,,,,,,
+Use Ensembl and VEGA version IDs in MGI (TR12432),"http://wts.informatics.jax.org/wts_projects/archive/12400/TR12432.html
+Requested by: drs",Carol,,http://wts.informatics.jax.org/wts_projects/12400/12432,PI-Decide,,WTS1,,Unknown,,,,,,,,,,,,,
+Strength indicator on GXD assay detail page (TR12450),"http://wts.informatics.jax.org/wts_projects/archive/12400/TR12450.html
+Requested by: jfinger",Martin,,http://wts.informatics.jax.org/wts_projects/12400/12450,PI-Decide,,WTS1,,Frontend/WI_Pub,,,,,,,,,,,,,
+add reference proteome (RP) QC reports to Uniprot load (TR12458),"http://wts.informatics.jax.org/wts_projects/archive/12400/TR12458.html
+Requested by: jblake",Judy,,http://wts.informatics.jax.org/wts_projects/12400/12458,PI-Decide,High,WTS1,,Backend/QC_Reports,Backend/Load,,,,,,,,,,,,
+Reinstate SQL logging in the PWI (TR12476),"http://wts.informatics.jax.org/wts_projects/archive/12400/TR12476.html
+Requested by: jak",Joel,,,IS-READY,,WTS1,,Backend/PWI,,,,,,,,,,,,,
+pWI GXD Index tab-order bug (TR12487),"http://wts.informatics.jax.org/wts_projects/archive/12400/TR12487.html
+Requested by: pf",Joel,,,PI-Decide,,WTS1,,Backend/PWI,,,,,,,,,,,,,
+Rebuild quick search (TR12500),"http://wts.informatics.jax.org/wts_projects/archive/12500/TR12500.html
+Requested by: jsb",Richard,,http://wts.informatics.jax.org/wts_projects/12500/12500,PI-Decide,,WTS1,,SE_Infrastructure,Frontend/WI_Pub,,,,,,,,,,,,
+load HPO Orphanet annotations (TR12519),"http://wts.informatics.jax.org/wts_projects/archive/12500/TR12519.html
+Requested by: smb",Cindy,,http://wts.informatics.jax.org/wts_projects/12500/12519,Requirements,,WTS1,,Backend/Load,,,,,,,,,,,,,
+Some probe types missing from marker counts (TR12522),"http://wts.informatics.jax.org/wts_projects/archive/12500/TR12522.html
+Requested by: jlewis",Richard,,,PI-Decide,,WTS1,,Frontend/WI_Pub,,,,,,,,,,,,,
+pWI: Improvements to the P-WI EMAPA browser (TR12533),"http://wts.informatics.jax.org/wts_projects/archive/12500/TR12533.html
+Requested by: jfinger",Martin,,,IS-READY,,WTS1,,Backend/PWI,,,,,,,,,,,,,
+QC report improvement for data loads (TR12537),"http://wts.informatics.jax.org/wts_projects/archive/12500/TR12537.html
+Requested by: cjb",Carol,,,PI-Decide,High,WTS1,,Unknown,,,,,,,,,,,,,
+Add Kmt2a binding site data to MGI? (TR12558),"http://wts.informatics.jax.org/wts_projects/archive/12500/TR12558.html
+Requested by: drs",Carol,,,PI-Decide,,WTS1,,Unknown,,,,,,,,,,,,,
+Add mutagenesis screen data to Contributed Data Sets?  (TR12563),"http://wts.informatics.jax.org/wts_projects/archive/12500/TR12563.html
+Requested by: drs",Carol,,,PI-Decide,,WTS1,,Unknown,,,,,,,,,,,,,
+MP Browser improvements: I. improved tree view (TR12568),"http://wts.informatics.jax.org/wts_projects/archive/12500/TR12568.html
+Requested by: csmith",Cindy,,,Open,,WTS1,,Frontend/WI_Pub,,,,,,,,,,,,,
+MP Browser improvements: II. Implement graph view  (TR12569),"http://wts.informatics.jax.org/wts_projects/archive/12500/TR12569.html
+Requested by: csmith",Cindy,,,PI-Decide,,WTS1,,Unknown,,,,,,,,,,,,,
+Update rollup rules for new RNAi relationships (TR12574),"http://wts.informatics.jax.org/wts_projects/archive/12500/TR12574.html
+Requested by: jlewis",Richard,,,PI-Decide,,WTS1,,Unknown,,,,,,,,,,,,,
+consolidate evidence codes/apply ECO IDs (TR12575),"http://wts.informatics.jax.org/wts_projects/archive/12500/TR12575.html
+Requested by: csmith",Cindy,,,PI-Decide,,WTS1,,Unknown,,,,,,,,,,,,,
+Disease to reference annotation (TR12576),"http://wts.informatics.jax.org/wts_projects/archive/12500/TR12576.html
+Requested by: smb",Cindy,,,Open,,WTS1,,Unknown,,,,,,,,,,,,,
+incorrect CrePortal URL (TR12588),"http://wts.informatics.jax.org/wts_projects/archive/12500/TR12588.html
+Requested by: honda",Cindy,20,,Requirements,,WTS1,Top_10,Frontend/WI_Pub,,,,,,,,,,,,,
+Allele summary page bug with system headers (TR12609),"http://wts.informatics.jax.org/wts_projects/archive/12600/TR12609.html
+Requested by: csmith",Cindy,,,Requirements,,WTS1,,Frontend/WI_Pub,,,,,,,,,,,,,
+cM location not being calculated from genome coordinates (TR12625),"http://wts.informatics.jax.org/wts_projects/archive/12600/TR12625.html
+Requested by: cjb",Carol,11,,IS-READY,High,WTS1,Top_10,Unknown,,,,,,,,,,,,,
+HT indexing module: allow sorting based on note content (TR12638),"http://wts.informatics.jax.org/wts_projects/archive/12600/TR12638.html
+Requested by: cms",Martin,,,PI-Decide,,WTS1,,Backend/PWI,,,,,,,,,,,,,
+HT indexing module: enable curation of PubMed ids (TR12639),"http://wts.informatics.jax.org/wts_projects/archive/12600/TR12639.html
+Requested by: cms",Martin,,,PI-Decide,,WTS1,,Backend/PWI,,,,,,,,,,,,,
+HT indexing module: make raw data fields searchable (TR12641),"http://wts.informatics.jax.org/wts_projects/archive/12600/TR12641.html
+Requested by: cms",Martin,10,,IS-READY,,WTS1,Top_10,Backend/PWI,,,,,,,,,,,,,
+Add VGNC identifiers to appropriate species on homology pages?  (TR12665),"http://wts.informatics.jax.org/wts_projects/archive/12600/TR12665.html
+Requested by: csmith",Cindy,,,PI-Decide,,WTS1,,Unknown,,,,,,,,,,,,,
+HT indexing module: PubMed field doesn't clear (TR12670),"http://wts.informatics.jax.org/wts_projects/archive/12600/TR12670.html
+Requested by: cms",Martin,,,PI-Decide,,WTS1,,Backend/PWI,,,,,,,,,,,,,
+Bug: Public WI Reference download (TR12675),"http://wts.informatics.jax.org/wts_projects/archive/12600/TR12675.html
+Requested by: jfinger",Martin,,,PI-Decide,,WTS1,,Frontend/WI_Pub,,,,,,,,,,,,,
+errant behavior of grid checkmarks on CrePoral expression grids (TR12684),"http://wts.informatics.jax.org/wts_projects/archive/12600/TR12684.html
+Requested by: csmith",Cindy,2,,IS-READY,,WTS1,,Unknown,,,,,,,,,,,,,
+HT indexing module: adding specimen table for proofing (TR12694),"http://wts.informatics.jax.org/wts_projects/archive/12600/TR12694.html
+Requested by: cms",Martin,11,,IS-READY,,WTS1,Top_10,Backend/PWI,,,,,,,,,,,,,
+HT indexing module: make experimental variables more prominent (TR12695),"http://wts.informatics.jax.org/wts_projects/archive/12600/TR12695.html
+Requested by: cms",Martin,,,PI-Decide,,WTS1,,Backend/PWI,,,,,,,,,,,,,
+LTLO: Fewi: reference summary- use new reference types (TR12699),"http://wts.informatics.jax.org/wts_projects/archive/12600/TR12699.html
+Requested by: jak",Joel,,,PI-Decide,,WTS1,,Frontend/WI_Pub,,,,,,,,,,,,,
+LTLO: PWI QF/summary - allow access to more results (TR12704),"http://wts.informatics.jax.org/wts_projects/archive/12700/TR12704.html
+Requested by: jak",Joel,,,PI-Decide,,WTS1,,Backend/PWI,,,,,,,,,,,,,
+LTLO: improve browser tab labels for PDF files (TR12709),"http://wts.informatics.jax.org/wts_projects/archive/12700/TR12709.html
+Requested by: jak",Joel,,,PI-Decide,,WTS1,,Backend/PWI,,,,,,,,,,,,,
+HT indexing module: ability to edit sample number (TR12711),"http://wts.informatics.jax.org/wts_projects/archive/12700/TR12711.html
+Requested by: cms",Martin,,,PI-Decide,,WTS1,,Backend/PWI,,,,,,,,,,,,,
+LTLO: sql of extracted text length (TR12715),"http://wts.informatics.jax.org/wts_projects/archive/12700/TR12715.html
+Requested by: jfinger",Martin,,,PI-Decide,,WTS1,,Backend/PWI,,,,,,,,,,,,,
+HT index: load GXD HT experiment evaluation predictions (TR12716),"http://wts.informatics.jax.org/wts_projects/archive/12700/TR12716.html
+Requested by: cms",Martin,,http://wts.informatics.jax.org/wts_projects/12700/12716,PI-Decide,,WTS1,,Backend/Load,,,,,,,,,,,,,
+Skip load processing if input files do not exist (TR12754),"http://wts.informatics.jax.org/wts_projects/archive/12700/TR12754.html
+Requested by: lec",Joel,,,PI-Decide,High,WTS1,,Backend/Load,,,,,,,,,,,,,
+"LTLO: Wrong DOI from some ""Letters"" type articles from Blood (TR12755)","http://wts.informatics.jax.org/wts_projects/archive/12700/TR12755.html
+Requested by: dmk",Carol,,,PI-Decide,Low,WTS1,,Unknown,,,,,,,,,,,,,
+add attributes to the public AP query form (TR12769),"http://wts.informatics.jax.org/wts_projects/archive/12700/TR12769.html
+Requested by: smb",Cindy,,,IS-READY,,WTS1,,Unknown,,,,,,,,,,,,,
+No Phenoypic Analysis migration (TR12775),"http://wts.informatics.jax.org/wts_projects/archive/12700/TR12775.html
+Requested by: mnk",Cindy,,,PI-Decide,Medium,WTS1,,Unknown,,,,,,,,,,,,,
+Need new source for human genome coordinates for human genome features (TR12798),"http://wts.informatics.jax.org/wts_projects/archive/12700/TR12798.html
+Requested by: cjb",Carol,8,http://wts.informatics.jax.org/wts_projects/12700/12798,IS-READY,High,WTS1,Top_10,Unknown,,,,,,,GF-361,,,,,,
+New linking mechanism from Elsevier to MGI (TR12799),"http://wts.informatics.jax.org/wts_projects/archive/12700/TR12799.html
+Requested by: ringwald",Martin,,,PI-Decide,,WTS1,,Unknown,,,,,,,,,,,,,
+HT indexing module: flawed organism picklist (TR12803),"http://wts.informatics.jax.org/wts_projects/archive/12800/TR12803.html
+Requested by: cms",Martin,,,PI-Decide,,WTS1,,Backend/PWI,,,,,,,,,,,,,
+Enhancer to marker/allele relationship (TR12804),"http://wts.informatics.jax.org/wts_projects/archive/12800/TR12804.html
+Requested by: mnk",Cindy,,,Open,,WTS1,,Unknown,,,,,,,,,,,,,
+GXD differential query: add ability to interrogate by assay type (TR12810),"http://wts.informatics.jax.org/wts_projects/archive/12800/TR12810.html
+Requested by: cms",Martin,,,PI-Decide,,WTS1,,Frontend/WI_Pub,,,,,,,,,,,,,
+Can't withdraw Marker referenced by Allele (TR12818),"http://wts.informatics.jax.org/wts_projects/archive/12800/TR12818.html
+Requested by: yz",Carol,,,In Progress,High,WTS1,,Backend/PWI,,,,,,,,,,,,,
+Make it easier to find phenotypic alleles? (TR12821),"http://wts.informatics.jax.org/wts_projects/archive/12800/TR12821.html
+Requested by: drs",Carol,,,PI-Decide,,WTS1,,Unknown,,,,,,,,,,,,,
+roll up allele annotations for Alliance (TR12828),"http://wts.informatics.jax.org/wts_projects/archive/12800/TR12828.html
+Requested by: smb",Cindy,,,IS-READY,,WTS1,,Backend/Load,,,,,,,GF-225,GF-221,,,,,
+LitTriage : PDF not in master PDF folder (TR12833),"http://wts.informatics.jax.org/wts_projects/archive/12800/TR12833.html
+Requested by: lec",Joel,,http://wts.informatics.jax.org/wts_projects/12800/12833,In Progress,,WTS1,,Unknown,,,,,,,,,,,,,
+Annotate my paper link (TR12853),"http://wts.informatics.jax.org/wts_projects/archive/12800/TR12853.html
+Requested by: mnk",Cindy,,,IS-READY,Medium,WTS1,,Unknown,,,,,,,,,,,,,
+set up MP build pipeline (TR12879),"http://wts.informatics.jax.org/wts_projects/archive/12800/TR12879.html
+Requested by: smb",Cindy,17,,IS-READY,,WTS1,Top_10,Unknown,,,,,,,,,,,,,
+roll up rules RNAi update (TR12888),"http://wts.informatics.jax.org/wts_projects/archive/12800/TR12888.html
+Requested by: smb",Cindy,,,PI-Decide,,WTS1,,Unknown,,,,,,,,,,,,,
+ontology browser autocomplete bug (TR12893),"http://wts.informatics.jax.org/wts_projects/archive/12800/TR12893.html
+Requested by: smb",Cindy,,,Requirements,,WTS1,,Unknown,,,,,,,,,,,,,
+load all inferred-from in GO/PAINT (TR12917),"http://wts.informatics.jax.org/wts_projects/archive/12900/TR12917.html
+Requested by: hjd",Judy,,,IS-READY,High,WTS1,,Backend/Load,,,,,,,GF-362,,,,,,
+Marker chromosome assignment WI display (TR12920),"http://wts.informatics.jax.org/wts_projects/archive/12900/TR12920.html
+Requested by: mnk",Cindy,18,,In Progress,High,WTS1,Top_10,Backend/PWI,,,,,,,,,,,,,
+HT index: load experiment data from GEO (TR12926),"http://wts.informatics.jax.org/wts_projects/archive/12900/TR12926.html
+Requested by: cms",Martin,,,PI-Decide,,WTS1,,Backend/Load,,,,,,,,,,,,,
+Add strain to expresses component (TR12935),"http://wts.informatics.jax.org/wts_projects/archive/12900/TR12935.html
+Requested by: smb",Cindy,,,PI-Decide,,WTS1,,Unknown,,,,,,,,,,,,,
+suppress display of not applicable on allele detail pages (TR12936),"http://wts.informatics.jax.org/wts_projects/archive/12900/TR12936.html
+Requested by: smb",Cindy,,,PI-Decide,,WTS1,,Unknown,,,,,,,,,,,,,
+SNP Summary: treat ? calls as non-calls (TR12961),"http://wts.informatics.jax.org/wts_projects/archive/12900/TR12961.html
+Requested by: jsb",Carol,9,,IS-READY,,WTS1,Top_10,Frontend/WI_Pub,,,,,,,,,,,,,
+LTLO: Oncotarget DOI issue (TR12962),"http://wts.informatics.jax.org/wts_projects/archive/12900/TR12962.html
+Requested by: jfinger",Martin,,,Requirements,,WTS1,,Backend/Load,,,,,,,,,,,,,
+Test and QC for external ontologies (TR12967),"http://wts.informatics.jax.org/wts_projects/archive/12900/TR12967.html
+Requested by: smb",Cindy,,,PI-Decide,,WTS1,,Unknown,,,,,,,,,,,,,
+Problematic coordinates for some markers (TR12985),"http://wts.informatics.jax.org/wts_projects/archive/12900/TR12985.html
+Requested by: cjb",Carol,,,In Progress,High,WTS1,,Unknown,,,,,,,,,,,,,
+improve molecular mutation pick list (TR12987),"http://wts.informatics.jax.org/wts_projects/archive/12900/TR12987.html
+Requested by: smb",Cindy,,,PI-Decide,,WTS1,,Unknown,,,,,,,,,,,,,
+SNPs returned by overlap with QTL and HPM markers (TR12991),"http://wts.informatics.jax.org/wts_projects/archive/12900/TR12991.html
+Requested by: rmb",Richard,,,IS-READY,,WTS1,,Unknown,,,,,,,DADT-99,DADT-98,,,,,
+Move to MGI orthology consistent with Alliance (TR12992),"http://wts.informatics.jax.org/wts_projects/archive/12900/TR12992.html
+Requested by: mdolan",Judy,,,PI-Decide,High,WTS1,,Unknown,,,,,,,,,,,,,
+miRBase annotation of GRCm38 (TR12996),"http://wts.informatics.jax.org/wts_projects/archive/12900/TR12996.html
+Requested by: yz",Carol,,,In Progress,High,WTS1,,Unknown,,,,,,,,,,,,,
+Public Downtime due to bots and rogue users (TR12999),"http://wts.informatics.jax.org/wts_projects/archive/12900/TR12999.html
+Requested by: pf",Joel,,http://wts.informatics.jax.org/wts_projects/12900/12999,IS-READY,,WTS1,,Backend/PWI,,,,,,,,,,,,,
+convert from http to https (TR13000),"http://wts.informatics.jax.org/wts_projects/archive/13000/TR13000.html
+Requested by: drs",Carol,,,IS-READY,,WTS1,,Unknown,,,,,,,,,,,,,
+some MP definitions not being displayed (TR13003),"http://wts.informatics.jax.org/wts_projects/archive/13000/TR13003.html
+Requested by: smb",Cindy,15,,IS-READY,,WTS1,Top_10,Unknown,,,,,,,,,,,,,
+Research front end load balancing / throttling (TR13004),"http://wts.informatics.jax.org/wts_projects/archive/13000/TR13004.html
+Requested by: jak",Joel,8,,IS-READY,,WTS1,Top_10,Frontend/WI_Pub,SE_Infrastructure,,,,,,,,,,,,
+Under-annotated gene list for GO QC (TR13015),"http://wts.informatics.jax.org/wts_projects/archive/13000/TR13015.html
+Requested by: ln",Judy,,,IS-READY,High,WTS1,,Backend/QC_Reports,,,,,,,,,,,,,
+Store a researcher's FASTQ files (in Contributed Datasets?) (TR13016),"http://wts.informatics.jax.org/wts_projects/archive/13000/TR13016.html
+Requested by: drs",Carol,,,IS-READY,,WTS1,,Unknown,,,,,,,,,,,,,
+retire mousecyc (TR13017),"http://wts.informatics.jax.org/wts_projects/archive/13000/TR13017.html
+Requested by: cjb",Carol,,http://wts.informatics.jax.org/wts_projects/13000/13017,IS-READY,,WTS1,,Frontend/WI_Pub,,,,,,,DADT-216,DADT-203,,,,,
+Lit Triage: Tagging non-AP curator indexed J# (TR13032),"http://wts.informatics.jax.org/wts_projects/archive/13000/TR13032.html
+Requested by: mnk",Cindy,,,PI-Decide,,WTS1,,Unknown,,,,,,,,,,,,,
+LTLO: Reviews are underlabeled in the database (TR13043),"http://wts.informatics.jax.org/wts_projects/archive/13000/TR13043.html
+Requested by: jfinger",Richard,14,http://wts.informatics.jax.org/wts_projects/13000/13043,IS-READY,,WTS1,Top_10,Backend/Custom_SQL,Backend/Data_Cleanup,,,,,,DADT-279,,,,,,
+Add Synteny Browser  to MGI's Tools page (TR13044),"http://wts.informatics.jax.org/wts_projects/archive/13000/TR13044.html
+Requested by: cjb",Carol,4,,IS-READY,Medium,WTS1,Top_10,Unknown,,,,,,,,,,,,,
+move two buttons out of GO EI to (new) Marker EI (TR13045),"http://wts.informatics.jax.org/wts_projects/archive/13000/TR13045.html
+Requested by: hjd",Judy,,,PI-Decide,High,WTS1,,Backend/PWI,,,,,,,,,,,,,
+Normals in MGI_PhenotypicAllele.rpt (TR13055),"http://wts.informatics.jax.org/wts_projects/archive/13000/TR13055.html
+Requested by: drs",Carol,,,PI-Decide,,WTS1,,Unknown,,,,,,,,,,,,,
+Extracted Text: predicting review papers from extracted text (TR13066),"http://wts.informatics.jax.org/wts_projects/archive/13000/TR13066.html
+Requested by: jak",Joel,,http://wts.informatics.jax.org/wts_projects/13000/13066,PI-Decide,,WTS1,,Backend/Load,,,,,,,,,,,,,
+Literature triage: Automated literature relevance prediction (TR13069),"http://wts.informatics.jax.org/wts_projects/archive/13000/TR13069.html
+Requested by: jak",Joel,,http://wts.informatics.jax.org/wts_projects/13000/13069,In Progress,,WTS1,,Backend/Load,,,,,,,,,,,,,
+LTLO: Automate pdf download from PMC for several journals (TR13077),"http://wts.informatics.jax.org/wts_projects/archive/13000/TR13077.html
+Requested by: jfinger",Richard,9,,IS-READY,,WTS1,Top_10,Backend/Load,,,,,,,GRSD-410,,,,,,
+pwi/replace old Marker form/sqlalchemy  (TR13090),"http://wts.informatics.jax.org/wts_projects/archive/13000/TR13090.html
+Requested by: lec",Joel,,,IS-READY,,WTS1,,Backend/PWI,,,,,,,,,,,,,
+Success and Error popups in the PWI Marker Module (TR13092),"http://wts.informatics.jax.org/wts_projects/archive/13000/TR13092.html
+Requested by: mmh",Joel,4,,IS-READY,Medium,WTS1,Top_10,Unknown,,,,,,,,,,,,,
+LTLO: add column sorts to lit triage query summary  (TR13096),"http://wts.informatics.jax.org/wts_projects/archive/13000/TR13096.html
+Requested by: cms",Martin,1,,IS-READY,,WTS1,Top_10,Backend/PWI,,,,,,,B39-389,,,,,,
+Java API Update:  maven upgrade (TR13117),"http://wts.informatics.jax.org/wts_projects/archive/13100/TR13117.html
+Requested by: pf",Joel,7,,IS-READY,,WTS1,Top_10,SE_Admin,,,,,,,,,,,,,
+assay detail pWI page: display gene and assay type in browser tab (TR13118),"http://wts.informatics.jax.org/wts_projects/archive/13100/TR13118.html
+Requested by: cms",Martin,,http://wts.informatics.jax.org/wts_projects/13100/13118,IS-READY,,WTS1,,Backend/PWI,,,,,,,,,,,,,
+LTLO: Search for a better PDF text extraction software (TR13127),"http://wts.informatics.jax.org/wts_projects/archive/13100/TR13127.html
+Requested by: jfinger",Martin,,http://wts.informatics.jax.org/wts_projects/13100/13127,PI-Decide,,WTS1,,Backend/Load,,,,,,,,,,,,,
+Export gene lists to GeneWeaver from 3 specific places (TR13137),"http://wts.informatics.jax.org/wts_projects/archive/13100/TR13137.html
+Requested by: dph",Judy,13,,IS-READY,,WTS1,Top_10,Unknown,,,,,,,,,,,,,
+GXD QF mutant searches: exclude transgenes/cre alleles (TR13142),"http://wts.informatics.jax.org/wts_projects/archive/13100/TR13142.html
+Requested by: cms",Martin,7,,IS-READY,,WTS1,Top_10,Frontend/WI_Pub,,,,,,,,,,,,,
+Modify expresses component load - no mouse ortholog required (TR13158),"http://wts.informatics.jax.org/wts_projects/archive/13100/TR13158.html
+Requested by: csmith",Cindy,14,,Requirements,High,WTS1,Top_10,Unknown,,,,,,,GRSD-314,GRSD-300,,,,,
+change ontology load to use OWL files (TR13164),"http://wts.informatics.jax.org/wts_projects/archive/13100/TR13164.html
+Requested by: smb",Cindy,,,PI-Decide,,WTS1,,Unknown,,,,,,,,,,,,,
+interface to support MP singularity build (TR13165),"http://wts.informatics.jax.org/wts_projects/archive/13100/TR13165.html
+Requested by: smb",Cindy,11,http://wts.informatics.jax.org/wts_projects/13100/13165,IS-READY,,WTS1,Top_10,Unknown,,,,,,,B39-3,,,,,,
+Remove Links to UniGene (TR13171),"http://wts.informatics.jax.org/wts_projects/archive/13100/TR13171.html
+Requested by: cjb",Carol,5,,IS-READY,Medium,WTS1,Top_10,Unknown,,,,,,,,,,,,,
+fewi  image detail: handling for UTF8 and LATIN9 encoding (TR13174),"http://wts.informatics.jax.org/wts_projects/archive/13100/TR13174.html
+Requested by: cms",Joel,3,http://wts.informatics.jax.org/wts_projects/13100/13174,IS-READY,High,WTS1,Top_10,Frontend/WI_Pub,,,,,,,GRSD-217,,,,,,
+Variant Module: Don't Modify if Invalid Variant Ref is entered (TR13176),"http://wts.informatics.jax.org/wts_projects/archive/13100/TR13176.html
+Requested by: rmb",Carol,7,,IS-READY,,WTS1,Top_10,Backend/PWI,,,,,,,,,,,,,
+tweak legend on phenogrid (TR13185),"http://wts.informatics.jax.org/wts_projects/archive/13100/TR13185.html
+Requested by: cms",Cindy,12,,IS-READY,,WTS1,Top_10,Frontend/WI_Pub,,,,,,,,,,,,,
+Make old nomenclature history searchable in the PWI (TR13191),"http://wts.informatics.jax.org/wts_projects/archive/13100/TR13191.html
+Requested by: mmh",Judy,16,,Requirements,Medium,WTS1,Top_10,Unknown,,,,,,,,,,,,,
+modify gene sort so numbers last alphabetically (TR13192),"http://wts.informatics.jax.org/wts_projects/archive/13100/TR13192.html
+Requested by: cms",Martin,12,,IS-READY,,WTS1,Top_10,Frontend/WI_Pub,,,,,,,,,,,,,
+GXD tissue x stage matrix: stray dialogue boxes (TR13194),"http://wts.informatics.jax.org/wts_projects/archive/13100/TR13194.html
+Requested by: cms",Martin,1,http://wts.informatics.jax.org/wts_projects/13100/13194,IS-READY,,WTS1,,Frontend/WI_Pub,,,,,,,,,,,,,
+sort order of models on DO browser (TR13195),"http://wts.informatics.jax.org/wts_projects/archive/13100/TR13195.html
+Requested by: smb",Cindy,16,,IS-READY,,WTS1,Top_10,Unknown,,,,,,,,,,,,,
+links to DO missing from the DO browser (TR13198),"http://wts.informatics.jax.org/wts_projects/archive/13100/TR13198.html
+Requested by: smb",Cindy,,,Requirements,,WTS1,,Unknown,,,,,,,,,,,,,
+P-WI: Special character problem in Image detail  (TR13225),"http://wts.informatics.jax.org/wts_projects/archive/13200/TR13225.html
+Requested by: jfinger",Martin,,,IS-READY,,WTS1,,Backend/PWI,,,,,,,GRSD-220,,,,,,
+Genotype/MP modules feature request (TR13228),"http://wts.informatics.jax.org/wts_projects/archive/13200/TR13228.html
+Requested by: wilmil",Cindy,,,PI-Decide,,WTS1,,Backend/PWI,,,,,,,,,,,,,
+Load miRBase IDs without coordinates (C4AM)  (TR13232),"http://wts.informatics.jax.org/wts_projects/archive/13200/TR13232.html
+Requested by: yz",Carol,6,,IS-READY,,WTS1,Top_10,Unknown,,,,,,,,,,,,,
+Batch Rename (TR13233),"http://wts.informatics.jax.org/wts_projects/archive/13200/TR13233.html
+Requested by: yz",Carol,2,http://wts.informatics.jax.org/wts_projects/13200/13233,In Progress,,WTS1,Top_10,Backend/Load,,,,,,,,,,,,,
+cre allele detail pages: suppressing expression links from these pages (TR13237),"http://wts.informatics.jax.org/wts_projects/archive/13200/TR13237.html
+Requested by: cms",Martin,,,PI-Decide,,WTS1,,Frontend/WI_Pub,,,,,,,,,,,,,
+update IMPC lacZ data in GXD/J:228563 (TR13240),"http://wts.informatics.jax.org/wts_projects/archive/13200/TR13240.html
+Requested by: cms",Martin,,http://wts.informatics.jax.org/wts_projects/13200/13240,In Progress,,WTS1,,Backend/Load,,,,,,,B39-406,B39-397,B39-390,B39-290,B39-222,B39-199,
+Host Morpheus files locally (TR13242),"http://wts.informatics.jax.org/wts_projects/archive/13200/TR13242.html
+Requested by: jsb",Richard,,,PI-Decide,,WTS1,,Frontend/WI_Pub,,,,,,,,,,,,,
+HT index: creating links to the Expression Atlas (TR13245),"http://wts.informatics.jax.org/wts_projects/archive/13200/TR13245.html
+Requested by: cms",Martin,,,PI-Decide,,WTS1,,Backend/PWI,Backend/Load,,,,,,GRSD-289,,,,,,
+Feature request Variant module: batch query (TR13246),"http://wts.informatics.jax.org/wts_projects/archive/13200/TR13246.html
+Requested by: wilmil",Cindy,,,PI-Decide,,WTS1,,Unknown,,,,,,,,,,,,,
+RNAseq data: adding new experiments (TR13247),"http://wts.informatics.jax.org/wts_projects/archive/13200/TR13247.html
+Requested by: cms",Martin,,,PI-Decide,,WTS1,,Backend/Load,Backend/PWI,,,,,,,,,,,,
+HT index QF: better ordering of items on anatomy dropdown (TR13248),"http://wts.informatics.jax.org/wts_projects/archive/13200/TR13248.html
+Requested by: cms",Martin,,http://wts.informatics.jax.org/wts_projects/13200/13248,PI-Decide,,WTS1,,DB_Admin,,,,,,,GRSD-519,,,,,,
+Variant module report duplication error (TR13249),"http://wts.informatics.jax.org/wts_projects/archive/13200/TR13249.html
+Requested by: wilmil",Carol,1,http://wts.informatics.jax.org/wts_projects/13200/13249,In Progress,,WTS1,Top_10,Unknown,,,,,,,B39-1,,,,,,
+GXD summary: paginate summaries generated by the differential QF (TR13250),"http://wts.informatics.jax.org/wts_projects/archive/13200/TR13250.html
+Requested by: cms",Martin,,,PI-Decide,,WTS1,,Frontend/WI_Pub,,,,,,,GRSD-424,,,,,,
+genotype pWI: double checking conditional genotypes (TR13251),"http://wts.informatics.jax.org/wts_projects/archive/13200/TR13251.html
+Requested by: cms",Martin,,,PI-Decide,,WTS1,,Backend/PWI,,,,,,,GRSD-511,,,,,,
+add additional color to tissue/gene matrices (TR13252),"http://wts.informatics.jax.org/wts_projects/archive/13200/TR13252.html
+Requested by: cms",Martin,,,PI-Decide,,WTS1,,Frontend/WI_Pub,,,,,,,GRSD-392,,,,,,
+Add RNA seq data to the Gene Expression Tissue Summary Page (TR13254),"http://wts.informatics.jax.org/wts_projects/archive/13200/TR13254.html
+Requested by: cms",Martin,13,,IS-READY,,WTS1,Top_10,Frontend/WI_Pub,,,,,,,GRSD-207,,,,,,
+add Sex filter to GXD summaries (TR13255),"http://wts.informatics.jax.org/wts_projects/archive/13200/TR13255.html
+Requested by: cms",Martin,,,PI-Decide,,WTS1,,Frontend/WI_Pub,,,,,,,GRSD-343,,,,,,
+"""hide"" filter icon after filtering by RNAseq experiment (TR13256)","http://wts.informatics.jax.org/wts_projects/archive/13200/TR13256.html
+Requested by: cms",Martin,,,PI-Decide,,WTS1,,Frontend/WI_Pub,,,,,,,GRSD-395,,,,,,
+export text file for component RNAseq samples (TR13257),"http://wts.informatics.jax.org/wts_projects/archive/13200/TR13257.html
+Requested by: cms",Martin,,,PI-Decide,Medium,WTS1,,Backend/Public_Reports,,,,,,,GRSD-216,,,,,,
+catching RNA seq experiment data load failures at the mover/fewi level (TR13263),"http://wts.informatics.jax.org/wts_projects/archive/13200/TR13263.html
+Requested by: cms",Martin,14,,IS-READY,,WTS1,Top_10,Frontend/WI_Pub,,,,,,,,,,,,,
+New QC report: Duplicate disease annotations (TR13264),"http://wts.informatics.jax.org/wts_projects/archive/13200/TR13264.html
+Requested by: csmith",Cindy,13,,IS-READY,,WTS1,Top_10,Backend/QC_Reports,,,,,,,,,,,,,
+EMAPA browser: improve tree rendering under load (TR13266),"http://wts.informatics.jax.org/wts_projects/archive/13200/TR13266.html
+Requested by: ringwald",Martin,,,PI-Decide,,WTS1,,Frontend/WI_Pub,,,,,,,,,,,,,
+GXD QF: apply new autocomplete indexing approach to GO/MP/DO (TR13267),"http://wts.informatics.jax.org/wts_projects/archive/13200/TR13267.html
+Requested by: ringwald",Martin,,http://wts.informatics.jax.org/wts_projects/13200/13267,PI-Decide,,WTS1,,Frontend/WI_Pub,,,,,,,,,,,,,
+RNA-Seq heat map popup block issue (TR13268),"http://wts.informatics.jax.org/wts_projects/archive/13200/TR13268.html
+Requested by: ringwald",Martin,,,PI-Decide,,WTS1,,Frontend/WI_Pub,,,,,,,,,,,,,
+Tissue x Gene Matrix - Gene Shopping Cart (TR13270),"http://wts.informatics.jax.org/wts_projects/archive/13200/TR13270.html
+Requested by: ringwald",Martin,,,PI-Decide,,WTS1,,Frontend/WI_Pub,,,,,,,,,,,,,
+GXD Supergrid bug: 1st click anatomy toggle (TR13271),"http://wts.informatics.jax.org/wts_projects/archive/13200/TR13271.html
+Requested by: ringwald",Martin,15,,IS-READY,,WTS1,Top_10,Frontend/WI_Pub,,,,,,,,,,,,,
+GO meeting/CalTech/tasks to-do (TR13272),"http://wts.informatics.jax.org/wts_projects/archive/13200/TR13272.html
+Requested by: lec",Judy,12,http://wts.informatics.jax.org/wts_projects/13200/13272,In Progress,,WTS1,Top_10,Backend/Load,,,,,,,I20-324,I20-196,I20-25,B39-351,B39-214,,
+Convert Expression Atlas/ArrayExpress Load to use RNA-Seq Markers (TR13286),"http://wts.informatics.jax.org/wts_projects/archive/13200/TR13286.html
+Requested by: cms",Martin,,,PI-Decide,,WTS1,,Backend/Load,,,,,,,,,,,,,
+Update structure autocomplete handling (TR13287),"http://wts.informatics.jax.org/wts_projects/archive/13200/TR13287.html
+Requested by: jsb",Richard,15,,IS-READY,,WTS1,Top_10,Frontend/WI_Pub,,,,,,,,,,,,,
+Lit triage load - Handle text extraction problems better (TR13288),"http://wts.informatics.jax.org/wts_projects/archive/13200/TR13288.html
+Requested by: jfinger",Richard,7,,IS-READY,,WTS1,Top_10,Backend/Load,,,,,,,,,,,,,
+GRCm39 Data Integration NCBI and ENSEMBL (TR13291),"http://wts.informatics.jax.org/wts_projects/archive/13200/TR13291.html
+Requested by: yz",Carol,,http://wts.informatics.jax.org/wts_projects/13200/13291,Requirements,,WTS1,,Unknown,,,,,,,,,,,,,
+Reference summary lacks a Data filter for Strains (TR13296),"http://wts.informatics.jax.org/wts_projects/archive/13200/TR13296.html
+Requested by: drs",Carol,,,PI-Decide,,WTS1,,Unknown,,,,,,,,,,,,,
+Deltagen/Lexicon links within data sheets (TR13298),"http://wts.informatics.jax.org/wts_projects/archive/13200/TR13298.html
+Requested by: csmith",Cindy,19,http://wts.informatics.jax.org/wts_projects/13200/13298,IS-READY,High,WTS1,Top_10,Frontend/WI_Pub,,,,,,,,,,,,,
+Expand UBERON in MP (TR13300),"http://wts.informatics.jax.org/wts_projects/archive/13300/TR13300.html
+Requested by: ringwald",Martin,9,http://wts.informatics.jax.org/wts_projects/13300/13300,IS-READY,,WTS1,Top_10,Unknown,,,,,,,,,,,,,
+Variant Module: automate HGVS string creation (TR13303),"http://wts.informatics.jax.org/wts_projects/archive/13300/TR13303.html
+Requested by: wilmil",Cindy,,,PI-Decide,,WTS1,,Unknown,,,,,,,,,,,,,
+Adding PMIDS from Noctua load into MGI (TR13307),"http://wts.informatics.jax.org/wts_projects/archive/13300/TR13307.html
+Requested by: hjd",Judy,1,http://wts.informatics.jax.org/wts_projects/13300/13307,In Progress,High,WTS1,Top_10,Backend/QC_Reports,,,,,,,B39-443,,,,,,
+PRO ID mapping on Gene Detail pages (TR13308),"http://wts.informatics.jax.org/wts_projects/archive/13300/TR13308.html
+Requested by: hjd",Judy,,,PI-Decide,Medium,WTS1,,Unknown,,,,,,,,,,,,,
+more RNA seq data (plus more EA links) (TR13314),"http://wts.informatics.jax.org/wts_projects/archive/13300/TR13314.html
+Requested by: cms",Martin,6,http://wts.informatics.jax.org/wts_projects/13300/13314,IS-READY,,WTS1,Top_10,Backend/Load,,,,,,,,,,,,,
+Pubmed links are changing/Public WI (TR13317),"http://wts.informatics.jax.org/wts_projects/archive/13300/TR13317.html
+Requested by: csmith",Cindy,,,PI-Decide,Medium,WTS1,,Frontend/WI_Pub,,,,,,,,,,,,,
+Remove FuncBase link from the GO section of MGI gene detail page (TR13319),"http://wts.informatics.jax.org/wts_projects/archive/13300/TR13319.html
+Requested by: ln",Judy,15,,IS-READY,High,WTS1,Top_10,Frontend/WI_Pub,,,,,,,,,,,,,
+MOnthly QC report for strains indexed literature (TR13333),"http://wts.informatics.jax.org/wts_projects/archive/13300/TR13333.html
+Requested by: csmith",Cindy,,,PI-Decide,,WTS1,,Backend/QC_Reports,,,,,,,,,,,,,
+Broken RIKEN/Fantom links (TR13336),"http://wts.informatics.jax.org/wts_projects/archive/13300/TR13336.html
+Requested by: drs",Richard,12,,IS-READY,,WTS1,Top_10,Unknown,,,,,,,,,,,,,
+Mouse dbSNP links no longer supported (TR13340),"http://wts.informatics.jax.org/wts_projects/archive/13300/TR13340.html
+Requested by: rmb",Carol,3,,IS-READY,,WTS1,Top_10,Frontend/WI_Pub,,,,,,,B39-437,,,,,,
+Export to text bug (TR13341),"http://wts.informatics.jax.org/wts_projects/archive/13300/TR13341.html
+Requested by: rmb",Richard,8,,IS-READY,,WTS1,Top_10,Frontend/WI_Pub,,,,,,,,,,,,,
+LTLO: avoid DOI extraction for Plos & other downloaded journals (TR13344),"http://wts.informatics.jax.org/wts_projects/archive/13300/TR13344.html
+Requested by: jfinger",Richard,11,http://wts.informatics.jax.org/wts_projects/13300/13344,IS-READY,,WTS1,Top_10,Unknown,,,,,,,,,,,,,
+add links to Alliance ALLELE pages (TR13346),"http://wts.informatics.jax.org/wts_projects/archive/13300/TR13346.html
+Requested by: smb",Cindy,,,PI-Decide,,WTS1,,Unknown,,,,,,,,,,,,,
+Build 39 Project (TR13349),"http://wts.informatics.jax.org/wts_projects/archive/13300/TR13349.html
+Requested by: rmb",Richard,,http://wts.informatics.jax.org/wts_projects/13300/13349,Requirements,,WTS1,,Unknown,,,,,,,,,,,,,
+New field in P-WI Antibody module (TR13350),"http://wts.informatics.jax.org/wts_projects/archive/13300/TR13350.html
+Requested by: jfinger",Martin,,http://wts.informatics.jax.org/wts_projects/13300/13350,PI-Decide,,WTS1,,Backend/PWI,,,,,,,,,,,,,
+Discontinued IDs on Primer Detail (TR13353),"http://wts.informatics.jax.org/wts_projects/archive/13300/TR13353.html
+Requested by: rmb",Richard,13,,IS-READY,,WTS1,Top_10,Frontend/WI_Pub,,,,,,,,,,,,,
+"adjustment needed to ""complete' in GO EI (TR13354)","http://wts.informatics.jax.org/wts_projects/archive/13300/TR13354.html
+Requested by: hjd",Judy,10,,IS-READY,High,WTS1,Top_10,Unknown,,,,,,,,,,,,,
+HT index QF: add postnatal age querying (TR13355),"http://wts.informatics.jax.org/wts_projects/archive/13300/TR13355.html
+Requested by: cms",Martin,,,PI-Decide,,WTS1,,Frontend/WI_Pub,,,,,,,,,,,,,
+Incorrect MPD strain link (TR13358),"http://wts.informatics.jax.org/wts_projects/archive/13300/TR13358.html
+Requested by: mnk",Cindy,8,,IS-READY,High,WTS1,Top_10,Unknown,,,,,,,B39-247,,,,,,
+source table: autocomplete for cell line field (TR13361),"http://wts.informatics.jax.org/wts_projects/archive/13300/TR13361.html
+Requested by: cms",Martin,,,PI-Decide,,WTS1,,Backend/PWI,,,,,,,,,,,,,
+submissions response emails converting caret to paren (TR13364),"http://wts.informatics.jax.org/wts_projects/archive/13300/TR13364.html
+Requested by: csmith",Cindy,6,,IS-READY,,WTS1,Top_10,Unknown,,,,,,,,,,,,,
+Add VCMR Logical DB/Add to EI/Strain module (TR13368),"http://wts.informatics.jax.org/wts_projects/archive/13300/TR13368.html
+Requested by: csmith",Cindy,,,IS-READY,,WTS1,,Backend/PWI,,,,,,,I20-385,,,,,,
+antibody module: column reorg (TR13372),"http://wts.informatics.jax.org/wts_projects/archive/13300/TR13372.html
+Requested by: cms",Martin,,http://wts.informatics.jax.org/wts_projects/13300/13372,PI-Decide,,WTS1,,Backend/PWI,,,,,,,,,,,,,
+antibody module: have most frequent choices at top of organism dropdown (TR13373),"http://wts.informatics.jax.org/wts_projects/archive/13300/TR13373.html
+Requested by: cms",Martin,,,PI-Decide,,WTS1,,Backend/PWI,,,,,,,,,,,,,
+GXD QF: vocab term searching doesn't clear without reset (TR13377),"http://wts.informatics.jax.org/wts_projects/archive/13300/TR13377.html
+Requested by: cms",Martin,5,,IS-READY,,WTS1,Top_10,Frontend/WI_Pub,,,,,,,,,,,,,
+GXD QF: mutated gene field bug (TR13378),"http://wts.informatics.jax.org/wts_projects/archive/13300/TR13378.html
+Requested by: cms",Martin,,,IS-READY,,WTS1,,Frontend/WI_Pub,,,,,,,B39-197,,,,,,
+lit triage AP indexing update bug/J number (TR13381),"http://wts.informatics.jax.org/wts_projects/archive/13300/TR13381.html
+Requested by: csmith",Cindy,9,,IS-READY,Medium,WTS1,Top_10,Backend/PWI,,,,,,,,,,,,,
+webshare/externalURL vs femover/actual_database (TR13384),"http://wts.informatics.jax.org/wts_projects/archive/13300/TR13384.html
+Requested by: lec",Joel,6,,IS-READY,,WTS1,Top_10,Unknown,,,,,,,,,,,,,
+lit triage/pwi visual changes (TR13385),"http://wts.informatics.jax.org/wts_projects/archive/13300/TR13385.html
+Requested by: lec",Cindy,10,,IS-READY,,WTS1,Top_10,Backend/PWI,,,,,,,,,,,,,
+"modify pdfviewer to ""skip"" missing J files (TR13386)","http://wts.informatics.jax.org/wts_projects/archive/13300/TR13386.html
+Requested by: rmb",Richard,10,,IS-READY,,WTS1,Top_10,Backend/PWI,,,,,,,,,,,,,
+Add filtering to Quick Search (TR13391),"http://wts.informatics.jax.org/wts_projects/archive/13300/TR13391.html
+Requested by: jsb",Richard,,,PI-Decide,,WTS1,,Frontend/WI_Pub,,,,,,,,,,,,,
+fixes to GO-PWI (TR13395),"http://wts.informatics.jax.org/wts_projects/archive/13300/TR13395.html
+Requested by: krc",Judy,,,IS-READY,High,WTS1,,Unknown,,,,,,,B39-371,B39-283,,,,,
+Creative Commons license issues (TR13398),"http://wts.informatics.jax.org/wts_projects/archive/13300/TR13398.html
+Requested by: jfinger",Martin,,http://wts.informatics.jax.org/wts_projects/13300/13398,In Progress,,WTS1,,Unknown,,,,,,,B39-190,B39-164,B39-163,B39-162,B39-161,,
+LTLO: review 2ndary triage reports for automated relevance release (TR13408),"http://wts.informatics.jax.org/wts_projects/archive/13400/TR13408.html
+Requested by: jak",Joel,,http://wts.informatics.jax.org/wts_projects/13400/13408,In Progress,,WTS1,,Misc,,,,,,,B39-113,,,,,,
+HT index: sample metadata fetcher - python issues (TR13413),"http://wts.informatics.jax.org/wts_projects/archive/13400/TR13413.html
+Requested by: cms",Martin,4,,IS-READY,,WTS1,Top_10,Backend/PWI,,,,,,,,,,,,,
+ArrayExpress is moving to BioStudies (TR13415),"http://wts.informatics.jax.org/wts_projects/archive/13400/TR13415.html
+Requested by: ringwald",Martin,3,http://wts.informatics.jax.org/wts_projects/13400/13415,Requirements,,WTS1,Top_10,Backend/Load,,,,,,,B39-189,,,,,,
+EC links in MGi gene detail page not working (TR13416),"http://wts.informatics.jax.org/wts_projects/archive/13400/TR13416.html
+Requested by: ln",Richard,3,,IS-READY,High,WTS1,Top_10,Frontend/WI_Pub,,,,,,,B39-180,,,,,,
+create EI/schema to enter transgenic constructs (TR13420),"http://wts.informatics.jax.org/wts_projects/archive/13400/TR13420.html
+Requested by: smb",Cindy,,,PI-Decide,,WTS1,,Unknown,,,,,,,,,,,,,
+NLM Refresh Load issue (TR13421),"http://wts.informatics.jax.org/wts_projects/archive/13400/TR13421.html
+Requested by: jfinger",Richard,4,,IS-READY,,WTS1,Top_10,Unknown,,,,,,,,,,,,,
+Display indexed reference association for strains (TR13422),"http://wts.informatics.jax.org/wts_projects/archive/13400/TR13422.html
+Requested by: mnk",Cindy,2,,IS-READY,High,WTS1,Top_10,Frontend/WI_Pub,,,,,,,B39-183,,,,,,
+ltlo: NLM-refresh not updating abstract (TR13423),"http://wts.informatics.jax.org/wts_projects/archive/13400/TR13423.html
+Requested by: jfinger",Richard,5,http://wts.informatics.jax.org/wts_projects/13400/13423,IS-READY,,WTS1,Top_10,Backend/Load,,,,,,,B39-317,,,,,,
+nomenload/new allele/autosequence (TR13425),"http://wts.informatics.jax.org/wts_projects/archive/13400/TR13425.html
+Requested by: lec",Joel,,,In Progress,,WTS1,,Backend/Load,,,,,,,,,,,,,
+Genome Location option doesn't work on HMDC (TR13426),"http://wts.informatics.jax.org/wts_projects/archive/13400/TR13426.html
+Requested by: drs",Cindy,21,,IS-READY,,WTS1,Top_10,Unknown,,,,,,,,,,,,,
+MP Browser improvement: Exclude xref annotations from public comments field  (TR13427),"http://wts.informatics.jax.org/wts_projects/archive/13400/TR13427.html
+Requested by: anna",Cindy,,http://wts.informatics.jax.org/wts_projects/13400/13427,IS-READY,Low,WTS1,,Frontend/WI_Pub,,,,,,,B39-182,,,,,,
+numbering in Vocabulary Editing module (TR13429),"http://wts.informatics.jax.org/wts_projects/archive/13400/TR13429.html
+Requested by: krc",Judy,,,PI-Decide,,WTS1,,Unknown,,,,,,,,,,,,,
+pwi/allele/modify  (TR13432),"http://wts.informatics.jax.org/wts_projects/archive/13400/TR13432.html
+Requested by: lec",Joel,,,In Progress,,WTS1,,Backend/PWI,,,,,,,B39-148,,,,,,
+Request for additional GO QC report: under-annotated genes  (TR13434),"http://wts.informatics.jax.org/wts_projects/archive/13400/TR13434.html
+Requested by: mdolan",Judy,9,,IS-READY,,WTS1,Top_10,Unknown,,,,,,,,,,,,,
+Links to MGV Issues (TR13436),"http://wts.informatics.jax.org/wts_projects/archive/13400/TR13436.html
+Requested by: jer",Joel,1,,In Progress,,WTS1,Top_10,Unknown,,,,,,,B39-194,,,,,,
+iMITS/GenTar (TR13439),"http://wts.informatics.jax.org/wts_projects/archive/13400/TR13439.html
+Requested by: csmith",Cindy,4,http://wts.informatics.jax.org/wts_projects/13400/13439,Requirements,High,WTS1,Top_10,Backend/Load,,,,,,,B39-211,,,,,,
+Allele deletion despite strain association (TR13441),"http://wts.informatics.jax.org/wts_projects/archive/13400/TR13441.html
+Requested by: mnk",Cindy,1,,IS-READY,High,WTS1,Top_10,Backend/PWI,,,,,,,B39-448,,,,,,
+Allele Module Extinct selection bug (TR13442),"http://wts.informatics.jax.org/wts_projects/archive/13400/TR13442.html
+Requested by: honda",Cindy,22,,IS-READY,,WTS1,Top_10,Backend/PWI,,,,,,,B39-449,,,,,,
+pWI probe summary: add primer seq 1&2 (TR13443),"http://wts.informatics.jax.org/wts_projects/archive/13400/TR13443.html
+Requested by: cms",Martin,,,PI-Decide,,WTS1,,Backend/PWI,,,,,,,,,,,,,
+mapping RNA central ids to MGI genes (TR13445),"http://wts.informatics.jax.org/wts_projects/archive/13400/TR13445.html
+Requested by: hjd",Judy,,,PI-Decide,High,WTS1,,Unknown,,,,,,,,,,,,,
+pwi/all/new strain of origin (TR13446),"http://wts.informatics.jax.org/wts_projects/archive/13400/TR13446.html
+Requested by: mnk",Cindy,,,PI-Decide,Medium,WTS1,,Unknown,,,,,,,,,,,,,
+genotype module:  put another Clipboard Add button on the page (TR13447),"http://wts.informatics.jax.org/wts_projects/archive/13400/TR13447.html
+Requested by: cms",Martin,8,,IS-READY,,WTS1,Top_10,Backend/PWI,,,,,,,,,,,,,
+allele detail pwi page: add display of allele symbol with carets (TR13448),"http://wts.informatics.jax.org/wts_projects/archive/13400/TR13448.html
+Requested by: csmith",Cindy,5,,IS-READY,,WTS1,Top_10,Backend/PWI,,,,,,,,,,,,,
+Add NCBI gene ID to allele driver  (TR13450),"http://wts.informatics.jax.org/wts_projects/archive/13400/TR13450.html
+Requested by: csmith",Cindy,7,,IS-READY,High,WTS1,Top_10,Unknown,,,,,,,,,,,,,
+Markers with multiple strain genes (TR13461),"http://wts.informatics.jax.org/wts_projects/archive/13400/TR13461.html
+Requested by: rmb",Richard,,,PI-Decide,,WTS1,,Unknown,,,,,,,B39-323,,,,,,
+changes to GO QC 3 (TR13463),"http://wts.informatics.jax.org/wts_projects/archive/13400/TR13463.html
+Requested by: krc",Judy,14,,IS-READY,,WTS1,Top_10,Backend/QC_Reports,,,,,,,B39-451,,,,,,
+GXD: tweak to incorrect age/age range values QC (TR13464),"http://wts.informatics.jax.org/wts_projects/archive/13400/TR13464.html
+Requested by: cms",Martin,,,PI-Decide,,WTS1,,Backend/QC_Reports,,,,,,,,,,,,,
+Load B39 variant data from curator spreadsheet (TR13465),"http://wts.informatics.jax.org/wts_projects/archive/13400/TR13465.html
+Requested by: rmb",Richard,,,PI-Decide,,WTS1,,Backend/Load,,,,,,,,,,,,,
+Make the current build number easier to see (TR13466),"http://wts.informatics.jax.org/wts_projects/archive/13400/TR13466.html
+Requested by: drs",Richard,2,,In Progress,,WTS1,Top_10,Unknown,,,,,,,,,,,,,
+PWI/Lit Triage/DOI link out button issue (TR13467),"http://wts.informatics.jax.org/wts_projects/archive/13400/TR13467.html
+Requested by: lec",Joel,2,,IS-READY,,WTS1,Top_10,Backend/PWI,,,,,,,,,,,,,
+GO meeting/CalTech/PWI tasks (TR13470),"http://wts.informatics.jax.org/wts_projects/archive/13400/TR13470.html
+Requested by: lec",Judy,7,,IS-READY,,WTS1,Top_10,Backend/PWI,,,,,,,,,,,,,
+"Lit Triage: Search by associated gene, allele, strain (TR13474)","http://wts.informatics.jax.org/wts_projects/archive/13400/TR13474.html
+Requested by: csmith",Cindy,3,,IS-READY,High,WTS1,Top_10,Backend/PWI,,,,,,,B39-401,,,,,,
+Add GlyGen links to MGI gene detail pages (TR13475),"http://wts.informatics.jax.org/wts_projects/archive/13400/TR13475.html
+Requested by: csmith",Judy,11,,IS-READY,High,WTS1,Top_10,Unknown,,,,,,,,,,,,,
+J Biol Chem copyright links broken (TR13476),"http://wts.informatics.jax.org/wts_projects/archive/13400/TR13476.html
+Requested by: jfinger",Martin,2,,IS-READY,,WTS1,Top_10,Unknown,,,,,,,,,,,,,
+PWI/GO Annotation/allow display of withdrawn markers (TR13478),"http://wts.informatics.jax.org/wts_projects/archive/13400/TR13478.html
+Requested by: lec",Judy,8,,IS-READY,,WTS1,Top_10,Backend/PWI,,,,,,,B39-407,,,,,,
+move pgdbutilities/bin/cleanSpecChar.sh to pgmgddbschema (TR13480),"http://wts.informatics.jax.org/wts_projects/archive/13400/TR13480.html
+Requested by: lec",Joel,10,,IS-READY,,WTS1,Top_10,Backend/PWI,Backend/Load,,,,,,B39-409,,,,,,
+Import GO text direct from Alliance (TR13481),"http://wts.informatics.jax.org/wts_projects/archive/13400/TR13481.html
+Requested by: mdolan",Judy,2,,In Progress,,WTS1,Top_10,Unknown,,,,,,,,,,,,,
+EntrezGene Load - HomoloGene Technical Debt (TR13482),"http://wts.informatics.jax.org/wts_projects/archive/13400/TR13482.html
+Requested by: rmb",Richard,1,,In Progress,,WTS1,Top_10,Unknown,,,,,,,B39-414,,,,,,
+SGD link broken in GO detail page (TR13483),"http://wts.informatics.jax.org/wts_projects/archive/13400/TR13483.html
+Requested by: ln",Judy,5,,IS-READY,High,WTS1,Top_10,Frontend/WI_Pub,,,,,,,,,,,,,
+retire mirroring of genbank and refseq release files  (TR13484),"http://wts.informatics.jax.org/wts_projects/archive/13400/TR13484.html
+Requested by: sc",Joel,5,,IS-READY,,WTS1,Top_10,Unknown,,,,,,,,,,,,,
+Retire Quosa / automate pdf download from Elsevier (TR13488),"http://wts.informatics.jax.org/wts_projects/archive/13400/TR13488.html
+Requested by: jak",Judy,6,http://wts.informatics.jax.org/wts_projects/13400/13488,IS-READY,,WTS1,Top_10,Backend/Load,,,,,,,,,,,,,
+pWI results summary: placenta fail (TR13492),"http://wts.informatics.jax.org/wts_projects/archive/13400/TR13492.html
+Requested by: cms",Martin,16,,IS-READY,,WTS1,Top_10,Backend/PWI,,,,,,,,,,,,,
+GXD public stats: RNA seq results number inflated (TR13493),"http://wts.informatics.jax.org/wts_projects/archive/13400/TR13493.html
+Requested by: cms",Martin,17,,IS-READY,,WTS1,Top_10,Unknown,,,,,,,,,,,,,
+Incorrect Evidence Code in MGI GPAD files (TR13494),"http://wts.informatics.jax.org/wts_projects/archive/13400/TR13494.html
+Requested by: dph",Judy,3,,IS-READY,,WTS1,Top_10,Unknown,,,,,,,,,,,,,
+Allow annotations of pseudogenes (TR13495),"http://wts.informatics.jax.org/wts_projects/archive/13400/TR13495.html
+Requested by: hjd",Judy,,,Open,High,WTS1,,Unknown,,,,,,,,,,,,,
