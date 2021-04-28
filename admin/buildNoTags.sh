@@ -12,6 +12,11 @@ fi
 
 cd ${WTS_ARCHIVE_PATH}
 
+if [ -e noTags.txt ]; then
+        echo "Removing previous noTags.txt..."
+        rm noTags.txt
+fi
+
 echo "Building noTags.txt..."
 for file in `ls */TR*html`; do
         cat ${file} | sed 's/<[^>]*>//g ; /^$/d' | sed 's@^@'"${file}"' @' >> noTags.txt

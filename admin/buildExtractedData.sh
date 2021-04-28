@@ -10,13 +10,21 @@ if [ "${WTS_ARCHIVE_PATH}" == "" ]; then
         exit 1
 fi
 
-if [ -e ${WTS_ARCHIVE_PATH}noTags.txt ]; then
-        echo "Error: Missing ${WTS_ARCHIVE_PATH}noTags.txt - run buildNoTags.sh"
+INPUT_FILE=${WTS_ARCHIVE_PATH}noTags.txt
+OUTPUT_FILE=${WTS_ARCHIVE_PATH}extractedData.txt
+
+if [ ! -e ${INPUT_FILE} ]; then
+        echo "Error: Missing ${INPUT_FILE} - run buildNoTags.sh"
         exit 1
 fi
 
-echo "Building extractedData.txt..."
-extractSummaryData.py ${WTS_ARCHIVE_PATH}
+if [ -e ${OUTPUT_FILE} ]; then
+        echo "Removing previous extractedData.txt..."
+        rm ${OUTPUT_FILE}
+fi
 
-LINE_COUNT=`wc -l ${WTS_ARCHIVE_PATH}extractedData.txt | awk '{print $1}'`
-echo "- Built ${WTS_ARCHIVE_PATH}extractedData.txt with ${LINE_COUNT} lines"
+echo "Building extractedData.txt..."
+cat ${INPUT_FILE} | buildExtractedData.py > ${OUTPUT_FILE}
+
+LINE_COUNT=`wc -l ${OUTPUT_FILE} | awk '{print $1}'`
+echo "- Built ${OUTPUT_FILE} with ${LINE_COUNT} lines"

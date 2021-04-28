@@ -1,6 +1,19 @@
 
 # default configuration file for wts_archive product
 
+#
+#  If the MGICONFIG environment variable does not have a local override,
+#  use the default "live" settings.
+#
+if [ "${MGICONFIG}" = "" ]
+then
+    MGICONFIG=/usr/local/mgi/live/mgiconfig
+    export MGICONFIG
+fi
+
+. ${MGICONFIG}/master.config.sh
+
+###--- definitions custom for wts_archive product ---###
+
 WTS_ARCHIVE_PATH=/mgi/all/wts_projects/archive/
 export WTS_ARCHIVE_PATH
-

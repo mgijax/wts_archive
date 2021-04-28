@@ -1,0 +1,25 @@
+#!/bin/sh
+
+# Install script for wts_archive product
+
+. ./Configuration
+
+# check that we're working with Python 3.7
+
+VER=`${PYTHON} --version 2>&1 | sed 's/[^ ]* //' | sed 's/\./ /g' | awk '{print $1,$2}'`
+if [ "${VER}" != "3 7" ]; then
+        echo "Incorrect Python version at ${PYTHON} -- must be 3.7";
+        exit 1
+fi
+
+# add/update links to the Python executable (for Python 3.7)
+
+DIRS="admin ."
+for DIR in ${DIRS}
+do
+        if [ -h ${DIR}/python ]; then
+                rm ${DIR}/python
+        fi
+        ln -s ${PYTHON} ${DIR}/python
+        echo "Added link from ${DIR}/python to ${PYTHON}"
+done
