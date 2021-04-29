@@ -3,13 +3,17 @@
 # Displays the query form for searching WTS archives.  Can pre-fill fields given parameters coming in.
 
 import sys
-if '.' not in sys.path:
-        sys.path.insert(0, '.')
+if './lib/python' not in sys.path:
+        sys.path.insert(0, './lib/python')
+if '/usr/local/mgi/live/lib/python' not in sys.path:
+        sys.path.insert(0, '/usr/local/mgi/live/lib/python')
 
 import Configuration
 config = Configuration.get_Configuration('Configuration', 1)
 
 import CGI
+import page
+import form
 
 ###--- classes ---###
 
@@ -26,9 +30,9 @@ class SearchFormCGI (CGI.CGI):
                         form.buildForm(parms),
                         page.footer(),
                         ]
-                print(lines)
+                print('\n'.join(lines))
 
 ###--- main program ---###
 
-form = SearchFormCGI()
-form.go()
+qf = SearchFormCGI()
+qf.go()

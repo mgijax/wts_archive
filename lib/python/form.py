@@ -17,7 +17,7 @@ def pickList(parms, fieldname, values, tooltip = ''):
                 flag = ''
                 if value == selectedValue:
                         flag = ' SELECTED'
-                lines.append('<OPTION VALUE="%s"%s>%s</OPTION>' % (value, flag))
+                lines.append('<OPTION VALUE="%s"%s>%s</OPTION>' % (value, flag, value))
 
         lines.append('</SELECT>')
         return '\n'.join(lines)
@@ -32,12 +32,12 @@ def textField(parms, fieldname, size = 40, tooltip = '', placeholder=''):
 
         return line % (fieldname, size, value, placeholder, tooltip)
 
-def checkbox(params, fieldname, value, tooltip = ''):
+def checkbox(parms, fieldname, value, tooltip = ''):
         # generate a checkbox input field for the given parameters
 
         line = '<INPUT NAME="%s" TYPE="checkbox" VALUE="%s" TITLE="%s"%s>'
         flag = ''
-        if fieldname in params:
+        if fieldname in parms:
                 flag = 'CHECKED'
         return line % (fieldname, value, tooltip, flag)
 
@@ -57,7 +57,7 @@ def buildForm(parms):
         lines = [ 
                 '<FORM ACTION="./search.cgi" METHOD="get">',
                 'Show TRs containing ',
-                pickList(params, 'anyAll', [ 'all', 'any' ],
+                pickList(parms, 'anyAll', [ 'all', 'any' ],
                         '"all" requires matches of all specified search strings, ' + \
                         'while "any" requires that at least one of them match.'),
                 'of the following words or phrases:',
