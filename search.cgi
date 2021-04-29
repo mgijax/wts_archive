@@ -16,6 +16,7 @@ import CGI
 import page
 import form
 import searcher
+import traceback
 
 ###--- classes ---###
 
@@ -24,15 +25,28 @@ class SearchResultsCGI (CGI.CGI):
 
         def main(self):
                 parms = self.get_parms()
-                results = searcher.search(parms)
+                try:
+                        results = searcher.search(parms)
 
+                        lines = [
+                                page.header('WTS Archive : Search'),
+                                page.youSearchedFor(parms),
+                                page.resultsTable(results),
+                                page.footer(),
+                                ]
+                        print('\n'.join(lines))
+                except Exception as e:
+                        self.reportError(e)
+
+        def reportError(self, e):
                 lines = [
-                        page.header('WTS Archive : Search'),
-                        page.youSearchedFor(parms),
-                        page.resultsTable(results),
+                        page.header('WTS Archive : Search Error'),
+                        'An error occurred:<br/>',
+                        '<B><I>%s</I></B>' % str(e),
                         page.footer(),
                         ]
                 print('\n'.join(lines))
+
 
 ###--- main program ---###
 
