@@ -9,3 +9,9 @@ def header (title):
 
 def footer ():
         return '</BODY></HTML>'
+
+def youSearchedFor(parms):
+        return 'YSF'
+
+def resultsTable(results):
+        return 'results table'
