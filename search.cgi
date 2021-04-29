@@ -9,23 +9,55 @@ if './lib/python' not in sys.path:
 if '/usr/local/mgi/live/lib/python' not in sys.path:
         sys.path.insert(0, '/usr/local/mgi/live/lib/python')
 
-import Configuration
-config = Configuration.get_Configuration('Configuration', 1)
-
 import CGI
 import page
 import form
 import searcher
 import traceback
+import os
+import sys
+import Dispatcher
+import debug
 
 ###--- classes ---###
 
 class SearchResultsCGI (CGI.CGI):
         # receives parameters, contucts a search of the WTS archive, formats results for the user
 
+        def initialize(self, parms):
+                try:
+                        dispatcher = Dispatcher.Dispatcher()
+                        id = dispatcher.schedule("cat Configuration")
+                        #id = dispatcher.schedule("grep -h 'WTS_ARCHIVE_PATH' Configuration")
+                        dispatcher.wait()
+                        stdout = dispatcher.getStdout(id)
+
+                        for line in stdout:
+                                line = line.strip()
+                                if line.startswith('WTS_ARCHIVE_PATH'):
+                                       dir = line.split('=')[1]
+
+                        stderr = dispatcher.getStderr(id)
+                        #dir = stdout[0].strip().split('=')[1]
+
+                        if dir == None:
+                                raise Exception('Missing config parameter: WTS_ARCHIVE_PATH')
+
+                        searchFile = dir + 'noTags.txt'
+                        lookupFile = dir + 'extractedData.txt'
+
+                        searcher.initialize(searchFile, lookupFile)
+                except Exception as e:
+                        self.reportError(e)
+                        return False
+                return True
+
         def main(self):
                 parms = self.get_parms()
                 try:
+                        if not self.initialize(parms):
+                                return
+
                         results = searcher.search(parms)
 
                         lines = [
@@ -46,7 +78,6 @@ class SearchResultsCGI (CGI.CGI):
                         page.footer(),
                         ]
                 print('\n'.join(lines))
-
 
 ###--- main program ---###
 

@@ -36,4 +36,6 @@ def youSearchedFor(parms):
         return '\n'.join(lines)
 
 def resultsTable(results):
-        return 'results table'
+        out = [ 'results table' ]
+        out = out + results
+        return '<br/>'.join(out)
