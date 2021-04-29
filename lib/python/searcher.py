@@ -1,11 +1,10 @@
 # actually conduct searches of the WTS Archive, consolidate, and return results
 
-import Dispatcher
+import debug
+import subprocess
 
 ###--- globals ---###
 
-dispatcher = Dispatcher.Dispatcher(4)   # max 4 processes at a time
-ids = {}                                # maps from search phrase to dispatcher ID
 searchFile = None                       # path to file for searching
 lookupFile = None                       # path to lookup up data for individual TRs
 
@@ -20,13 +19,29 @@ def initialize(search, lookup):
         lookupFile = lookup
         return
 
-def startSearch(phrase):
-        # tell the dispatcher to start up a new Linux process and run a grep against the
-        # searchFile for the specified phrase
+def stripEmptyLines(myList):
+        while '' in myList:
+                myList.remove('')
+        return myList
 
-        global ids
-        ids[phrase] = dispatcher.schedule("grep -i '%s' %s" % (phrase, searchFile))
-        return
+def grep(phrase, file, flags=''):
+        # execute a grep for the given phrase against the given file, with given flags for grep.
+        # return (return code, stdout, stderr)
+
+        commandLine = [ 'grep' ]
+        if flags:
+                commandLine.append(flags)
+        commandLine = commandLine + [ phrase, file ]
+
+        proc = subprocess.Popen(commandLine, 2500000, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+        out = ''
+        err = ''
+        while (proc.returncode == None):
+                o, e = proc.communicate(2)
+                out = out + o.decode(errors='ignore')
+                err = err + e.decode(errors='ignore')
+        returnCode = proc.returncode
+        return returnCode, stripEmptyLines(out.split('\n')), stripEmptyLines(err.split('\n'))
         
 def search(parms):
         # search for results based on the given parameters
@@ -38,19 +53,13 @@ def search(parms):
 
         # fire off the searches, then wait for them to finish
 
+        out = []
+        err = []
+
         phrases = [ 'phrase1', 'phrase2', 'phrase3', 'phrase4' ]
         for phrase in phrases:
                 if (phrase in parms) and (parms[phrase].strip() != ''):
-                        startSearch(parms[phrase])
-        dispatcher.wait()
-
-        words = list(ids.keys())
-        out = []
-
-        for word in words:
-                out.append('<B>word:</B>')
-                for line in dispatcher.getStdout(ids[word]):
-                        out.append(line)
-                out.append('<p/>')
-
+                        r, o, e = grep(parms[phrase], searchFile, '-i')
+                        out = out + o
+                        err = err + e
         return out

@@ -1,5 +1,7 @@
 # basic functions for helping to build an HTML page
 
+import re
+
 def header (title):
         lines = [
                 '<HTML><HEAD><TITLE>%s</TITLE></HEAD><BODY>' % title,
@@ -35,7 +37,16 @@ def youSearchedFor(parms):
 
         return '\n'.join(lines)
 
+tagRE = re.compile('(<[^>]*>)')
+def stripHtmlTags(s):
+        match = tagRE.search(s)
+        while match:
+                s = s.replace(match.group(1), '')
+                match = tagRE.search(s)
+        return s 
+        
 def resultsTable(results):
-        out = [ 'results table' ]
-        out = out + results
+        out = []
+        for row in results:
+                out.append(stripHtmlTags(row))
         return '<br/>'.join(out)

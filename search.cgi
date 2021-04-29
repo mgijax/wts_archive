@@ -16,7 +16,6 @@ import searcher
 import traceback
 import os
 import sys
-import Dispatcher
 import debug
 
 ###--- classes ---###
@@ -26,19 +25,13 @@ class SearchResultsCGI (CGI.CGI):
 
         def initialize(self, parms):
                 try:
-                        dispatcher = Dispatcher.Dispatcher()
-                        id = dispatcher.schedule("cat Configuration")
-                        #id = dispatcher.schedule("grep -h 'WTS_ARCHIVE_PATH' Configuration")
-                        dispatcher.wait()
-                        stdout = dispatcher.getStdout(id)
+                        returncode, stdout, stderr = searcher.grep('WTS_ARCHIVE_PATH', 'Configuration', '-h')
+                        dir = None
 
                         for line in stdout:
                                 line = line.strip()
                                 if line.startswith('WTS_ARCHIVE_PATH'):
                                        dir = line.split('=')[1]
-
-                        stderr = dispatcher.getStderr(id)
-                        #dir = stdout[0].strip().split('=')[1]
 
                         if dir == None:
                                 raise Exception('Missing config parameter: WTS_ARCHIVE_PATH')
