@@ -63,7 +63,7 @@ def buildForm(parms):
                 'of the following words or phrases:',
                 '<p/>',
 
-                '<div style="left-margin: 30px;">',
+                '<div style="margin-left: 30px;">',
                 textField(parms, 'phrase1', 40, 'Specify a word or phrase to match'),
                 '<br/>',
                 textField(parms, 'phrase2', 40, 'Specify another word or phrase to match', '(optional)'),
@@ -72,10 +72,13 @@ def buildForm(parms):
                 '<br/>',
                 textField(parms, 'phrase4', 40, 'Specify another word or phrase to match', '(optional)'),
                 '<p/>',
+                '</div>',
 
                 'Restrict by year created: (e.g.- "< 2015" or "> 2015" or "2015-2018" or "2015")',
                 '<p/>',
+                '<div style="margin-left: 30px;">',
                 textField(parms, 'years', 40, 'Only show TRs created in the specified year(s)', '(optional)'),
+                '</div>',
                 '<br/>',
 
                 submitButton('Search'),

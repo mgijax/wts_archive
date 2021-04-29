@@ -2,8 +2,6 @@
 
 def header (title):
         lines = [
-#                'Content-type: text/html',
- #               '',
                 '<HTML><HEAD><TITLE>%s</TITLE></HEAD><BODY>' % title,
                 '<H3>%s</H3>' % title,
                 ]
