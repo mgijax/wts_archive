@@ -238,4 +238,12 @@ def search(parms):
         # sort the data by TR number
         data.sort(key=lambda x: x['TR #'])
         
+        # add in the matching lines
+        for row in data:
+            filename = row['filename']
+            if filename in matchingLines:
+                row['lines'] = matchingLines[filename]
+            else:
+                row['lines'] = []
+                
         return _filter(data, parms), err

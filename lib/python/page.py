@@ -78,7 +78,7 @@ def resultsTable(results):
                 '</style>',
                 '<table id="results">',
                 '<tr>',
-                '<th>TR #</th><th>Status</th><th>Created</th><th>Last Modified</th><th>Title</th>',
+                '<th>TR #</th><th>Status</th><th>Created</th><th>Last Modified</th><th>Title</th><th>Matching Lines</th>',
                 '</tr>',
                 ]
 
@@ -91,6 +91,7 @@ def resultsTable(results):
                 out.append('<td><span style="display:none">%s</span>%s</td>' % (sortable(row['created date']), row['created date'])),
                 out.append('<td><span style="display:none">%s</span>%s</td>' % (sortable(row['modified date']), row['modified date'])),
                 out.append('<td>%s</td>' % row['title']),
+                out.append('<td>%s</td>' % len(row['lines']))
                 out.append('</tr>')
         out.append('</table>')
         return '\n'.join(out)
