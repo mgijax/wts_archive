@@ -39,7 +39,7 @@ def youSearchedFor(parms):
 def summaryLine(resultCount, elapsed):
         lines = [
             '<DIV>',
-            '<B>You found %s results in %0.3f seconds</B><p/>' % (resultCount, elapsed),
+            '<B>You found %s results in %0.3f seconds.</B><p/>' % (resultCount, elapsed),
             '</DIV>',
             ]
         return '\n'.join(lines)
@@ -53,8 +53,25 @@ def stripHtmlTags(s):
         return s 
         
 def resultsTable(results):
-        out = ['<table>' ]
+        out = [
+                '<style>',
+                '#results { border-collapse: collapse; }',
+                '#results tr th { text-align: center; font-weight: bold; border: 1px solid black; border-collapse: collapse; padding: 3px; }',
+                '#results tr td { text-align: left; border: 1px solid black; border-collapse: collapse; padding: 3px; }',
+                '#results tr:nth-child(even) { background-color: #f3f3f3; }',
+                '</style>',
+                '<table id="results">',
+                '<tr>',
+                '<th>TR #</th><th>Status</th><th>Created</th><th>Last Modified</th><th>Title</th>',
+                '</tr>',
+                ]
         for row in results:
-                out.append('<tr><td>%s</td></tr>' % stripHtmlTags(str(row)))
+                out.append('<tr>')
+                out.append('<td>TR%s</td>' % row['TR #']),
+                out.append('<td>%s</td>' % row['status']),
+                out.append('<td>%s</td>' % row['created date']),
+                out.append('<td>%s</td>' % row['modified date']),
+                out.append('<td>%s</td>' % row['title']),
+                out.append('</tr>')
         out.append('</table>')
         return '\n'.join(out)
