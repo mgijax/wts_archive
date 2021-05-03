@@ -61,6 +61,7 @@ class SearchResultsCGI (CGI.CGI):
                                 page.youSearchedFor(parms),
                                 page.summaryLine(len(results), elapsed),
                                 page.resultsTable(results),
+                                page.searchAgain(),
                                 page.footer()
                                 ]
                         print('\n'.join(lines))

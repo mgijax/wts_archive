@@ -94,3 +94,6 @@ def resultsTable(results):
                 out.append('</tr>')
         out.append('</table>')
         return '\n'.join(out)
+
+def searchAgain():
+        return '''<div style="padding-top: 10px"><button onClick="window.location.href='index.cgi';">Search Again</button></div>'''
