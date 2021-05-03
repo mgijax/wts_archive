@@ -8,7 +8,21 @@ import re
 
 searchFile = None                       # path to file for searching
 lookupFile = None                       # path to lookup up data for individual TRs
+
+# identifies TR number from within filename
 trNumRE = re.compile('[0-9]+/TR([0-9]+)\.html')
+
+# identify "less than" year string
+ltYearRE = re.compile('^< *([0-9]{4})$')
+
+# identify "greater than" year string
+gtYearRE = re.compile('^> *([0-9]{4})$')
+
+# identify "between" year string
+betweenYearRE = re.compile('^([0-9]{4}) *- *([0-9]{4})$')
+
+# identify single year string
+oneYearRE = re.compile('^([0-9]{4})$')
 
 ###--- functions ---###
 
@@ -151,7 +165,52 @@ def _getData(filenames, parms, fileToSearch):
             out.append(_extractData(o))
             
         return out
-    
+
+def _filter(data, parms):
+        # filter the given data set down based on any parameters for restricting what is displayed
+        
+        # short-circuit if no years restriction specified (it's currently the only one)
+        if ('years' not in parms) or (parms['years'].strip() == ''):
+            return data
+        
+        years = parms['years'].strip()
+        desired = []
+        
+        match = oneYearRE.match(years)
+        if match:
+            desired.append(match.group(1))
+
+        if not desired:
+            match = ltYearRE.match(years)
+            if match:
+                for i in range(1995, int(match.group(1))):
+                    desired.append(str(i))
+            
+        if not desired:
+            match = gtYearRE.match(years)
+            if match:
+                for i in range(int(match.group(1)) + 1, 2022):
+                    desired.append(str(i))
+        
+        if not desired:
+            match = betweenYearRE.match(years)
+            if match:
+                for i in range(int(match.group(1)), int(match.group(2)) + 1):
+                    desired.append(str(i))
+        
+        if not desired:
+            raise Exception("Cannot recognize year: %s" % years)
+
+        # need to parse the specified years and identify which ones to keep (as strings)
+        
+        filteredData = []
+        
+        for row in data:
+            if row['created year'] in desired:
+                filteredData.append(row)
+
+        return filteredData
+        
 def search(parms):
         # search for results based on the given parameters
 
@@ -179,4 +238,4 @@ def search(parms):
         # sort the data by TR number
         data.sort(key=lambda x: x['TR #'])
         
-        return data, err
+        return _filter(data, parms), err
