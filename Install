@@ -26,7 +26,9 @@ done
 
 # build data files
 
-admin/buildNoTags.sh
+cd admin
+
+./buildNoTags.sh
 if [ $? -eq 0 ]; then
 	admin/buildExtractedData.sh
 else
