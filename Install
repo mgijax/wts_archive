@@ -23,3 +23,25 @@ do
         ln -s ${PYTHON} ${DIR}/python
         echo "Added link from ${DIR}/python to ${PYTHON}"
 done
+
+# build data files
+
+admin/buildNoTags.sh
+if [ $? -eq 0 ]; then
+	admin/buildExtractedData.sh
+else
+	echo "Failed to build main data file"
+	exit 1
+fi
+
+if [ $? -eq 0 ]; then
+	admin/buildTitleData.sh
+else
+	echo "Failed to build main data file"
+	exit 1
+fi
+
+if [ $? -ne 0 ]; then
+	echo "Failed to build title index"
+	exit 1
+fi
