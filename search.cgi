@@ -17,6 +17,7 @@ import traceback
 import os
 import sys
 import debug
+import time
 
 ###--- classes ---###
 
@@ -51,23 +52,27 @@ class SearchResultsCGI (CGI.CGI):
                         if not self.initialize(parms):
                                 return
 
-                        results = searcher.search(parms)
+                        start = time.time()
+                        results, errors = searcher.search(parms)
+                        elapsed = time.time() - start
 
                         lines = [
                                 page.header('WTS Archive : Search'),
                                 page.youSearchedFor(parms),
+                                'You found %s results in %0.2f seconds<br/>' % (len(results), elapsed),
                                 page.resultsTable(results),
-                                page.footer(),
+                                page.footer()
                                 ]
                         print('\n'.join(lines))
                 except Exception as e:
                         self.reportError(e)
 
         def reportError(self, e):
+                tb = '<br/>'.join(traceback.format_exception(None, e, e.__traceback__))
                 lines = [
                         page.header('WTS Archive : Search Error'),
                         'An error occurred:<br/>',
-                        '<B><I>%s</I></B>' % str(e),
+                        '<B><I>%s</I></B>' % tb,
                         page.footer(),
                         ]
                 print('\n'.join(lines))

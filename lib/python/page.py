@@ -46,7 +46,8 @@ def stripHtmlTags(s):
         return s 
         
 def resultsTable(results):
-        out = []
+        out = ['<table>' ]
         for row in results:
-                out.append(stripHtmlTags(row))
-        return '<br/>'.join(out)
+                out.append('<tr><td>%s</td></tr>' % stripHtmlTags(str(row)))
+        out.append('</table>')
+        return '\n'.join(out)

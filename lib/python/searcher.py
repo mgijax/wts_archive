@@ -2,11 +2,13 @@
 
 import debug
 import subprocess
+import re
 
 ###--- globals ---###
 
 searchFile = None                       # path to file for searching
 lookupFile = None                       # path to lookup up data for individual TRs
+trNumRE = re.compile('[0-9]+/TR([0-9]+)\.html')
 
 ###--- functions ---###
 
@@ -19,7 +21,8 @@ def initialize(search, lookup):
         lookupFile = lookup
         return
 
-def stripEmptyLines(myList):
+def _stripEmptyLines(myList):
+        # remove any empty lines from myList
         while '' in myList:
                 myList.remove('')
         return myList
@@ -41,17 +44,16 @@ def grep(phrase, file, flags=''):
                 out = out + o.decode(errors='ignore')
                 err = err + e.decode(errors='ignore')
         returnCode = proc.returncode
-        return returnCode, stripEmptyLines(out.split('\n')), stripEmptyLines(err.split('\n'))
+        return returnCode, _stripEmptyLines(out.split('\n')), _stripEmptyLines(err.split('\n'))
         
-def search(parms):
-        # search for results based on the given parameters
-
-        global ids
-
-        if (searchFile == None) or (lookupFile == None):
-                raise Exception('searcher.py module needs to be initialized')
-
-        # fire off the searches, then wait for them to finish
+def _splitLine(matchingLine):
+        # split the matching line into its filename and then the rest of it
+        
+        parts = matchingLine.strip().split(' ')
+        return parts[0], ' '.join(parts[1:])
+            
+def _rawSearch(parms, fileToSearch):
+        # actually execute the searches based on the parameters
 
         out = []
         err = []
@@ -59,7 +61,122 @@ def search(parms):
         phrases = [ 'phrase1', 'phrase2', 'phrase3', 'phrase4' ]
         for phrase in phrases:
                 if (phrase in parms) and (parms[phrase].strip() != ''):
-                        r, o, e = grep(parms[phrase], searchFile, '-i')
-                        out = out + o
+                        r, o, e = grep(parms[phrase].strip(), fileToSearch, '-i')
+                        out.append(o)
                         err = err + e
+        return out, err
+
+def _sliceAndDice(out, anyAll):
+        # out is a list of lists, each containing matching lines for one search
+        # phrase.  This function slices and dices them to return:
+        #  (ordered list of filenames with matches, { filename : matching lines })
+        
+        matchingLines = {}      # filename : matching lines
+        matchingFilenames = []  # has one Set for each search phrase
+        
+        # split the matches and collect the pieces
+        
+        for matches in out:
+            newSet = set()
+
+            for match in matches:
+                filename, matchingLine = _splitLine(match)
+                newSet.add(filename)
+                
+                if filename not in matchingLines:
+                    matchingLines[filename] = set()
+                matchingLines[filename].add(matchingLine)
+                
+            matchingFilenames.append(newSet)
+        
+        # join the match sets appropriately (any / all)
+        
+        results = matchingFilenames[0]
+        for otherSet in matchingFilenames[1:]:
+            if anyAll == 'all':
+                results = results.intersection(otherSet)
+            else:
+                results = results.union(otherSet)
+
+        # remove lists of matching lines for filenames that are no longer
+        # in the matching set
+        
+        filenames = list(matchingLines.keys())
+        for filename in filenames:
+            if filename not in results:
+                del matchingLines[filename]
+            
+        # pull the results out of the set into a list and sort it
+        
+        asList = list(results)
+        asList.sort()
+        
+        return asList, matchingLines
+
+def _extractTRNum(filename):
+        # return the integer TR number out of the given filename
+        
+        match = trNumRE.match(filename)
+        if (match):
+            return int(match.group(1))
+        raise Exception('Cannot find TR number in: %s' % filename)
+        
+def _extractData(o):
+        # take output from grep (o) and pull out the extracted data into a dictionary (see the
+        # _getData() function for fields)
+        
+        pieces = o[0].split('\t')
+        d = {
+            'filename' : pieces[0],
+            'TR #' : _extractTRNum(pieces[0]),
+            'status' : pieces[1],
+            'created date' : pieces[2],
+            'modified date' : pieces[3],
+            'created year' : pieces[4],
+            'title' : pieces[5]
+            }
+        return d
+        
+def _getData(filenames, parms, fileToSearch):
+        # use the lookupFile to get the display attributes for the listed files, returning
+        # a list of dictionaries, where each dictionary is for one file and contains these fields:
+        #    filename, TR #, status, created date, modified dated, created year, title
+
+        out = []
+        for filename in filenames:
+            r, o, e = grep(filename, fileToSearch, '-i')
+            if (r != 0) or e:
+                raise Exception("Error in looking up data for %s: %s" % (filename, e))
+            
+            out.append(_extractData(o))
+            
         return out
+    
+def search(parms):
+        # search for results based on the given parameters
+
+        if (searchFile == None) or (lookupFile == None):
+                raise Exception('searcher.py module needs to be initialized')
+
+        # fire off the searches, then wait for them to finish
+        out, err = _rawSearch(parms, searchFile)
+        if err:
+            return [], err
+        
+        # determine whether to join them by AND (all) or OR (any)
+
+        anyAll = 'all'
+        if 'anyAll' in parms:
+            if parms['anyAll'] == 'any':
+                anyAll = 'any'
+
+        # join the sets of matches appropriately
+        filenames, matchingLines = _sliceAndDice(out, anyAll)
+        
+        # look up the attributes for the matching TRs
+        data = _getData(filenames, parms, lookupFile)
+        
+        # sort the data by TR number
+        data.sort(key=lambda x: x['TR #'])
+        
+        return data, err
