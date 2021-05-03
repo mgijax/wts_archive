@@ -10,7 +10,18 @@ def header (title):
         return '\n'.join(lines)
 
 def footer ():
-        return '</BODY></HTML>'
+        lines = [
+            '<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>',
+            '<link rel="stylesheet" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css" />',
+            '<script src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>',
+            '<script>',
+            '''$(document).ready( function () {
+                $("#results").DataTable( {paging : false} );
+                } );''',
+            '</script>',
+            '</BODY></HTML>'
+            ]
+        return '\n'.join(lines)
 
 def youSearchedFor(parms):
         lines = [
@@ -64,7 +75,7 @@ def sortable(x):
         y = str(x)
         if y.find('/') >= 0:
             d = y.split('/')
-            return '%s%s%s' % (d[2], d[1], d[0])
+            return '%s%s%s' % (d[2], d[0], d[1])
 
         return str(x).zfill(6)
     
@@ -77,9 +88,11 @@ def resultsTable(results):
                 '#results tr:nth-child(even) { background-color: #f3f3f3; }',
                 '</style>',
                 '<table id="results">',
+                '<thead>',
                 '<tr>',
                 '<th>TR #</th><th>Status</th><th>Created</th><th>Last Modified</th><th>Title</th><th>Matching Lines</th>',
                 '</tr>',
+                '</thead><tbody>'
                 ]
 
         link = '<a href="http://wts.informatics.jax.org/wts_projects/archive/%s" target="_blank">TR%s</a>'
@@ -93,7 +106,7 @@ def resultsTable(results):
                 out.append('<td>%s</td>' % row['title']),
                 out.append('<td>%s</td>' % len(row['lines']))
                 out.append('</tr>')
-        out.append('</table>')
+        out.append('</tbody></table>')
         return '\n'.join(out)
 
 def searchAgain():
