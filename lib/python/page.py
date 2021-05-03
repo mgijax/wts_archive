@@ -31,10 +31,17 @@ def youSearchedFor(parms):
         if len(words) == 0:
                 raise Exception('No search phrases were found.  Please go back and try again.')
 
-        lines.append(op.join(words))
-
+        lines.append(op.join(words) + '<p/>')
         lines.append('</DIV></DIV>')
 
+        return '\n'.join(lines)
+
+def summaryLine(resultCount, elapsed):
+        lines = [
+            '<DIV>',
+            '<B>You found %s results in %0.3f seconds</B><p/>' % (resultCount, elapsed),
+            '</DIV>',
+            ]
         return '\n'.join(lines)
 
 tagRE = re.compile('(<[^>]*>)')
