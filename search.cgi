@@ -39,8 +39,9 @@ class SearchResultsCGI (CGI.CGI):
 
                         searchFile = dir + 'noTags.txt'
                         lookupFile = dir + 'extractedData.txt'
+                        titleFile = dir + 'titleData.txt'
 
-                        searcher.initialize(searchFile, lookupFile)
+                        searcher.initialize(searchFile, lookupFile, titleFile)
                 except Exception as e:
                         self.reportError(e)
                         return False

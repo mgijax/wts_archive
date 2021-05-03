@@ -43,10 +43,15 @@ def youSearchedFor(parms):
                 raise Exception('No search phrases were found.  Please go back and try again.')
 
         lines.append(op.join(words))
+        
+        if 'file' in parms:
+            lines.append('<br/>')
+            lines.append('Searching in: %s' % parms['file'])
+            
         if 'years' in parms:
             lines.append('<br/>')
             lines.append('Restricted to only show years: %s' % parms['years'])
-
+            
         lines.append('<p/>')
         lines.append('</DIV></DIV>')
 

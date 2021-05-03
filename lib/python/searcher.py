@@ -7,6 +7,7 @@ import re
 ###--- globals ---###
 
 searchFile = None                       # path to file for searching
+titleFile = None                        # path to file for searching only titles
 lookupFile = None                       # path to lookup up data for individual TRs
 
 # identifies TR number from within filename
@@ -26,13 +27,15 @@ oneYearRE = re.compile('^([0-9]{4})$')
 
 ###--- functions ---###
 
-def initialize(search, lookup):
-        # initialize this module by providing the path to the search file and the lookup file
+def initialize(search, lookup, titles):
+        # initialize this module by providing the path to the search file, the lookup file,
+        # and the title file
 
-        global searchFile, lookupFile
+        global searchFile, lookupFile, titleFile
 
         searchFile = search
         lookupFile = lookup
+        titleFile = titles
         return
 
 def _stripEmptyLines(myList):
@@ -60,10 +63,10 @@ def grep(phrase, file, flags=''):
         returnCode = proc.returncode
         return returnCode, _stripEmptyLines(out.split('\n')), _stripEmptyLines(err.split('\n'))
         
-def _splitLine(matchingLine):
+def _splitLine(matchingLine, separator = ' '):
         # split the matching line into its filename and then the rest of it
         
-        parts = matchingLine.strip().split(' ')
+        parts = matchingLine.strip().split(separator)
         return parts[0], ' '.join(parts[1:])
             
 def _rawSearch(parms, fileToSearch):
@@ -80,7 +83,7 @@ def _rawSearch(parms, fileToSearch):
                         err = err + e
         return out, err
 
-def _sliceAndDice(out, anyAll):
+def _sliceAndDice(out, anyAll, separator = ' '):
         # out is a list of lists, each containing matching lines for one search
         # phrase.  This function slices and dices them to return:
         #  (ordered list of filenames with matches, { filename : matching lines })
@@ -94,7 +97,7 @@ def _sliceAndDice(out, anyAll):
             newSet = set()
 
             for match in matches:
-                filename, matchingLine = _splitLine(match)
+                filename, matchingLine = _splitLine(match, separator)
                 newSet.add(filename)
                 
                 if filename not in matchingLines:
@@ -214,11 +217,17 @@ def _filter(data, parms):
 def search(parms):
         # search for results based on the given parameters
 
-        if (searchFile == None) or (lookupFile == None):
+        if (searchFile == None) or (lookupFile == None) or (titleFile == None):
                 raise Exception('searcher.py module needs to be initialized')
 
+        lookIn = searchFile
+        separator = ' '
+        if ('file' in parms) and (parms['file'].strip() == 'only Titles'):
+            lookIn = titleFile
+            separator = '\t'
+            
         # fire off the searches, then wait for them to finish
-        out, err = _rawSearch(parms, searchFile)
+        out, err = _rawSearch(parms, lookIn)
         if err:
             return [], err
         
@@ -230,7 +239,7 @@ def search(parms):
                 anyAll = 'any'
 
         # join the sets of matches appropriately
-        filenames, matchingLines = _sliceAndDice(out, anyAll)
+        filenames, matchingLines = _sliceAndDice(out, anyAll, separator)
         
         # look up the attributes for the matching TRs
         data = _getData(filenames, parms, lookupFile)
