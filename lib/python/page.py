@@ -84,18 +84,58 @@ def sortable(x):
 
         return str(x).zfill(6)
     
+def matchesCell(trNum, matches):
+        # builds the contents of the cell for matches for a single TR
+        
+        out = [
+            '''<span style="display:none">%d</span>%d (<span class="shown%d shown blue" onClick="toggle('%d')">show</span><span class="hidden%d hidden blue" onClick="toggle('%d')">hide</span>)''' % (
+                len(matches), len(matches), trNum, trNum, trNum, trNum),
+            '''<div id="matches%d" class="hidden%d hidden"><ul>''' % (trNum, trNum),
+            ]
+        
+        for match in matches:
+            out.append('<li>%s</li>' % match.replace('<', '&lt;').replace('>', '&gt;'))
+        
+        out.append('</ul></div>')
+        return '\n'.join(out)
+        
 def resultsTable(results):
         out = [
+                '''
+                <script>
+                function toggle(trNum) {
+                    $('#matchesColumn').css( { 'width' : '40%' } );
+                    var set1 = '.shown' + trNum;
+                    var set2 = '.hidden' + trNum;
+                    if ($(set1).hasClass('shown')) {
+                        $(set1).removeClass('shown');
+                        $(set1).addClass('hidden');
+                        $(set2).removeClass('hidden');
+                        $(set2).addClass('shown');
+                        }
+                    else {
+                        $(set2).removeClass('shown');
+                        $(set2).addClass('hidden');
+                        $(set1).removeClass('hidden');
+                        $(set1).addClass('shown');
+                    }
+                }
+                </script>
+                ''',
                 '<style>',
+                '.hidden { display: none } ',
+                '.shown { display: inline } ',
+                '.blue { color: blue } '
                 '#results { border-collapse: collapse; }',
                 '#results tr th { text-align: center; font-weight: bold; border: 1px solid black; border-collapse: collapse; padding: 3px; }',
                 '#results tr td { text-align: left; border: 1px solid black; border-collapse: collapse; padding: 3px; }',
                 '#results tr:nth-child(even) { background-color: #f3f3f3; }',
+                '.wide { width: 25%; }',
                 '</style>',
                 '<table id="results">',
                 '<thead>',
                 '<tr>',
-                '<th>TR #</th><th>Status</th><th>Created</th><th>Last Modified</th><th>Title</th><th>Matching Lines</th>',
+                '<th>TR #</th><th>Status</th><th>Created</th><th>Last Modified</th><th>Title</th><th id="matchesColumn">Matching Lines</th>',
                 '</tr>',
                 '</thead><tbody>'
                 ]
@@ -109,7 +149,7 @@ def resultsTable(results):
                 out.append('<td><span style="display:none">%s</span>%s</td>' % (sortable(row['created date']), row['created date'])),
                 out.append('<td><span style="display:none">%s</span>%s</td>' % (sortable(row['modified date']), row['modified date'])),
                 out.append('<td>%s</td>' % row['title']),
-                out.append('<td>%s</td>' % len(row['lines']))
+                out.append('<td>%s</td>' % matchesCell(row['TR #'], row['lines']))
                 out.append('</tr>')
         out.append('</tbody></table>')
         return '\n'.join(out)
