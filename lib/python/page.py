@@ -51,7 +51,18 @@ def stripHtmlTags(s):
                 s = s.replace(match.group(1), '')
                 match = tagRE.search(s)
         return s 
+
+def sortable(x):
+        # take a date as mm/dd/yyyy and return it as yyyymmdd for easier sorting as a string (if a date is received)
+        # or if not a date, return integer with zeroes padded at left for sorting
         
+        y = str(x)
+        if y.find('/') >= 0:
+            d = y.split('/')
+            return '%s%s%s' % (d[2], d[1], d[0])
+
+        return str(x).zfill(6)
+    
 def resultsTable(results):
         out = [
                 '<style>',
@@ -65,12 +76,15 @@ def resultsTable(results):
                 '<th>TR #</th><th>Status</th><th>Created</th><th>Last Modified</th><th>Title</th>',
                 '</tr>',
                 ]
+
+        link = '<a href="http://wts.informatics.jax.org/wts_projects/archive/%s" target="_blank">TR%s</a>'
         for row in results:
                 out.append('<tr>')
-                out.append('<td>TR%s</td>' % row['TR #']),
+                out.append('<td><span style="display:none">%s</span>%s</td>' % (sortable(row['TR #']),
+                    link % (row['filename'], row['TR #']))),
                 out.append('<td>%s</td>' % row['status']),
-                out.append('<td>%s</td>' % row['created date']),
-                out.append('<td>%s</td>' % row['modified date']),
+                out.append('<td><span style="display:none">%s</span>%s</td>' % (sortable(row['created date']), row['created date'])),
+                out.append('<td><span style="display:none">%s</span>%s</td>' % (sortable(row['modified date']), row['modified date'])),
                 out.append('<td>%s</td>' % row['title']),
                 out.append('</tr>')
         out.append('</table>')
