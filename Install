@@ -30,20 +30,20 @@ cd admin
 
 ./buildNoTags.sh
 if [ $? -eq 0 ]; then
-	admin/buildExtractedData.sh
+	buildExtractedData.sh
 else
-	echo "Failed to build main data file"
+	echo "Failed to build noTags.txt file"
 	exit 1
 fi
 
 if [ $? -eq 0 ]; then
-	admin/buildTitleData.sh
+	buildTitleData.sh
 else
-	echo "Failed to build main data file"
+	echo "Failed to build extractedData.txt file"
 	exit 1
 fi
 
 if [ $? -ne 0 ]; then
-	echo "Failed to build title index"
+	echo "Failed to build titleData.txt file"
 	exit 1
 fi
