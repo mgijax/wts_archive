@@ -49,7 +49,19 @@ def submitButton(text):
 def resetButton(text):
         # generate a reset button with the given text on it
 
-        return '<INPUT TYPE="reset" VALUE="%s">' % text
+        js = '''<script>
+            function clearForm() {
+                $('[name=phrase1]')[0].value=null;
+                $('[name=phrase2]')[0].value=null;
+                $('[name=phrase3]')[0].value=null;
+                $('[name=phrase4]')[0].value=null;
+                $('[name=years]')[0].value=null;
+                document.getElementsByName('file')[0].selectedIndex = 0;
+                document.getElementsByName('anyAll')[0].selectedIndex = 0;
+            }
+            </script>
+            '''
+        return '%s <INPUT TYPE="button" VALUE="%s" onClick="clearForm()">' % (js, text)
 
 def buildForm(parms):
         # build and return the HTML code for the query form, pre-filling any fields specified in 'parms'
