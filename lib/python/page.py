@@ -3,10 +3,44 @@
 import re
 import form
 
+# javascript function for highlighting matching text in the table of results
+JS = '''<script>
+function highlightField(contents, phrases) {
+    if (phrases.length == 0) {
+        return contents;
+    }
+    var re = new RegExp(phrases.join('|'), "gi");
+    
+    return contents.replace(re, function(x) { return '<span style="background-color:yellow">' + x + '</span>'; });
+}
+
+function highlightMatches() {
+    var phrases = [];
+    var fields = [ 'phrase1', 'phrase2', 'phrase3', 'phrase4' ];
+    for (var i = 0; i < fields.length; i++) {
+        var phrase = $('[name=' + fields[i] + ']')[0].value;
+        if ((phrase != null) && (phrase != '')) {
+            phrases.push(phrase);
+        }
+    }
+
+    var titleCells = $('#results tbody tr td:nth-of-type(5)');
+    for (var i = 0; i < titleCells.length; i++) {
+          titleCells[i].innerHTML = highlightField(titleCells[i].innerHTML, phrases);
+    }
+
+    var matchCells = $('#results tbody tr td:nth-of-type(6)');
+    for (var i = 0; i < matchCells.length; i++) {
+          matchCells[i].innerHTML = highlightField(matchCells[i].innerHTML, phrases);
+    }
+}
+</script>'''
+
 def header (title):
         lines = [
                 '<HTML><HEAD><TITLE>%s</TITLE></HEAD><BODY>' % title,
                 '<H3>%s</H3>' % title,
+                JS,
                 ]
         return '\n'.join(lines)
 
@@ -63,7 +97,8 @@ def summaryLine(resultCount, elapsed, parms):
             '<DIV>',
             '<B>You found %s results in %0.3f seconds.</B> ' % (resultCount, elapsed),
             '''(<span class="shown0 shown blue" onClick="toggle('0')">show QF</span><span class="hidden0 hidden blue" onClick="toggle('0')">hide QF</span>)''' ,
-            '''<div id="matches0" class="hidden0 hidden"><p/>''',
+            '''(<span class="blue" onClick="highlightMatches()">highlight matches</span>)<p/>''',
+            '''<div id="matches0" class="hidden0 hidden"> <p/>''',
             form.buildForm(parms),
             '</div>',
             '<p/>',
