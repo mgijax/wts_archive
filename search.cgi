@@ -60,7 +60,7 @@ class SearchResultsCGI (CGI.CGI):
                         lines = [
                                 page.header('WTS Archive : Search'),
                                 page.youSearchedFor(parms),
-                                page.summaryLine(len(results), elapsed),
+                                page.summaryLine(len(results), elapsed, parms),
                                 page.resultsTable(results),
                                 page.searchAgain(),
                                 page.footer()

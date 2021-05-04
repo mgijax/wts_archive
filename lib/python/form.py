@@ -28,7 +28,7 @@ def textField(parms, fieldname, size = 40, tooltip = '', placeholder=''):
         line = '<INPUT NAME="%s" TYPE="text" SIZE="%s" VALUE="%s" PLACEHOLDER="%s" TITLE="%s">'
         value = ''
         if fieldname in parms:
-                value = parms['fieldname']
+                value = parms[fieldname]
 
         return line % (fieldname, size, value, placeholder, tooltip)
 

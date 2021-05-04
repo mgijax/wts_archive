@@ -1,6 +1,7 @@
 # basic functions for helping to build an HTML page
 
 import re
+import form
 
 def header (title):
         lines = [
@@ -57,10 +58,15 @@ def youSearchedFor(parms):
 
         return '\n'.join(lines)
 
-def summaryLine(resultCount, elapsed):
+def summaryLine(resultCount, elapsed, parms):
         lines = [
             '<DIV>',
-            '<B>You found %s results in %0.3f seconds.</B><p/>' % (resultCount, elapsed),
+            '<B>You found %s results in %0.3f seconds.</B> ' % (resultCount, elapsed),
+            '''(<span class="shown0 shown blue" onClick="toggle('0')">show QF</span><span class="hidden0 hidden blue" onClick="toggle('0')">hide QF</span>)''' ,
+            '''<div id="matches0" class="hidden0 hidden"><p/>''',
+            form.buildForm(parms),
+            '</div>',
+            '<p/>',
             '</DIV>',
             ]
         return '\n'.join(lines)
