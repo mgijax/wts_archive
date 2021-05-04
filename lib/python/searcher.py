@@ -142,7 +142,7 @@ def _extractData(o):
         # take output from grep (o) and pull out the extracted data into a dictionary (see the
         # _getData() function for fields)
         
-        pieces = o[0].split('\t')
+        pieces = o.split('\t')
         d = {
             'filename' : pieces[0],
             'TR #' : _extractTRNum(pieces[0]),
@@ -154,18 +154,27 @@ def _extractData(o):
             }
         return d
         
+def _splitList (items, n = 12):
+    # splits 'items' in a list of sub-lists, each of which has 'n' or fewer items in it
+
+    if len (items) <= n:
+        return [ items ]
+    else:
+        return [ items [:n] ] + _splitList (items [n:], n)
+        
 def _getData(filenames, parms, fileToSearch):
         # use the lookupFile to get the display attributes for the listed files, returning
         # a list of dictionaries, where each dictionary is for one file and contains these fields:
         #    filename, TR #, status, created date, modified dated, created year, title
 
         out = []
-        for filename in filenames:
-            r, o, e = grep(filename, fileToSearch, '-i')
+        for sublist in _splitList(filenames):
+            r, o, e = grep('\|'.join(sublist), fileToSearch, '-i')
             if (r != 0) or e:
                 raise Exception("Error in looking up data for %s: %s" % (filename, e))
             
-            out.append(_extractData(o))
+            for line in o:
+                out.append(_extractData(line))
             
         return out
 
