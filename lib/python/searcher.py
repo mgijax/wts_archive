@@ -222,7 +222,7 @@ def search(parms):
 
         lookIn = searchFile
         separator = ' '
-        if ('file' in parms) and (parms['file'].strip() == 'only Titles'):
+        if ('file' in parms) and (parms['file'].strip() == 'only TR # and Titles'):
             lookIn = titleFile
             separator = '\t'
             

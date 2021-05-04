@@ -75,9 +75,9 @@ def buildForm(parms):
                 '</div>',
 
                 'Search through: ',
-                pickList(parms, 'file', [ 'full TRs', 'only Titles' ],
+                pickList(parms, 'file', [ 'full TRs', 'only TR # and Titles' ],
                         '"full TRs" will look in all fields of the TRs, while ' + \
-                        'while "only Titles" will only examine the Title fields.'),
+                        'while "only TR # and Titles" will only examine the Title fields.'),
                 '<p/>',
 
                 'Restrict by year created: (e.g.- "< 2015" or "> 2015" or "2015-2018" or "2015")',
