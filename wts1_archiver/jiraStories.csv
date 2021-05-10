@@ -1,0 +1,934 @@
+Issue key,Issue id,Summary,Outward issue link (1. Relates),Outward issue link (1. Relates),Outward issue link (1. Relates),Outward issue link (1. Relates),Outward issue link (1. Relates),Outward issue link (1. Relates),Outward issue link (2. Blocks),Outward issue link (4. Duplicate),Outward issue link (6. Problem/Incident),Status
+WTS2-592,13529,HMDC export quirk (TR12318),,,,,,,,,,Open
+WTS2-590,13526,P-WI lit triage module/add/supplemental issue,,,,,,,,,,Closed
+WTS2-587,13523,Allow annotations of pseudogenes (TR13495),,,,,,,,,,Open
+WTS2-586,13522,Incorrect Evidence Code in MGI GPAD files (TR13494),,,,,,,,,,IS-READY
+WTS2-585,13521,GXD public stats: RNA seq results number inflated (TR13493),,,,,,,,,,IS-READY
+WTS2-584,13520,pWI results summary: placenta fail (TR13492),,,,,,,,,,IS-READY
+WTS2-583,13519,Retire Quosa / automate pdf download from Elsevier (TR13488),,,,,,,,,,Requirements
+WTS2-582,13518,retire mirroring of genbank and refseq release files  (TR13484),B39-455,,,,,,,,,In Progress
+WTS2-581,13517,SGD link broken in GO detail page (TR13483),,,,,,,,,,IS-READY
+WTS2-580,13516,EntrezGene Load - HomoloGene Technical Debt (TR13482),B39-414,,,,,,,,,In Progress
+WTS2-579,13515,Import GO text direct from Alliance (TR13481),,,,,,,,,,Closed
+WTS2-578,13514,move pgdbutilities/bin/cleanSpecChar.sh to pgmgddbschema (TR13480),B39-409,,,,,,,,,Closed
+WTS2-577,13513,PWI/GO Annotation/allow display of withdrawn markers (TR13478),B39-407,,,,,,,,,Closed
+WTS2-576,13512,J Biol Chem copyright links broken (TR13476),,,,,,,,,,IS-READY
+WTS2-575,13511,Add GlyGen links to MGI gene detail pages (TR13475),,,,,,,,,,IS-READY
+WTS2-574,13510,"Lit Triage: Search by associated gene, allele, strain (TR13474)",B39-401,,,,,,,,,In Progress
+WTS2-573,13509,GO meeting/CalTech/PWI tasks (TR13470),,,,,,,,,,IS-READY
+WTS2-572,13508,PWI/Lit Triage/DOI link out button issue (TR13467),,,,,,,,,,IS-READY
+WTS2-571,13507,Make the current build number easier to see (TR13466),,,,,,,,,,In Progress
+WTS2-570,13506,Load B39 variant data from curator spreadsheet (TR13465),,,,,,,,,,PI-Decide
+WTS2-569,13505,GXD: tweak to incorrect age/age range values QC (TR13464),,,,,,,,,,PI-Decide
+WTS2-568,13504,changes to GO QC 3 (TR13463),B39-451,,,,,,,,,In Progress
+WTS2-567,13503,Markers with multiple strain genes (TR13461),B39-323,,,,,,,,,PI-Decide
+WTS2-566,13502,Add NCBI gene ID to allele driver  (TR13450),,,,,,,,,,IS-READY
+WTS2-565,13501,allele detail pwi page: add display of allele symbol with carets (TR13448),,,,,,,,,,IS-READY
+WTS2-564,13500,genotype module:  put another Clipboard Add button on the page (TR13447),,,,,,,,,,IS-READY
+WTS2-563,13499,pwi/all/new strain of origin (TR13446),,,,,,,,,,PI-Decide
+WTS2-562,13498,mapping RNA central ids to MGI genes (TR13445),,,,,,,,,,PI-Decide
+WTS2-561,13497,pWI probe summary: add primer seq 1&2 (TR13443),,,,,,,,,,PI-Decide
+WTS2-560,13496,Allele Module Extinct selection bug (TR13442),B39-449,,,,,,,,,Closed
+WTS2-559,13495,Allele deletion despite strain association (TR13441),B39-448,,,,,,,,,Closed
+WTS2-558,13494,iMITS/GenTar (TR13439),B39-211,,,,,,,,,Requirements
+WTS2-557,13493,Links to MGV Issues (TR13436),B39-194,,,,,,,,,In Progress
+WTS2-556,13492,Request for additional GO QC report: under-annotated genes  (TR13434),,,,,,,,,,IS-READY
+WTS2-555,13491,pwi/allele/modify  (TR13432),B39-148,,,,,,,,,In Progress
+WTS2-554,13490,numbering in Vocabulary Editing module (TR13429),,,,,,,,,,PI-Decide
+WTS2-553,13489,MP Browser improvement: Exclude xref annotations from public comments field  (TR13427),B39-182,,,,,,,,,IS-READY
+WTS2-552,13488,Genome Location option doesn't work on HMDC (TR13426),,,,,,,,,,IS-READY
+WTS2-551,13487,nomenload/new allele/autosequence (TR13425),,,,,,,,,,In Progress
+WTS2-550,13486,ltlo: NLM-refresh not updating abstract (TR13423),B39-317,,,,,,,,,In Progress
+WTS2-549,13485,Display indexed reference association for strains (TR13422),B39-183,,,,,,,,,IS-READY
+WTS2-548,13484,NLM Refresh Load issue (TR13421),,,,,,,,,,IS-READY
+WTS2-547,13483,create EI/schema to enter transgenic constructs (TR13420),,,,,,,,,,PI-Decide
+WTS2-546,13482,EC links in MGi gene detail page not working (TR13416),B39-180,,,,,,,,,IS-READY
+WTS2-545,13481,ArrayExpress is moving to BioStudies (TR13415),B39-189,,,,,,,,,Requirements
+WTS2-544,13480,HT index: sample metadata fetcher - python issues (TR13413),,,,,,,,,,IS-READY
+WTS2-543,13479,LTLO: review 2ndary triage reports for automated relevance release (TR13408),B39-113,,,,,,,,,In Progress
+WTS2-542,13478,Creative Commons license issues (TR13398),B39-190,B39-164,B39-163,B39-162,B39-161,,,,,In Progress
+WTS2-541,13477,fixes to GO-PWI (TR13395),B39-371,B39-283,,,,,,,,IS-READY
+WTS2-540,13476,Add filtering to Quick Search (TR13391),,,,,,,,,,PI-Decide
+WTS2-539,13475,"modify pdfviewer to ""skip"" missing J files (TR13386)",,,,,,,,,,IS-READY
+WTS2-538,13474,lit triage/pwi visual changes (TR13385),,,,,,,,,,IS-READY
+WTS2-537,13473,webshare/externalURL vs femover/actual_database (TR13384),,,,,,,,,,IS-READY
+WTS2-536,13472,lit triage AP indexing update bug/J number (TR13381),,,,,,,,,,IS-READY
+WTS2-535,13471,GXD QF: mutated gene field bug (TR13378),B39-197,,,,,,,,,IS-READY
+WTS2-534,13470,GXD QF: vocab term searching doesn't clear without reset (TR13377),,,,,,,,,,IS-READY
+WTS2-533,13469,antibody module: have most frequent choices at top of organism dropdown (TR13373),,,,,,,,,,PI-Decide
+WTS2-532,13468,antibody module: column reorg (TR13372),,,,,,,,,,PI-Decide
+WTS2-531,13467,Add VCMR Logical DB/Add to EI/Strain module (TR13368),I20-385,,,,,,,,,IS-READY
+WTS2-530,13466,submissions response emails converting caret to paren (TR13364),,,,,,,,,,IS-READY
+WTS2-529,13465,source table: autocomplete for cell line field (TR13361),,,,,,,,,,PI-Decide
+WTS2-528,13464,Incorrect MPD strain link (TR13358),B39-247,,,,,,,,,IS-READY
+WTS2-527,13463,HT index QF: add postnatal age querying (TR13355),,,,,,,,,,PI-Decide
+WTS2-526,13462,"adjustment needed to ""complete' in GO EI (TR13354)",,,,,,,,,,IS-READY
+WTS2-525,13461,Discontinued IDs on Primer Detail (TR13353),,,,,,,,,,IS-READY
+WTS2-524,13460,New field in P-WI Antibody module (TR13350),,,,,,,,,,PI-Decide
+WTS2-523,13459,Build 39 Project (TR13349),,,,,,,,,,Requirements
+WTS2-522,13458,add links to Alliance ALLELE pages (TR13346),,,,,,,,,,PI-Decide
+WTS2-521,13457,LTLO: avoid DOI extraction for Plos & other downloaded journals (TR13344),,,,,,,,,,IS-READY
+WTS2-520,13456,Export to text bug (TR13341),,,,,,,,,,IS-READY
+WTS2-519,13455,Mouse dbSNP links no longer supported (TR13340),B39-437,,,,,,,,,In Progress
+WTS2-518,13454,Broken RIKEN/Fantom links (TR13336),,,,,,,,,,IS-READY
+WTS2-517,13453,MOnthly QC report for strains indexed literature (TR13333),,,,,,,,,,PI-Decide
+WTS2-516,13452,Remove FuncBase link from the GO section of MGI gene detail page (TR13319),,,,,,,,,,IS-READY
+WTS2-515,13451,Pubmed links are changing/Public WI (TR13317),,,,,,,,,,PI-Decide
+WTS2-514,13450,more RNA seq data (plus more EA links) (TR13314),,,,,,,,,,IS-READY
+WTS2-513,13449,PRO ID mapping on Gene Detail pages (TR13308),,,,,,,,,,PI-Decide
+WTS2-512,13448,Adding PMIDS from Noctua load into MGI (TR13307),B39-443,,,,,,,,,Closed
+WTS2-511,13447,Variant Module: automate HGVS string creation (TR13303),,,,,,,,,,PI-Decide
+WTS2-510,13446,Expand UBERON in MP (TR13300),,,,,,,,,,IS-READY
+WTS2-509,13445,Deltagen/Lexicon links within data sheets (TR13298),,,,,,,,,,IS-READY
+WTS2-508,13444,Reference summary lacks a Data filter for Strains (TR13296),,,,,,,,,,PI-Decide
+WTS2-507,13443,GRCm39 Data Integration NCBI and ENSEMBL (TR13291),,,,,,,,,,Requirements
+WTS2-506,13442,Lit triage load - Handle text extraction problems better (TR13288),,,,,,,,,,IS-READY
+WTS2-505,13441,Update structure autocomplete handling (TR13287),,,,,,,,,,IS-READY
+WTS2-504,13440,Convert Expression Atlas/ArrayExpress Load to use RNA-Seq Markers (TR13286),,,,,,,,,,PI-Decide
+WTS2-503,13439,GO meeting/CalTech/tasks to-do (TR13272),I20-324,I20-196,I20-25,B39-351,B39-214,,,,,In Progress
+WTS2-502,13438,GXD Supergrid bug: 1st click anatomy toggle (TR13271),,,,,,,,,,IS-READY
+WTS2-501,13437,Tissue x Gene Matrix - Gene Shopping Cart (TR13270),,,,,,,,,,PI-Decide
+WTS2-500,13436,RNA-Seq heat map popup block issue (TR13268),,,,,,,,,,PI-Decide
+WTS2-499,13435,GXD QF: apply new autocomplete indexing approach to GO/MP/DO (TR13267),,,,,,,,,,PI-Decide
+WTS2-498,13434,EMAPA browser: improve tree rendering under load (TR13266),,,,,,,,,,PI-Decide
+WTS2-497,13433,New QC report: Duplicate disease annotations (TR13264),,,,,,,,,,Closed
+WTS2-496,13432,catching RNA seq experiment data load failures at the mover/fewi level (TR13263),,,,,,,,,,IS-READY
+WTS2-495,13431,export text file for component RNAseq samples (TR13257),GRSD-216,,,,,,,,,PI-Decide
+WTS2-494,13430,"""hide"" filter icon after filtering by RNAseq experiment (TR13256)",GRSD-395,,,,,,,,,PI-Decide
+WTS2-493,13429,add Sex filter to GXD summaries (TR13255),GRSD-343,,,,,,,,,PI-Decide
+WTS2-492,13428,Add RNA seq data to the Gene Expression Tissue Summary Page (TR13254),GRSD-207,,,,,,,,,IS-READY
+WTS2-491,13427,add additional color to tissue/gene matrices (TR13252),GRSD-392,,,,,,,,,PI-Decide
+WTS2-490,13426,genotype pWI: double checking conditional genotypes (TR13251),GRSD-511,,,,,,,,,PI-Decide
+WTS2-489,13425,GXD summary: paginate summaries generated by the differential QF (TR13250),GRSD-424,,,,,,,,,PI-Decide
+WTS2-488,13424,Variant module report duplication error (TR13249),B39-1,,,,,,,,,In Progress
+WTS2-487,13423,HT index QF: better ordering of items on anatomy dropdown (TR13248),GRSD-519,,,,,,,,,PI-Decide
+WTS2-486,13422,RNAseq data: adding new experiments (TR13247),,,,,,,,,,PI-Decide
+WTS2-485,13421,Feature request Variant module: batch query (TR13246),,,,,,,,,,PI-Decide
+WTS2-484,13420,HT index: creating links to the Expression Atlas (TR13245),GRSD-289,,,,,,,,,PI-Decide
+WTS2-483,13419,Host Morpheus files locally (TR13242),,,,,,,,,,PI-Decide
+WTS2-482,13418,update IMPC lacZ data in GXD/J:228563 (TR13240),B39-406,B39-397,B39-390,B39-290,B39-222,B39-199,,,,Closed
+WTS2-481,13417,cre allele detail pages: suppressing expression links from these pages (TR13237),,,,,,,,,,PI-Decide
+WTS2-480,13416,Batch Rename (TR13233),,,,,,,,,,In Progress
+WTS2-479,13415,Load miRBase IDs without coordinates (C4AM)  (TR13232),,,,,,,,,,IS-READY
+WTS2-478,13414,Genotype/MP modules feature request (TR13228),,,,,,,,,,PI-Decide
+WTS2-477,13413,P-WI: Special character problem in Image detail  (TR13225),GRSD-220,,,,,,,,,IS-READY
+WTS2-476,13412,links to DO missing from the DO browser (TR13198),,,,,,,,,,Requirements
+WTS2-475,13411,sort order of models on DO browser (TR13195),,,,,,,,,,IS-READY
+WTS2-474,13410,GXD tissue x stage matrix: stray dialogue boxes (TR13194),,,,,,,,,,IS-READY
+WTS2-473,13409,modify gene sort so numbers last alphabetically (TR13192),,,,,,,,,,IS-READY
+WTS2-472,13408,Make old nomenclature history searchable in the PWI (TR13191),,,,,,,,,,Requirements
+WTS2-471,13407,tweak legend on phenogrid (TR13185),,,,,,,,,,IS-READY
+WTS2-470,13406,Variant Module: Don't Modify if Invalid Variant Ref is entered (TR13176),,,,,,,,,,IS-READY
+WTS2-469,13405,fewi  image detail: handling for UTF8 and LATIN9 encoding (TR13174),GRSD-217,,,,,,,,,IS-READY
+WTS2-468,13404,Remove Links to UniGene (TR13171),,,,,,,,,,IS-READY
+WTS2-467,13403,interface to support MP singularity build (TR13165),B39-3,,,,,,,,,IS-READY
+WTS2-466,13402,change ontology load to use OWL files (TR13164),,,,,,,,,,PI-Decide
+WTS2-465,13401,Modify expresses component load - no mouse ortholog required (TR13158),GRSD-314,GRSD-300,,,,,,,,Requirements
+WTS2-464,13400,GXD QF mutant searches: exclude transgenes/cre alleles (TR13142),,,,,,,,,,IS-READY
+WTS2-463,13399,Export gene lists to GeneWeaver from 3 specific places (TR13137),,,,,,,,,,IS-READY
+WTS2-462,13398,LTLO: Search for a better PDF text extraction software (TR13127),,,,,,,,,,PI-Decide
+WTS2-461,13397,assay detail pWI page: display gene and assay type in browser tab (TR13118),,,,,,,,,,IS-READY
+WTS2-460,13396,Java API Update:  maven upgrade (TR13117),,,,,,,,,,IS-READY
+WTS2-459,13395,LTLO: add column sorts to lit triage query summary  (TR13096),B39-389,,,,,,,,,In Progress
+WTS2-458,13394,Success and Error popups in the PWI Marker Module (TR13092),,,,,,,,,,IS-READY
+WTS2-457,13393,pwi/replace old Marker form/sqlalchemy  (TR13090),,,,,,,,,,IS-READY
+WTS2-456,13392,LTLO: Automate pdf download from PMC for several journals (TR13077),GRSD-410,,,,,,,,,IS-READY
+WTS2-455,13391,Literature triage: Automated literature relevance prediction (TR13069),,,,,,,,,,In Progress
+WTS2-454,13390,Extracted Text: predicting review papers from extracted text (TR13066),,,,,,,,,,PI-Decide
+WTS2-453,13389,Normals in MGI_PhenotypicAllele.rpt (TR13055),,,,,,,,,,PI-Decide
+WTS2-452,13388,move two buttons out of GO EI to (new) Marker EI (TR13045),,,,,,,,,,PI-Decide
+WTS2-451,13387,Add Synteny Browser  to MGI's Tools page (TR13044),,,,,,,,,,IS-READY
+WTS2-450,13386,LTLO: Reviews are underlabeled in the database (TR13043),DADT-279,,,,,,,,,IS-READY
+WTS2-449,13385,Lit Triage: Tagging non-AP curator indexed J# (TR13032),,,,,,,,,,PI-Decide
+WTS2-448,13384,retire mousecyc (TR13017),DADT-216,DADT-203,,,,,,,,IS-READY
+WTS2-447,13383,Store a researcher's FASTQ files (in Contributed Datasets?) (TR13016),,,,,,,,,,IS-READY
+WTS2-446,13382,Under-annotated gene list for GO QC (TR13015),,,,,,,,,,IS-READY
+WTS2-445,13381,Research front end load balancing / throttling (TR13004),,,,,,,,,,IS-READY
+WTS2-444,13380,some MP definitions not being displayed (TR13003),,,,,,,,,,IS-READY
+WTS2-443,13379,convert from http to https (TR13000),,,,,,,,,,IS-READY
+WTS2-442,13378,Public Downtime due to bots and rogue users (TR12999),,,,,,,,,,IS-READY
+WTS2-441,13377,miRBase annotation of GRCm38 (TR12996),,,,,,,,,,In Progress
+WTS2-440,13376,Move to MGI orthology consistent with Alliance (TR12992),,,,,,,,,,PI-Decide
+WTS2-439,13375,SNPs returned by overlap with QTL and HPM markers (TR12991),DADT-99,DADT-98,,,,,,,,IS-READY
+WTS2-438,13374,improve molecular mutation pick list (TR12987),,,,,,,,,,PI-Decide
+WTS2-437,13373,Problematic coordinates for some markers (TR12985),,,,,,,,,,In Progress
+WTS2-436,13372,Test and QC for external ontologies (TR12967),,,,,,,,,,PI-Decide
+WTS2-435,13371,LTLO: Oncotarget DOI issue (TR12962),,,,,,,,,,Requirements
+WTS2-434,13370,SNP Summary: treat ? calls as non-calls (TR12961),,,,,,,,,,IS-READY
+WTS2-433,13369,suppress display of not applicable on allele detail pages (TR12936),,,,,,,,,,PI-Decide
+WTS2-432,13368,Add strain to expresses component (TR12935),,,,,,,,,,PI-Decide
+WTS2-431,13367,HT index: load experiment data from GEO (TR12926),,,,,,,,,,PI-Decide
+WTS2-430,13366,Marker chromosome assignment WI display (TR12920),,,,,,,,,,In Progress
+WTS2-429,13365,load all inferred-from in GO/PAINT (TR12917),GF-362,,,,,,,,,IS-READY
+WTS2-428,13364,ontology browser autocomplete bug (TR12893),,,,,,,,,,Requirements
+WTS2-427,13363,roll up rules RNAi update (TR12888),,,,,,,,,,PI-Decide
+WTS2-426,13362,set up MP build pipeline (TR12879),,,,,,,,,,IS-READY
+WTS2-425,13361,Annotate my paper link (TR12853),,,,,,,,,,IS-READY
+WTS2-424,13360,LitTriage : PDF not in master PDF folder (TR12833),,,,,,,,,,In Progress
+WTS2-423,13359,roll up allele annotations for Alliance (TR12828),GF-225,GF-221,,,,,,,,IS-READY
+WTS2-422,13358,Make it easier to find phenotypic alleles? (TR12821),,,,,,,,,,PI-Decide
+WTS2-421,13357,Can't withdraw Marker referenced by Allele (TR12818),,,,,,,,,,In Progress
+WTS2-420,13356,GXD differential query: add ability to interrogate by assay type (TR12810),,,,,,,,,,PI-Decide
+WTS2-419,13355,Enhancer to marker/allele relationship (TR12804),,,,,,,,,,Requirements
+WTS2-418,13354,HT indexing module: flawed organism picklist (TR12803),,,,,,,,,,PI-Decide
+WTS2-417,13353,New linking mechanism from Elsevier to MGI (TR12799),,,,,,,,,,PI-Decide
+WTS2-416,13352,Need new source for human genome coordinates for human genome features (TR12798),GF-361,,,,,,,,,IS-READY
+WTS2-415,13351,No Phenoypic Analysis migration (TR12775),,,,,,,,,,PI-Decide
+WTS2-414,13350,add attributes to the public AP query form (TR12769),,,,,,,,,,IS-READY
+WTS2-413,13349,"LTLO: Wrong DOI from some ""Letters"" type articles from Blood (TR12755)",,,,,,,,,,PI-Decide
+WTS2-412,13348,Skip load processing if input files do not exist (TR12754),,,,,,,,,,PI-Decide
+WTS2-411,13347,HT index: load GXD HT experiment evaluation predictions (TR12716),,,,,,,,,,PI-Decide
+WTS2-410,13346,LTLO: sql of extracted text length (TR12715),,,,,,,,,,PI-Decide
+WTS2-409,13345,HT indexing module: ability to edit sample number (TR12711),,,,,,,,,,PI-Decide
+WTS2-408,13344,LTLO: improve browser tab labels for PDF files (TR12709),,,,,,,,,,PI-Decide
+WTS2-407,13343,LTLO: PWI QF/summary - allow access to more results (TR12704),,,,,,,,,,PI-Decide
+WTS2-406,13342,LTLO: Fewi: reference summary- use new reference types (TR12699),,,,,,,,,,PI-Decide
+WTS2-405,13341,HT indexing module: make experimental variables more prominent (TR12695),,,,,,,,,,PI-Decide
+WTS2-404,13340,HT indexing module: adding specimen table for proofing (TR12694),,,,,,,,,,IS-READY
+WTS2-403,13339,errant behavior of grid checkmarks on CrePoral expression grids (TR12684),,,,,,,,,,IS-READY
+WTS2-402,13338,Bug: Public WI Reference download (TR12675),,,,,,,,,,PI-Decide
+WTS2-401,13337,HT indexing module: PubMed field doesn't clear (TR12670),,,,,,,,,,PI-Decide
+WTS2-400,13336,Add VGNC identifiers to appropriate species on homology pages?  (TR12665),,,,,,,,,,PI-Decide
+WTS2-399,13335,HT indexing module: make raw data fields searchable (TR12641),,,,,,,,,,IS-READY
+WTS2-398,13334,HT indexing module: enable curation of PubMed ids (TR12639),,,,,,,,,,PI-Decide
+WTS2-397,13333,HT indexing module: allow sorting based on note content (TR12638),,,,,,,,,,PI-Decide
+WTS2-396,13332,cM location not being calculated from genome coordinates (TR12625),,,,,,,,,,IS-READY
+WTS2-395,13331,Allele summary page bug with system headers (TR12609),,,,,,,,,,Requirements
+WTS2-394,13330,incorrect CrePortal URL (TR12588),,,,,,,,,,Requirements
+WTS2-393,13329,Disease to reference annotation (TR12576),,,,,,,,,,Requirements
+WTS2-392,13328,consolidate evidence codes/apply ECO IDs (TR12575),,,,,,,,,,PI-Decide
+WTS2-391,13327,Update rollup rules for new RNAi relationships (TR12574),,,,,,,,,,PI-Decide
+WTS2-390,13326,MP Browser improvements: II. Implement graph view  (TR12569),,,,,,,,,,PI-Decide
+WTS2-389,13325,MP Browser improvements: I. improved tree view (TR12568),,,,,,,,,,Requirements
+WTS2-388,13324,Add mutagenesis screen data to Contributed Data Sets?  (TR12563),,,,,,,,,,PI-Decide
+WTS2-387,13323,Add Kmt2a binding site data to MGI? (TR12558),,,,,,,,,,PI-Decide
+WTS2-386,13322,QC report improvement for data loads (TR12537),,,,,,,,,,PI-Decide
+WTS2-385,13321,pWI: Improvements to the P-WI EMAPA browser (TR12533),,,,,,,,,,IS-READY
+WTS2-384,13320,Some probe types missing from marker counts (TR12522),,,,,,,,,,PI-Decide
+WTS2-383,13319,load HPO Orphanet annotations (TR12519),,,,,,,,,,Requirements
+WTS2-382,13318,Rebuild quick search (TR12500),,,,,,,,,,PI-Decide
+WTS2-381,13317,pWI GXD Index tab-order bug (TR12487),,,,,,,,,,PI-Decide
+WTS2-380,13316,Reinstate SQL logging in the PWI (TR12476),,,,,,,,,,IS-READY
+WTS2-379,13315,add reference proteome (RP) QC reports to Uniprot load (TR12458),,,,,,,,,,PI-Decide
+WTS2-378,13314,Strength indicator on GXD assay detail page (TR12450),,,,,,,,,,PI-Decide
+WTS2-377,13313,Use Ensembl and VEGA version IDs in MGI (TR12432),,,,,,,,,,PI-Decide
+WTS2-376,13312,pWI: update failures in GXD index summary table (TR12429),,,,,,,,,,Requirements
+WTS2-375,13311,antibody summary pWI page: further improvements (TR12402),,,,,,,,,,PI-Decide
+WTS2-374,13310,HMDC - Human marker not in a homology class bug (TR12397),,,,,,,,,,PI-Decide
+WTS2-373,13309,HMDC - EC handling bug (TR12396),,,,,,,,,,PI-Decide
+WTS2-372,13308,HMDC - deletion/inversion tooltip improvement (TR12394),,,,,,,,,,PI-Decide
+WTS2-371,13307,HMDC - transgene tool tip improvement (TR12393),,,,,,,,,,PI-Decide
+WTS2-370,13306,HMDC - links to search results (TR12391),,,,,,,,,,PI-Decide
+WTS2-369,13305,HMDC - add feature type filter (TR12390),,,,,,,,,,PI-Decide
+WTS2-368,13304,P-WI GXD Index Summary by Ref improvement (TR12380),,,,,,,,,,PI-Decide
+WTS2-367,13303,GXD assay detail pWI page: add image summary link (TR12352),,,,,,,,,,PI-Decide
+WTS2-366,13302,Extend relationships between markers to include QTL (TR12347),DADT-315,,,,,,,,,Requirements
+WTS2-365,13301,New GO loads from GOA (TR12342),,,,,,,,,,Requirements
+WTS2-364,13300,load or link to IMPC/iMITS molecular images (TR12334),,,,,,,,,,Requirements
+WTS2-363,13299,Curatorial tool: allele loader (TR12330),,,,,,,,,,PI-Decide
+WTS2-362,13298,Curatorial tool: strain loader (TR12329),,,,,,,,,,PI-Decide
+WTS2-361,13297,GXD batch search: more You searched for information (TR12284),,,,,,,,,,PI-Decide
+WTS2-360,13296,GXD QF: some eligible searches do not trigger GXD literature searches (TR12283),,,,,,,,,,PI-Decide
+WTS2-359,13295,GXD batch search: add current mouse symbols/synonyms option (TR12282),,,,,,,,,,PI-Decide
+WTS2-358,13294,Inducer controlled voc for pick-list (TR12212),,,,,,,,,,PI-Decide
+WTS2-357,13293,Antibody SQL report (TR12205),,,,,,,,,,IS-READY
+WTS2-356,13292,Update MRK_Homology_Class2.rpt to include current homology data in MGI (TR12204),,,,,,,,,,In Progress
+WTS2-355,13291,"""Mutation Details"" subheader missing in many alleles (TR12186)",,,,,,,,,,PI-Decide
+WTS2-354,13290,add Stacked Slimgrids as output option from marker queries (TR12180),,,,,,,,,,PI-Decide
+WTS2-353,13289,Improve Batch Query functionality and visibility (TR12179),,,,,,,,,,PI-Decide
+WTS2-352,13288,"VLAD improvements, add back human data (TR12130)",,,,,,,,,,PI-Decide
+WTS2-351,13287,Double label fields in GXD assay EI (TR12126),,,,,,,,,,PI-Decide
+WTS2-350,13286,missing homology: mitochondrial tRNAs (TR12113),,,,,,,,,,PI-Decide
+WTS2-349,13285,Loading protein complexes into MGI (TR12107),,,,,,,,,,PI-Decide
+WTS2-348,13284,Populate GXD preparation notes field with data (TR12093),,,,,,,,,,PI-Decide
+WTS2-347,13283,Display preparation notes field on GXD assay detail page (TR12092),,,,,,,,,,PI-Decide
+WTS2-346,13282,Add preparation notes field to GXD for specimens (TR12091),,,,,,,,,,PI-Decide
+WTS2-345,13281,Postgres : schema/data cleanup issues (TR12083),,,,,,,,,,In Progress
+WTS2-344,13280,hobbiton IOError: [Errno 28] No space left on device (TR12081),,,,,,,,,,In Progress
+WTS2-343,13279,Accessing MGI data via Google searches (TR12013),,,,,,,,,,PI-Decide
+WTS2-342,13278,femover/IMSR interaction improvements (TR12000),,,,,,,,,,IS-READY
+WTS2-341,13277,report of phenotypes rolled up to allele level (TR11995),,,,,,,,,,IS-READY
+WTS2-340,13276,Roll up rules - EC vs IES (TR11981),,,,,,,,,,PI-Decide
+WTS2-339,13275,Vocab browser single quote bug (TR11969),,,,,,,,,,PI-Decide
+WTS2-338,13274,custom RNA report for EBI interconnections with RNA Central (TR11957),,,,,,,,,,IS-READY
+WTS2-337,13273,GXD assay detail: links from GXD notes fields go to summary not detail (TR11943),,,,,,,,,,PI-Decide
+WTS2-336,13272,Add field to probes table (TR11933),,,,,,,,,,PI-Decide
+WTS2-335,13271,New docking site attribute (TR11929),,,,,,,,,,PI-Decide
+WTS2-334,13270,Expresses component qualifiers (TR11928),,,,,,,,,,PI-Decide
+WTS2-333,13269,GO table 'inferred_from' rollover tip wish list (TR11917),,,,,,,,,,PI-Decide
+WTS2-332,13268,create public page listing all external loads: transparency and integration of d (TR11911),,,,,,,,,,In Progress
+WTS2-331,13267,Suggestions from MGI user survey (TR11902),,,,,,,,,,PI-Decide
+WTS2-330,13266,Link to Jax mirror ftp site for Sanger mouse genomes data (TR11876),,,,,,,,,,In Progress
+WTS2-329,13265,Infer GO annotations from mouse to mouse genes in same Homologene class (TR11875),,,,,,,,,,PI-Decide
+WTS2-328,13264,Edit date tracker in GO annotation properties (TR11874),,,,,,,,,,PI-Decide
+WTS2-327,13263,matrix views for all (TR11827),,,,,,,,,,PI-Decide
+WTS2-326,13262,GXD Matrix horizontal scroll bar (TR11803),,,,,,,,,,PI-Decide
+WTS2-325,13261,GXD query form: anatomy autofill bugs (TR11800),,,,,,,,,,PI-Decide
+WTS2-324,13260,Add imprinted gene info to gene detail pages? (TR11798),,,,,,,,,,PI-Decide
+WTS2-323,13259,Replace YUI in public products (TR11778),,,,,,,,,,PI-Decide
+WTS2-322,13258,tRNA and miRNA data missing from MGI.gff3 (TR11761),,,,,,,,,,IS-READY
+WTS2-321,13257,QC: GXD assays that incorrectly have reporter gene associations (TR11746),,,,,,,,,,PI-Decide
+WTS2-320,13256,Minor changes to Recombinase Activity Detail Page (TR11741),,,,,,,,,,PI-Decide
+WTS2-319,13255,Future changes to UniProt Accession Formats (TR11659),,,,,,,,,,Requirements
+WTS2-318,13254,Revise Contributed Data Sets page (TR11653),,,,,,,,,,PI-Decide
+WTS2-317,13253,EMAPA browser: display secondary ids in term detail section (TR11634),,,,,,,,,,PI-Decide
+WTS2-316,13252,HMDC gene text file bug (TR11612),,,,,,,,,,Closed
+WTS2-315,13251,HMDC URL length bug (TR11609),,,,,,,,,,Closed
+WTS2-314,13250,Batch Query Pagination not Working Right (TR11606),,,,,,,,,,PI-Decide
+WTS2-313,13249,UniProt id mapping issues (TR11586),,,,,,,,,,In Progress
+WTS2-312,13248,VCF file upload & search improvements (TR11583),,,,,,,,,,PI-Decide
+WTS2-311,13247,reference summary page includes private allele data in gene/marker counts (TR11345),,,,,,,,,,PI-Decide
+WTS2-310,13246,Targeted Allele Load (TAL) bug in de-orphaning an alele (TR11324),,,,,,,,,,PI-Decide
+WTS2-309,13245,Curator defined allele to disease associations (TR11310),,,,,,,,,,Requirements
+WTS2-308,13244,Additional gene sets (vocabs) for GXD queries (TR11304),,,,,,,,,,PI-Decide
+WTS2-307,13243,GXD QF: restore ability to specify multiple structures (TR11297),,,,,,,,,,PI-Decide
+WTS2-306,13242,Allow searching for phenotypes by zygosity (TR11220),,,,,,,,,,PI-Decide
+WTS2-305,13241,Add OrthoDisease graph link to human banner (TR11113),,,,,,,,,,PI-Decide
+WTS2-304,13240,Reciprocal links from MGI to QTL Archive (TR10973),I20-72,I20-67,GF-116,,,,,,,In Progress
+WTS2-303,13239,Loading the cell ontology (TR10937),,,,,,,,,,PI-Decide
+WTS2-302,13238,Allowing curators to override the chosen representative protein? (TR10588),,,,,,,,,,IS-READY
+WTS2-301,13237,Remove Marker Type: BAC/YAC (TR10586),,,,,,,,,,PI-Decide
+WTS2-300,13236,Post BAC End sequence files to MGI FTP site (TR10498),,,,,,,,,,PI-Decide
+WTS2-299,13235,Missing gene trap public report (TR9954),,,,,,,,,,PI-Decide
+WTS2-298,13234,Review EntrezGene Load Logic/Process (TR9849),,,,,,,,,,PI-Decide
+WTS2-297,13233,Remove marker associations for sequences marked as deleted (TR9818),,,,,,,,,,In Progress
+WTS2-296,13232,Sequences without Accession ids (TR9778),,,,,,,,,,PI-Decide
+WTS2-295,13231,links from alleles to MTB (TR9464),,,,,,,,,,PI-Decide
+WTS2-294,13230,Enhancement suggestions for the Batch Query tool (TR9348),,,,,,,,,,PI-Decide
+WTS2-293,13229,Add add'l option to Submit Data page (TR8818),,,,,,,,,,PI-Decide
+WTS2-292,13228,New genotype attribute- inducible expression (TR8595),,,,,,,,,,PI-Decide
+WTS2-291,13227,permission to delete loaded sequence (TR8393),,,,,,,,,,PI-Decide
+WTS2-290,13226,search for phenotypes that differ on genetic backgrounds (TR8217),,,,,,,,,,PI-Decide
+WTS2-289,13225,add allele mutation abbreviations to Allele Summary (TR8109),,,,,,,,,,PI-Decide
+WTS2-288,13224,Add to Reference detail...Disease Models (TR7717),,,,,,,,,,PI-Decide
+WTS2-287,13223,Improving QTL annotations and WI presentation (TR7581),,,,,,,,,,PI-Decide
+WTS2-286,13222,Provide links to Reactome and more (TR6539),,,,,,,,,,PI-Decide
+WTS2-285,13221,Forward sequences to Seq Analysis Tools (TR6509),,,,,,,,,,PI-Decide
+WTS2-284,13220,Searching Deleted Symbols in the WI (TR6371),,,,,,,,,,PI-Decide
+WTS2-283,13219,Merge markers with orthologs (TR6240),,,,,,,,,,PI-Decide
+WTS2-282,13218,Add Note field to Sequence EI (TR6022),,,,,,,,,,PI-Decide
+WTS2-281,13217,SWISS-PROT/TrEMBL Human/Rat Sequence Load (TR5417),,,,,,,,,,PI-Decide
+WTS2-280,13216,Refseq Human/Rat Sequence Load (TR5416),,,,,,,,,,PI-Decide
+WTS2-279,13215,GenBank Human/Rat Sequence Load (TR5415),,,,,,,,,,PI-Decide
+WTS2-278,13214,Comparison of GXD matrices (TR3897),,,,,,,,,,PI-Decide
+WTS2-277,13213,Interactive sorting of GXD matrix displays (TR3896),,,,,,,,,,PI-Decide
+WTS2-276,13212,Advanced graphical dictionary browser (TR3537),,,,,,,,,,PI-Decide
+WTS2-275,13211,Add a way to search from the strain page for model strains (TR2778),,,,,,,,,,Requirements
+I20-410,12406,Tasks for Build 39 gene traps testing,,,,,,,,,,Open
+I20-406,12402,TR12571/ Fewi  MP/GO  Browser improvements: IV - Display comments field,,,,,,,,,,Done
+I20-405,12397,TR13312 - add pdf.log for pdftotext and DOI extraction errors,,,,,,,,,,Done
+I20-404,12396,"TR13375: Report of Markers with C4AM Coordinates from MGI annotation
+",,,,,,,,,,Done
+I20-403,12395,TR13327/AP group weekly reference QC reports,,,,,,,,,,Done
+I20-401,12393,TR13363/add J# to list of GXD electronic references,,,,,,,,,,Done
+I20-400,12392,TR13186/add auto copyright for Cell Rep,,,,,,,,,,Done
+I20-399,12391,TR13380/remove duplicate J#/Reference,,,,,,,,,,Done
+I20-397,12389,TR13235 - GXD HT index new experiment type issue - analysis,,,,,,,,,,Done
+I20-395,12387,"TR13374/Retired products: lib_py_jpeg, pixeldb",,,,,,,,,,Done
+I20-391,12382,TR13290: tweak to heat map legend,,,,,,,,,,Done
+I20-389,12379,TR13371/test load of mp_hpo.txt,,,,,,,,,,Done
+I20-387,12377,TR13369/qc report of COV: tagged papers,,,,,,,,,,Done
+I20-386,12376,TR13359 - Europe's PMC link service error,,,,,,,,,,Done
+I20-385,12375,TR13368/Add VCMR Logical DB/Add to EI/Strain module,,,,,,,,,,Done
+I20-379,12369,TR13337 - merge Opn1lw to Opn1mw,,,,,,,,,,Done
+I20-377,12367,TR13362 -merge Trg1 into n-TGtcc7,,,,,,,,,,Done
+I20-360,12345,Build 39 gene trap ground work,,,,,,,,,,Done
+I20-354,12339,TR13351 : Rework HeatMap data transfer,,,,,,,,,,Done
+I20-337,12317,TR13238: update URL to GEO data sets,,,,,,,,,,In Progress
+I20-324,12303,TR13272/GO/GPAD/GPI 2.0,,,,,,,,,,Done
+I20-280,12257,Pdftotext/TR13312: merge TR13312 branch,,,,,,,,,,Done
+I20-264,12241,TR13343/link to GO reports for Li Ni not working,,,,,,,,,,Done
+I20-258,12230,TR11321/ltlo: NLM refresh folder adding an extra lit record,,,,,,,,,,Done
+I20-250,12222,TR13326 - pubmed2gene updating?,,,,,,,,,,Done
+I20-245,12208,TR13310: Expresses component WI display problem,,,,,,,,,,Open
+I20-244,12207,TR13318: Error in file provided to GOA - cancelled,,,,,,,,,,Open
+I20-243,12206,TR13315: P-WI Bug: Can't change lit triage reference type,,,,,,,,,,Done
+I20-242,12205,Update Lit Triage Load Flowcharts,,,,,,,,,,Done
+I20-199,12162,TR13131 - Security: more fixes for reflected XSS,,,,,,,,,,Done
+I20-198,12161,TR13130 - Security: SNP fixes for reflected XSS,,,,,,,,,,Done
+I20-197,12160,TR12332/load IMSR strains to MGI (for those not already in),,,,,,,,,,Done
+I20-196,12159,TR13272/GO meeting/CalTech/tasks to-do,,,,,,,,,,Done
+I20-184,12147,TR13265/Variant QC report,,,,,,,,,,Done
+I20-167,12130,TR13309/Add select from identical symbol alleles in PWI genotype page,,,,,,,,,,Done
+I20-163,12126,TR13299/GO/Proisoform - switch to use the GPI file,,,,,,,,,,Done
+I20-160,12123,TR13305 - Get rid of EMBOSS (stretch),,,,,,,,,,Done
+I20-158,12121,TR13146 - HMDC glitch,,,,,,,,,,Done
+I20-156,12119,SUPPORT TR13306  htmpload IMITs file format change,,,,,,,,,,Done
+I20-151,12114,TR13297: Fix links for PRO IDs in GO annotation inferred from field,,,,,,,,,,Done
+I20-149,12112,Superseded by I20-160 if we can get to it. TR13292: EMBOSS Error: No sequence retrieval,,,,,,,,,,Open
+I20-132,12095,TR13008: Update URLs in uptime robot,,,,,,,,,,Done
+I20-131,12094,TR13227:Variant Module: cancel requirement for seq IDs in As Sourced fields,,,,,,,,,,Done
+I20-130,12093,TR13005: NDP External Links fail,,,,,,,,,,Done
+I20-90,12053,TR13294/Variation module: add SO:1000032 delins to variation type,,,,,,,,,,Done
+I20-72,12035,TR10973 qtl archive/curator qc/publish,,,,,,,,,,Done
+I20-67,12030,TR10973 Reciprocal links from MGI to QTL Archive,,,,,,,,,,Done
+I20-66,12029,TR13196 Deltagen and Lexicon Knockout Mice links,,,,,,,,,,Done
+I20-65,12028,TR13273 EMAPA develops_from display bug,,,,,,,,,,Done
+I20-32,11995,TR13262: IMSR existing strain check utility,,,,,,,,,,Done
+I20-31,11994,TR13285: RNA-Seq Load - updated sets,,,,,,,,,,Done
+I20-30,11993,TRs waiting for final test,,,,,,,,,,Done
+I20-25,11988,TR13272: Support/GO meeting #7,,,,,,,,,,Done
+I20-19,11982,Automate primary triage using ML technology.,,,,,,,,,,Open
+GRSD-574,11970,Add Google Analytics tracking for new GXD features,,,,,,,,,,Done
+GRSD-572,11968,TR13231/Supply Reactone annotations in gaf (and gpad),,,,,,,,,,Done
+GRSD-568,11962,TR13196: Deltagen and Lexicon Knockout Mice links,,,,,,,,,,To Do
+GRSD-564,11955,TR13208/ ltlo: blood journal doi extraction is truncated,,,,,,,,,,Done
+GRSD-563,11954,PWI/API/Schema - branches for TR13204/move over Simple Vocab code,,,,,,,,,,Done
+GRSD-561,11952,TR13224/ltlo: PNAS doi extraction issue,,,,,,,,,,Done
+GRSD-559,11950,TR12871/LTLO: Erratum/corrections/retractions,,,,,,,,,,Done
+GRSD-558,11949,TR12713/LTLO: PWI: discard error message,,,,,,,,,,Done
+GRSD-557,11948,TR13239/ENSEMBL 99,,,,,,,,,,Done
+GRSD-556,11947,TR13226/Variant Module: searching on Allele ID/Symbol broken,,,,,,,,,,Done
+GRSD-552,11943,Merge Front-End tr13007 branches; run datagen pipeline,,,,,,,,,,Done
+GRSD-549,11940,Merge Backend tr13007-genotype branch to trunk/run migration,,,,,,,,,,Done
+GRSD-545,11936,Lit Triage/Allele Assoc,,,,,,,,,,Done
+GRSD-532,11923,TR13236/Marker/Non-Mouse,,,,,,,,,,Done
+GRSD-528,11919,Merge RNA Seq migration scripts to tr13007-genotype migration,,,,,,,,,,Done
+GRSD-527,11918,TR13215/PWI GXD Index: allow only official markers,,,,,,,,,,Done
+GRSD-525,11916,TR13230/pwi/marker query/remove limit,,,,,,,,,,Done
+GRSD-519,11910,TR13248--have better matches move up on the anatomy dropdown,,,,,,,,,,To Do
+GRSD-511,11902,TR13251--Genotype Module- give some picklist choices a special color,,,,,,,,,,To Do
+GRSD-502,11893,TR13222/literature triage: cancel requirement for MGI prefix for allele/marker ID,,,,,,,,,,Done
+GRSD-501,11892,TR13221/ literature triage: can't add more than one allele at same time,,,,,,,,,,Done
+GRSD-500,11891,TR13217.P-WI Image module copyright autofill behavior,,,,,,,,,,Done
+GRSD-499,11890,TR13219/P-WI bug Probe link in navigation bar not working,,,,,,,,,,Done
+GRSD-498,11889,TR13216/PWI/Lit Triage/Bulk Apply Tag,,,,,,,,,,Done
+GRSD-497,11888,Support: TR13068 fearload - allow  Y to XY or X to XY and vice versa for mutation involves,,,,,,,,,,Done
+GRSD-496,11887,Support: TR13206 Correction to molecular note,,,,,,,,,,Done
+GRSD-494,11885,TR13213/ltlo: Bug in supplementary data flag,,,,,,,,,,Done
+GRSD-493,11884,Support: TR13205 update qc report GXD_Images.rpt,,,,,,,,,,Done
+GRSD-480,11871,Lit Triage/update mrkref cache,,,,,,,,,,Done
+GRSD-478,11869,Lit Triage/Allele/Marker/Strain/un-delete,,,,,,,,,,Done
+GRSD-470,11861,Genotype/PWI tr13007-genotype branch tasks,,,,,,,,,,Done
+GRSD-428,11819,Allele-DO/Annot/API implement controller/domain/translator/service with get(),,,,,,,,,,Done
+GRSD-424,11815,TR13250--Differential QF - TxG Matrix Column Pagination - Round 2,,,,,,,,,,To Do
+GRSD-416,11807,TR12941--Markers with Coordinates from MGI Missing Strand,,,,,,,,,,In Progress
+GRSD-413,11804,Genotype-DO/Annot/API implement domain/translator/service with get(),,,,,,,,,,Done
+GRSD-410,11801,TR13077/LTLO: Automate Nat Commun pdf download from PMC,,,,,,,,,,To Do
+GRSD-401,11792,TR13183 - Changing some GO annotations in bulk,,,,,,,,,,Done
+GRSD-400,11791,TR13193 - Custom Homology Report,,,,,,,,,,Done
+GRSD-399,11790,TR13190 - New version of pdftotext,,,,,,,,,,Done
+GRSD-397,11788,TR13187 - references duplicated in bib_status_view,,,,,,,,,,Done
+GRSD-395,11786,"TR13256--""hide"" filter icon after filtering by RNAseq experiment",,,,,,,,,,To Do
+GRSD-392,11782,TR13252--Add additional color to matrices,,,,,,,,,,To Do
+GRSD-387,11776,TR13175/NCBI 108,,,,,,,,,,Done
+GRSD-380,11767,MP Annotations module - Change Evidence entity/translator/domain notes to be ONE set of notes,,,,,,,,,,Done
+GRSD-373,11760,MP Annotations module - Translating from/to GenotypeMPAnnotation domain and flattened version of the domain,,,,,,,,,,Done
+GRSD-372,11759,MP Annotations module - EvidenceDomain/translator - update sex specificity to List,,,,,,,,,,Done
+GRSD-345,11732,TR13253--Add RNA-Seq ExpID to GXD Batch Query,,,,,,,,,,To Do
+GRSD-343,11730,TR13255--New GXD Filter: Sex,,,,,,,,,,To Do
+GRSD-332,11719,Lit Triage/API/refactor Reference Assoc,,,,,,,,,,Done
+GRSD-328,11715,Lit Triage/Allele Assoc/add #2,,,,,,,,,,Done
+GRSD-322,11709,TR13082 - provide MGI PMID report to Europe PMC,,,,,,,,,,Done
+GRSD-320,11707,Lit Triage/Marker Associations/add,,,,,,,,,,Done
+GRSD-319,11706,Lit Triage/Strain Associations/add/modify,,,,,,,,,,Done
+GRSD-318,11705,Lit Triage/Strain Associations/delete,,,,,,,,,,Done
+GRSD-317,11704,Lit Triage/Marker Associations/delete,,,,,,,,,,Done
+GRSD-316,11703,Lit Triage/Allele Assoc/add,,,,,,,,,,Done
+GRSD-315,11702,Lit Triage/Allele Assoc/delete,,,,,,,,,,Done
+GRSD-314,11701,TR13158 - analysis for products affected by changes to expresses component load,,,,,,,,,,Done
+GRSD-313,11700,TR13065 EMBOSS - figure how to run new mgiemboss refseq build from Jenkins,,,,,,,,,,Done
+GRSD-312,11699,TR13065 EMBOSS - refresh for current RefSeq release,,,,,,,,,,Done
+GRSD-311,11698,Lit Triage/full search vs short search option,,,,,,,,,,Done
+GRSD-310,11697,TR:13184 - Add sort to Allele Variant Module variant results table,,,,,,,,,,Done
+GRSD-308,11695,Lit Triage/add MGI id to results,,,,,,,,,,Done
+GRSD-307,11694,TR12877/LTLO: have id search box always accessible,,,,,,,,,,Done
+GRSD-302,11689,Lit Triage/add auto-complete/Journal,,,,,,,,,,Done
+GRSD-300,11687,TR13158 - analysis changes to expresses component load,,,,,,,,,,Done
+GRSD-299,11686,Lit Triage Module: Display additional data types for a reference,,,,,,,,,,Done
+GRSD-298,11685,Lit Triage/Allele Assoc/API/Display,,,,,,,,,,Done
+GRSD-294,11681,"Lit Triage/add ""Add"" functionality",,,,,,,,,,Done
+GRSD-293,11680,PWI/Lit Triage/display changes,,,,,,,,,,Done
+GRSD-291,11678,TR12764/LTLO: enable deletion of J# (keep MGI id),,,,,,,,,,Done
+GRSD-289,11676,"TR13245/TR13247--Add ""Expression Atlas"" and ""RNA-Seq Load"" checkboxes to the HT Experiment PWI Module",,,,,,,,,,To Do
+GRSD-286,11673,TR13155/Alter GPAD logic to accomodate odd number of “:”.,,,,,,,,,,Done
+GRSD-280,11667,TR13150/ignore partial ECs in EC2GO,,,,,,,,,,Done
+GRSD-279,11666,TR13153/TR13161/ltlo: supplemental data is being missed,,,,,,,,,,Done
+GRSD-278,11665,TR13152/Add valid qualifiers for GO Noctua load,,,,,,,,,,Done
+GRSD-277,11664,TR13138/test load of new MP file,,,,,,,,,,Done
+GRSD-276,11663,TR13132/change to OMIM download link,,,,,,,,,,Done
+GRSD-271,11658,"TR13159/Modification to QC report AP#8 Genotypes where Allele 1 is ""wild type""",,,,,,,,,,Done
+GRSD-268,11655,TR13166/Marker module rename error due to single apostrophe character,,,,,,,,,,Done
+GRSD-267,11654,TR13145/ Variant module: invalid J:num doesn't yield error message,,,,,,,,,,Done
+GRSD-266,11653,TR13144/ Variant module variant effects to be deleted,,,,,,,,,,Done
+GRSD-264,11651,TR13156/unmerge Usp-ps from Usp17le-ps (MGI:3582591),,,,,,,,,,Done
+GRSD-263,11650,TR12332/load IMSR strains to MGI ,,,,,,,,,,Done
+GRSD-260,11647,index FeWI: add conditional mutant note (TR13140),,,,,,,GRSD-254,,,Done
+GRSD-259,11646,Tissue x Gene Matrix bug - Colors and Counts Off (TR13147),,,,,,,,,,Done
+GRSD-250,11637,TR13169/Add KMPC Logical DB/Add to EI/Strain module,,,,,,,,,,Done
+GRSD-246,11633,TR13160: Variant Module - error when adding curated genomic coordinates,,,,,,,,,,Done
+GRSD-233,11620,TR12332/load IMSR strains to MGI,,,,,,,,,,Done
+GRSD-226,11613,TR13151/Ensembl 97,,,,,,,,,,Done
+GRSD-224,11611,TR12332/Strain load,,,,,,,,,,Done
+GRSD-222,11609,TR13154/picking up PRO ids not working; load failure?,,,,,,,,,,Done
+GRSD-220,11607,TR13225--change pWI image detail from LATIN9 to UTF8,,,,,,,,,,In Progress
+GRSD-218,11605,TR13063/Lit Triage/UTF8/Latin 9,,,,,,,,,,Done
+GRSD-217,11604,TR13174--fewi : handling for UTF8 and LATIN9 encoding,,,,,,,,,,To Do
+GRSD-216,11603,TR13257--New Export text file: RNA-Seq Data,,,,,,,,,,To Do
+GRSD-209,11596,Troubleshoot load/dump issues on new servers bhmgidb09lt/bhmgiap09lt,,,,,,,,,,Done
+GRSD-207,11594,TR13254--Add RNA seq data to the Gene Expression Tissue Summary Page,,,,,,,,,,To Do
+GRSD-159,11546,TR13121/Update MTB name in MGI footer to MMHCdb/Part 2,,,,,,,,,,Done
+GRSD-158,11545,TR13121/Update MTB name in MGI footer to MMHCdb,,,,,,,,,,Done
+GRSD-154,11541,TR13129/HCOP link not working,,,,,,,,,,Done
+GRSD-153,11540,TR13052/change in linkout to PRO,,,,,,,,,,Done
+GRSD-151,11538,TR13051: Finish cleanup of PMIDs associated with >1 Experiment,,,,,,,,,,Done
+GRSD-147,11534,TR13139/PWI: lit triage p-wi download all broken,,,,,,,,,,Done
+GRSD-136,11523,TR13123/fix species name errors for expressed components,,,,,,,,,,Done
+GRSD-135,11522,TR13128: Variant Module - UserID and Date search issue,,,,,,,,,,Done
+GRSD-134,11521,TR13126: Variant Module - Allele Detail Link redirect,,,,,,,,,,Done
+GRSD-133,11520,TR13125: Variant Module - Delete Coordinates,,,,,,,,,,Done
+GRSD-117,11504,TR13133/Modify cM Position in PWI marker module,,,,,,,,,,Done
+GRSD-115,11485,E10: API/Basic Reference entity/translator/search,,,,,,,,,,Done
+GRSD-113,11483,TR13113/count off on recently revised QC report,,,,,,,,,,Done
+GRSD-111,11481,TR13098/Add recombinase to GXD Index Report,,,,,,,,,,Done
+GRSD-110,11480,TR13074/retention of old xrefs dropped from DO in MGI,,,,,,,,,,Done
+GRSD-109,11476,SUPPORT: TR13120/MGI stats page has reverted to wrong data again,,,,,,,,,,Done
+GRSD-105,11472,TR13085/Ensembl 96,,,,,,,,,,Done
+GRSD-102,11469,TR13116/HT experiment load: strip out duplicate PubMed ids,,,,,,,,,,Done
+GRSD-99,11466,TR13051/HT index: PubMed cleanup,,,,,,,,,,Done
+GRSD-97,11464,TR13109/update standardized specimen note text,,,,,,,,,,Done
+GRSD-95,11462,TR13112/littriageload/autosequence/bib_workflow_tag,,,,,,,,,,Done
+GRSD-94,11461,TR13111/entrezgeneload/new MRK_Marker schema,,,,,,,,,,Done
+GRSD-86,11453,SUPPORT: Batch PDF Download of ZIP files not working (TR13110),,,,,,,,,,Done
+GRSD-83,11450,SUPPORT: Variant PWI Module - HGVS Field Issue (TR13107),,,,,,,,,,Done
+GRSD-82,11449,SUPPORT: TeleUSE/EI/Annotation AutoSequence Issue (TR13108),,,,,,,,,,Done
+GRSD-81,11448,SUPPORT: Give error page to impolite users (TR13104),,,,,,,,,,Done
+GRSD-80,11447,SUPPORT: Vulnerability Remediation - Secure reflected cross-site scripting (XSS) vulnerabilities (TR13106),,,,,,,,,,Done
+GRSD-79,11446,SUPPORT: Vulnerability Remediation - Secure stacktrace errors (TR13105),,,,,,,,,,Done
+GRSD-78,11445,SUPPORT: Vulnerability Remediation - Secure feedback form (TR13103),,,,,,,,,,Done
+GRSD-77,11444,SUPPORT: Vulnerability Remediation - Secure GO browser search (TR13102),,,,,,,,,,Done
+GRSD-76,11443,SUPPORT: Vulnerability Remediation - Secure accession URL handling (TR13101),,,,,,,,,,Done
+GRSD-75,11442,SUPPORT: Vulnerability Remediation - Secure Deltagen/Lexicon header CGI (TR13100),,,,,,,,,,Done
+GRSD-74,11441,SUPPORT: Vulnerability Remediation - Secure file upload for batch query (TR13099),,,,,,,,,,Done
+GRSD-68,11435,E2: Agemin/Agemax - GXD HT Index/Add Trigger,,,,,,,,,,Done
+GRSD-60,11426,E10: Modify copyright to automatically include DOI ids (TR13095),,,,,,,,,,Done
+GRSD-59,11425,Add HT Samples to EMAPA QC check (TR13089),,,,,,,,,,Done
+GRSD-52,11418,Update links to GenePaint (TR13048),,,,,,,,,,Done
+GRSD-50,11416,Add MouseMine button to GO term annotation page (TR11842),,,,,,,,,,Done
+GRSD-48,11414,Sequence detail changes for non-mouse markers (TR12581),,,,,,,,,,Done
+GRSD-47,11413,E1: HT index: load PubMed ids into database (TR13051),,,,,,,,,,Done
+GRSD-42,11408,E1: Pulldown menu popup text not displaying (TR13094),,,,,,,,,,Done
+GRSD-41,11407,E1: HT Index - revisions to menu bar (TR13093),,,,,,,,,,Done
+GRSD-40,11406,E10: API/Basic Image entity/translator/search,,,,,,,,,,Done
+GRSD-17,11380,Feindexer fails for certain GXD index counts (TR13064),,,,,,,,,,Done
+GRSD-16,11379,Links for some GO slimgrid cells are broken (TR13042),,,,,,,,,,Done
+GRSD-15,11378,Change column header on strain summary (TR13020),,,,,,,,,,Done
+GRSD-14,11377,Link to strain detail by Jax ID (TR12995),,,,,,,,,,Done
+GRSD-13,11376,Fix age searching on GXD Index QF (TR12993),,,,,,,,,,Done
+GRSD-12,11375,Fix links to HGNC (TR12990),,,,,,,,,,Done
+GRSD-11,11374,Improve display of long strain names (TR12983),,,,,,,,,,Done
+GRSD-10,11373,Optimize marker_interaction gatherer (TR12948),,,,,,,,,,Done
+GRSD-9,11372,Add GA tracking to vocab browsers (TR12895),,,,,,,,,,Done
+GRSD-8,11371,Retire EGUL (TR12473),,,,,,,,,,Done
+GRSD-7,11370,Remove modification date from GXD assay page (TR11813),,,,,,,,,,Done
+GRSD-6,11369,E1: HT Index - rename QF and summary (TR13076),,,,,,,,,,Done
+GRSD-5,11368,E1: HT Index - change linkout icon and include in link (TR13070),,,,,,,,,,Done
+GRSD-4,11367,E1: HT Index - allow searching by experiment ID (TR13056),,,,,,,,,,Done
+GRSD-3,11366,E1: HT Index - allow searching by strain (TR13039),,,,,,,,,,Done
+GRSD-2,11365,E1: HT Index - add filtering by Experimental Variable and Study Type (TR13038),,,,,,,,,,Done
+GRSD-1,11364,E1: HT Index - show PubMed IDs  (TR12947),,,,,,,,,,Done
+GMC-283,10547,TR12836: LTLO: Eutils/LitTriage load / incorrect DOID returned(sto290),,,,,,,,,,Done
+GMC-282,10546,TR12835: MRK MCV cache failure(sto288),,,,,,,,,,Done
+GMC-279,10543,TR12806: Update TAL and DAL note templates(sto284),,,,,,,,,,Done
+GMC-278,10542,TR12812: references associated with phenotype images(sto283),,,,,,,,,,Done
+GMC-277,10541,TR12827: PRO input file change: PRO_mgi.txt(sto282),,,,,,,,,,Done
+GMC-276,10540,TR12586: Incorrect marker counts per reference(sto281),,,,,,,,,,Done
+GMC-275,10539,TR12822: pm2geneload: duplicate issue(sto280),,,,,,,,,,Done
+GMC-274,10538,TR12602: GOA mouse load - Uniprot ID to PR(sto279),,,,,,,,,,Done
+GMC-273,10537,TR12063: FEmover Improvement(sto278),,,,,,,,,,Done
+GMC-272,10536,TR12817: New file for TAL load (sto277),,,,,,,,,,Done
+GMC-271,10535,TR12735: GXD summary filter bug(sto276),,,,,,,,,,Done
+GMC-270,10534,TR12601: Superscript bug on Mapping Detail(sto275),,,,,,,,,,Done
+GMC-269,10533,TR12595: Remove wksilvers dependency on prod db(sto274),,,,,,,,,,Done
+GMC-268,10532,TR12596(part 2): Setup weekly archive of stats from public fewi(sto273),,,,,,,,,,Done
+GMC-267,10531,TR12596: Extract statistics from prod db(sto272),,,,,,,,,,Done
+GMC-266,10530,TR12594: Update webshare to not use mgd database(sto271),,,,,,,,,,Done
+GMC-265,10529,TR12647: Stop superscripting probe notes(sto270),,,,,,,,,,Done
+GMC-264,10528,TR12813: Assay EI: age range column - copy by tabbing(sto269),,,,,,,,,,Done
+GMC-263,10527,TR12332: Load IMSR strains to MGI (for those not already in)(sto268),,,,,,,,,,Done
+GMC-260,10524,TR12809: LTLO: Level 2 Sanity check/ add traceback (sto265),,,,,,,,,,Done
+GMC-259,10523,TR12807: GO QC 5 issue(sto264),,,,,,,,,,Done
+GMC-258,10522,TR12796: Matrix popups fail for large batch searches(sto263),,,,,,,,,,Done
+GMC-257,10521,TR12661: Recombinase summary sort bug(sto262),,,,,,,,,,Done
+GMC-253,10517,TR11678: part 1 - New nomen link for KOMP/EUCOMM allele info(sto257),,,,,,,,,,Done
+GMC-252,10516,TR12801: PRO terms missing from GPI file(sto256),,,,,,,,,,Done
+GMC-249,10513,TR12772: NCBI's MapViewer no longer supported(sto253),,,,,,,,,,Done
+GMC-248,10512,TR12786: Updates to use API key for NCBI access(sto252),,,,,,,,,,Done
+GMC-247,10511,TR12800: TeleUSE EI/Organism/sequence number bug(sto251),,,,,,,,,,Done
+GMC-241,10505,TR12787: LTLO: DOI extraction issue - J Dent Res(sto245),,,,,,,,,,Done
+GMC-240,10504,TR12785: GAF/Gpads should not have aspect 0 annotations(sto244),,,,,,,,,,Done
+GMC-238,10502,TR12797: Rename Title of QC report #17.6(sto242),,,,,,,,,,Done
+GMC-237,10501,TR12779: Recombinase Reporter check(sto241),,,,,,,,,,Done
+GMC-236,10500,TR12778: QC - ensuring correct gene for cre portal assays(sto240),,,,,,,,,,Done
+GMC-235,10483,TR12768: Change column 15 in GAF for 2 loads(sto239),,,,,,,,,,Done
+GMC-231,10479,TR12758: Mass conversion of evidence codes(sto235),,,,,,,,,,Done
+GMC-230,10478,TR12794: GXD matrix view doesn't match GXD data(sto234),,,,,,,,,,Done
+GMC-228,10476,TR12789: potential GO references in GO EI(sto232),,,,,,,,,,Done
+GMC-224,10472,TR12773: Redundancy in GeneModel QC report(sto229),,,,,,,,,,Done
+GMC-223,10471,TR12790: Issue with fearload QC script(sto227),,,,,,,,,,Done
+GMC-216,10464,TR12760: LTLO: pubmed2gene only if paper is MGI relevant(sto219),,,,,,,,,,Done
+GMC-215,10463,TR12777: LTLO: Supplemental data custom report(sto218),,,,,,,,,,Done
+GMC-214,10462,TR12776: Emsembl 91 (sto217),,,,,,,,,,Done
+GMC-207,10455,TR12659: GXD Matrix view Bugs(sto210),,,,,,,,,,Done
+GMC-170,10418,TR12701 (part 2): PWI (sto173),,,,,,,,,,Done
+GMC-165,10413,TR12623 - Sorting of GO annotations in Fewi(sto167),,,,,,,,,,Done
+GMC-164,10412,TR12701 - Bulk download from pdfviewer(sto166),,,,,,,,,,Done
+GMC-132,10380,TR12672- QC: Reference with full-coded workflow status with no GO annotations(sto119),,,,,,,,,,Done
+GMC-131,10379,TR12544- Removing carriage returns from standardized notes(sto134),,,,,,,,,,Done
+GMC-124,10372,TR12599- Add dos2unix conversion to all curator driven loads(sto127),,,,,,,,,,Done
+GMC-123,10371,TR12748- Add new evidence codes to GO Classifications page(sto126),,,,,,,,,,Done
+GMC-122,10370,"TR12746- GXD FE: links to ZFIN, Modification of load(sto125)",,,,,,,,,,Done
+GMC-121,10369,TR12589: DMDD No Abnormal Phenotype(sto124),,,,,,,,,,To Do
+GMC-120,10368,TR12697- Uniprot override_marker_discrepancy QC report(sto123),,,,,,,,,,Done
+GMC-119,10367,TR12578- Delete Sequences with null IDs displaying on Public(sto122),,,,,,,,,,Done
+GMC-118,10366,TR12756-LTLO: Change Level 3.1 error handling(DB-Dupes)(sto121),,,,,,,,,,Done
+GMC-117,10365,TR12747-LTLO: Exclude publication types(sto120),,,,,,,,,,Done
+GMC-116,10364,TR12749- Journals in the MasterBib reported by curatorial group(sto118),,,,,,,,,,Done
+GMC-112,10360,TR12677- Defunct URL for MMR in notes(sto114),,,,,,,,,,Done
+GMC-110,10358,TR12753- HTMPload fixes(sto112),,,,,,,,,,Done
+GMC-109,10357,TR12717: LTLO: GXD secondary screening part 1 (sto111),,,,,,,,,,Done
+GMC-108,10356,TR12708: LTLO: supplemental cleanup(sto109),,,,,,,,,,Done
+GMC-107,10355,TR12739: LTLO: Sci Transl Med journal DOI issue(sto108),,,,,,,,,,Done
+GMC-106,10354,Spike(1 hr): TR12717: LTLO refind GXD secondary(sto107),,,,,,,,,,Done
+GMC-105,10353,Spike(1 hr): TR12708: LTLO supplemental journals(sto106),,,,,,,,,,Done
+GMC-104,10352,TR12727-LTLO:: Proc Natl Acad Sci(PNAS) DOI issue(sto105),,,,,,,,,,Done
+GMC-103,10351,TR12743: Remove trailing whitespace after J# in PWI Lit Triage(sto104),,,,,,,,,,Done
+GMC-102,10350,TR12744: Fix acc ID deletion in PWI's API(sto103),,,,,,,,,,Done
+GMC-82,10330,TR12745- LTLO: littriageload: titles contain pipes(sto83),,,,,,,,,,Done
+GMC-78,10326,TR12705- LTLO: refresh info from NLM(sto78),,,,,,,,,,Done
+GMC-77,10325,TR12682- Ensuring GXD indexed papers actually are indexed(sto77),,,,,,,,,,Done
+GMC-76,10324,TR12737- Remove Plos Pathog from Plos PDF downloader(sto76),,,,,,,,,,Done
+GMC-75,10323,TR12731 - QC remove/delete column from GXD Triage report(sto75),,,,,,,,,,Done
+GMC-74,10322,TR12729- Custom Report - Lit Triage secondary-triage-Tumor(sto74),,,,,,,,,,Done
+GMC-73,10321,TR12736 - Femover optimization re:SNPs(sto73),,,,,,,,,,Done
+GMC-72,10320,TR12741 - EGload failure(sto72),,,,,,,,,,Done
+GMC-71,10319,TR12730 - Revise QTL QCR #17.6 (sequence Group)(sto71),,,,,,,,,,Done
+GMC-70,10318,TR12714 - Updating an old expression SQL query(sto70),,,,,,,,,,Done
+GMC-60,10308,TR12676 - EI/TeleUSE/BIB_DataSet obsolete(sto59),,,,,,,,,,Done
+GMC-52,10294,TR12732: Lit Triage load: littriage_update_pdf bug(sto55),,,,,,,,,,Done
+GMC-47,10289,Automatic Retires for Save of Lit Triage WI(sto50),,,,,,,,,,Done
+GMC-45,10287,"TR12663 -Modify Pheno Images.rpt - Tag sensitive, make PWI on demand(sto48)",,,,,,,,,,To Do
+GMC-44,10286,TR12681 - Move PloS error log to QC report page(sto47),,,,,,,,,,Done
+GMC-43,10285,TR12622 - Revise QC for GO curation(sto46),,,,,,,,,,To Do
+GMC-42,10284,TR12678 -GO QC Reports - more changes for Lit Triage(sto45),,,,,,,,,,Done
+GMC-40,10282,MGI_Relationship Triggers -sto43,,,,,,,,,,Done
+GMC-32,10274,TR12667: Nomen load of Tssr markers,,,,,,,,,,Done
+GMC-31,10273,TR12728: Add automatic retry in Java API(sto39),,,,,,,,,,Done
+GMC-25,10267,EPIC 1: FEwi link from EMAPA tree view to phenotype report(sto32),,,,,,,,,,Done
+GMC-20,10262,TR12690: virtualenv update doc_root product(sto27),,,,,,,,,,Done
+GMC-19,10261,TR12542: Refactor vocabulary gatherer in femover,,,,,,,,,,Done
+GMC-18,10260,TR12712: Lit Triage Load: abstract (|),,,,,,,,,,Done
+GMC-17,10259,TR12693: Jfilescanner: obsolete/update products(sto24),,,,,,,,,,Done
+GF-378,11020,"TR 12958 litttriage ""discard"" load",,,,,,,,,,Done
+GF-373,11015,TR12960/GXD assay module: add structures to EMAPA clipboard broken,,,,,,,,,,Done
+GF-368,11010,SNP summary - treat ? like an allele call,,,,,,,,,,Done
+GF-365,11007,TR12875/PWI MP browser - display definitions and comments,,,,,,,,,,SME approval
+GF-364,11006,TR12719/pWI: filter out unneeded references from reference summary,,,,,,,,,,Done
+GF-363,11005,TR12905/pWI: adding assay notes to assay summary,,,,,,,,,,Done
+GF-362,11004,TR12917/change in file location for PAINT annotations,,,,,,,,,,In Progress
+GF-361,11003,TR 12798 - analysis for new source of human gene coords,,,,,,,,,,To Do
+GF-360,11002,TR12955/Change in URL for GO load,,,,,,,,,,Done
+GF-359,11001,TR12115 (load CRISPR alleles) Migrate Strain colony notes to Allele colony notes,,,,,,,,,,Done
+GF-358,11000,TR12953/ Report of new and revised MP-EMAPA mappings,,,,,,,,,,Done
+GF-356,10998,Troubleshoot bhmgiapp14ld bus error with IT,,,,,,,,,,Done
+GF-355,10997,TR12954/add copyright for eNeuro,,,,,,,,,,Done
+GF-352,10994,TR12941 - Fix missing Strand for markers with MGI-derived coordinates,,,,,,,,,,To Do
+GF-342,10984,Merge Backend Products to Trunk,,,,,,,,,,Done
+GF-341,10983,TR12939 - Create new GXD_HTSample reports to be run from PWI,,,,,,,,,,Done
+GF-340,10982,TR12904/pWI: adding results notes to results summary,,,,,,,,,,PO approval
+GF-338,10980,TR12943/Regularly updated and downloadable file of MP-EMAPA mappings,,,,,,,,,,Done
+GF-337,10979,TR12946/Modify allele report 22,,,,,,,,,,Done
+GF-336,10978,TR12930/modify Strains - JAX QC reports 1 and 6,,,,,,,,,,Done
+GF-335,10977,TR12044 - HGNC Homology Load Changes,,,,,,,,,,Done
+GF-334,10976,TR12940 retire HTNoMasterBib QC report/ modify other,,,,,,,,,,Done
+GF-323,10965,TR12929/LTLO: archive input longer & error log,,,,,,,,,,Done
+GF-322,10964,Additional Google analytics tracking,,,,,,,,,,Done
+GF-320,10962,TR12927/FATAL_ERROR by cre Allele Driver Gene table,,,,,,,,,,Done
+GF-318,10960,TR11854/Strains EI: change #4 - show column for allele of origin,,,,,,,,,,Done
+GF-314,10956,TR12902/QC: issues with TS27 annotations,,,,,,,,,,Done
+GF-313,10955,TR12918/ Change in PAINT pipeline,,,,,,,,,,Done
+GF-312,10954,TR12909 add marker name to public report,,,,,,,,,,Done
+GF-311,10953,TR12850 - Replacement reports for Strain QC report #5,,,,,,,,,,Done
+GF-310,10952,TR12922/add strains to references via Masterbib EI ,,,,,,,,,,Done
+GF-306,10948,TR 12910 - change output of gpad qualifiers,,,,,,,,,,Done
+GF-305,10947,TR 12924 - reference with two preferred J#s,,,,,,,,,,Done
+GF-303,10945,TR12908/STS markers from Tom Sproule 063018,,,,,,,,,,Done
+GF-302,10944,TR12901 - new QC report for incorrect conditional flag,,,,,,,,,,Done
+GF-289,10931,TR12911/Add new Logical DB/Add to EI/Strain module,,,,,,,,,,Done
+GF-288,10930,TR12900/GXD load: Allen developing brain paper/Add Probe/References,,,,,,,,,,Done
+GF-287,10929,TR12844/LTLO:Duplicate loading pdfs,,,,,,,,,,Done
+GF-275,10917,TR 12906 - report w/ nomen and molecular notes,,,,,,,,,,Done
+GF-263,10905,TR12900/GXD: Allen developing brain paper,,,,,,,,,,Done
+GF-252,10894,TR12477/Change FEMover to use the new SLIMterm model,,,,,,,,,,Done
+GF-250,10892,TR12897/add GO provider from GOA,,,,,,,,,,Done
+GF-245,10887,TR12172/12477 : get slimtermload into production,,,,,,,,,,Done
+GF-240,10882,TR12860 : reference (solr) indexer refactoring,,,,,,,,,,Done
+GF-239,10881,"TR12847, TR12848 : GXD differential QF changes",,,,,,,,,,Done
+GF-236,10878,TR12898 Duplicates in SEQ_Marker_Cache,,,,,,,,,,Done
+GF-232,10874,TR12892/remove reporters from expresses_component,,,,,,,,,,Done
+GF-229,10871,TR12350/bad linkouts from Gene Ontology Classifications page,,,,,,,,,,Done
+GF-228,10870,TR12894/Allele progress report disease count bug,,,,,,,,,,Done
+GF-226,10868,TR12887/creation of Allen Institute riboprobes,,,,,,,,,,Done
+GF-225,10867,Decide requirements for TR 12828 - roll up to alleles,,,,,,,,,,To Do
+GF-221,10863,TR 12828 - Roll up MP and DO annotations to alleles,,,,,,,,,,To Do
+GF-202,10844,TR 12115 - Load crispr alleles from IMPC - QC Only,,,,,,,,,,Done
+GF-197,10839,TR12874/ custom SQL MP-GO-Uberon alignment,,,,,,,,,,Done
+GF-196,10838,TR12871/LTLO: Erratum/corrections/retractions,,,,,,,,,,To Do
+GF-195,10837,TR12844/LTLO:Duplicate loading pdfs,,,,,,,,,,Done
+GF-193,10835,TR12876/new strain repository logicaldb,,,,,,,,,,Done
+GF-191,10833,TR12886/Test Load of DMDD MP for CRISPR Alleles,,,,,,,,,,Done
+GF-190,10832,TR12885/xiangying jiang/GXD PDFs for 2007-2017,,,,,,,,,,Done
+GF-186,10828,"TR12881/Reference citation info with the text ""None"" for volume, issue, and pages",,,,,,,,,,Done
+GF-181,10823,TR12880 EMBOSS RefSeq build issues,,,,,,,,,,Done
+GF-170,10812,TR12878/MCV load not successful,,,,,,,,,,Done
+GF-159,10801,"TR12761 - LTLO: bulk status setting of papers
+",,,,,,,,,,To Do
+GF-152,10794,"TR12596/Remove relevant tables, triggers, data, etc., from the production database as described",,,,,,,,,,Done
+GF-149,10791,TR12829/LTLO: Populate DOI for peer reviewed articles,,,,,,,,,,Done
+GF-147,10789,TR12692  duplicate marker assoc to Q9TUD6 created by the entrezgene load,,,,,,,,,,Done
+GF-145,10787,TR11975/Load GO yaml file of possible providers in gaf file,,,,,,,,,,Done
+GF-135,10777,TR12869/Gm49365 and Dpep2nb,,,,,,,,,,Done
+GF-134,10776,TR12811: Add reference column to pub Pheno report 14.Genotypes with Sex-specific Phenotypes,,,,,,,,,,Done
+GF-133,10775,TR12862 - Recombinase Driver check QC report,,,,,,,,,,Done
+GF-123,10765,TR12873/EI: age range column - make copy by tabbing more age aware,,,,,,,,,,Done
+GF-120,10762,TR12868/Fix links from Noctua loads,,,,,,,,,,Done
+GF-119,10761,TR12856/increase marker symbol field length in EI,,,,,,,,,,Done
+GF-118,10760,TR12850/new exclusions for Strains QC report 5,,,,,,,,,,To Do
+GF-117,10759,TR12838/references associated with molecular images,,,,,,,,,,Done
+GF-116,10758,TR10973/Reciprocal links from MGI to QTL Archive,,,,,,,,,,Done
+GF-114,10756,TR 12870 - Wireframe for GXD homepage redesign,,,,,,,,,,Done
+GF-113,10755,TR 12823 - better google analytics tracking of GXD tab changes,,,,,,,,,,Done
+GF-109,10751,TR12867 - public report of MP-EMAPA mappings,,,,,,,,,,Done
+GF-108,10750,TR 12859 - Ensembl 92 load,,,,,,,,,,Done
+GF-107,10749,TR12866/gxdhtmload : BIB_Dataset_Assoc removed,,,,,,,,,,Done
+GF-106,10748,TR12863/can't add additional allele records to reference,,,,,,,,,,Done
+GF-95,10737,TSS Jbrowse tracks,,,,,,,,,,Done
+GF-85,10727,TR12858/Revise QTL QCR #17.2 ( Sequence Group),,,,,,,,,,Done
+GF-84,10726,TR 11123 - stats for Cre progress report,,,,,,,,,,Done
+GF-83,10725,TR 12852 - custom sql for Laura Reinholdt,,,,,,,,,,Done
+GF-80,10722,TR12861 - pull GXD wild-type expression tweak to master & release,,,,,,,,,,Done
+GF-69,10711,TR12851: lit triage metrics,,,,,,,,,,Done
+GF-55,10606,TR12849: Regression test slim grids on marker detail,,,,,,,,,,Done
+GF-27,10575,TR12834: New GO qualifiers for Noctua-generated and existing annotations,,,,,,,,,,Done
+GF-26,10574,TR12332: Load IMSR strains to MGI,,,,,,,,,,Done
+GF-25,10573,TR12829: LTLO: Populate DOI for peer reviewed articles,,,,,,,,,,Done
+GF-24,10572,TR12846: Exp/CRE grid: inability to drill down to structures annotated as absent,,,,,,,,,,Done
+GF-23,10571,TR12840: Batch Query upload function doesn't function,,,,,,,,,,Done
+GF-22,10570,TR12826: LTLO: Change sort of references in mgd_java_api,,,,,,,,,,Done
+GF-21,10569,TR12816: HMDC: Add phenogrid link to Genocluster page,,,,,,,,,,Done
+GF-20,10568,TR12815: HMDC: Fix FEdatamodel bug,,,,,,,,,,Done
+GF-19,10567,TR12788: LTLO: Download of PDFs without J#,,,,,,,,,,Done
+GF-18,10566,TR12644: HT Indexing module: re-implement refresh structure clipboard shortcut,,,,,,,,,,Done
+GF-17,10565,TR12634: Search function on HPO and other vocab browsers,,,,,,,,,,Done
+GF-16,10564,TR12591: Search for OMIM gene IDs prefix bug,,,,,,,,,,Done
+GF-15,10563,TR12587: Display issue with Cre portal and Firefox,,,,,,,,,,Done
+GF-14,10562,TR12451: Cre Portal anatomy autocomplete bugs,,,,,,,,,,Done
+GF-13,10561,TR12319: Replace incidential mutation spreadsheets with APF link,,,,,,,,,,Done
+GF-12,10560,TR11993: All allele count bug and display of not applicable attribute,,,,,,,,,,Done
+GF-11,10559,TR11990: Improve VocabSorter library in FEmover,,,,,,,,,,Done
+GF-10,10558,TR11939: Add 'single point mutation' to Allele QF,,,,,,,,,,Done
+GF-9,10557,TR12845: Make accession gatherer idempotent,,,,,,,,,,Done
+DADT-332,11403,TR13091: htmpload postMP processing issue,,,,,,,,,,Done
+DADT-328,11362,TR13087 - customSQL,,,,,,,,,,Done
+DADT-322,11356,TR13081/backend/retire DMDD mirror/load,,,,,,,,,,Done
+DADT-321,11355,TR13075 QC report - OMIM terms xref'ed to multiple DO terms,,,,,,,,,,Done
+DADT-319,11353,Front-end Support TRs,,,,,,,,,,In Progress
+DADT-318,11352,Merge Products to Trunk,,,,,,,,,,Done
+DADT-316,11348,TR12891/home page GO statistics,,,,,,,,,,Done
+DADT-315,11347,TR12347/Extend relationships between markers to include QTL,,,,,,,,,,To Do
+DADT-312,11344,TR12515/Change copyright statement,,,,,,,,,,Done
+DADT-311,11343,TR13052/change in linkout to PRO,,,,,,,,,,To Do
+DADT-308,11340,TR12945 NCBI Discontinuing EST and GSS Databases,,,,,,,,,,Done
+DADT-306,11338,TR13037/ roll up error in the HMD_HumanPhenotype.rpt,,,,,,,,,,Done
+DADT-302,11334,TR13065 EMBOSS failed building RefSeq,,,,,,,,,,Done
+DADT-300,11332,TR13013/change HT index count to cumulative instead of year entered,,,,,,,,,,Done
+DADT-299,11331,TR13040 - public reports incorrect link to gff3 file,,,,,,,,,,Done
+DADT-298,11330,TR12998/HT index load: experiment type translation error,,,,,,,,,,Done
+DADT-297,11329,TR13058/change in users for GOA load,,,,,,,,,,To Do
+DADT-295,11326,TR13051/HT index: experiment notes report,,,,,,,,,,Done
+DADT-294,11325,TR13033/Attributes in allele nomen notes,,,,,,,,,,Done
+DADT-283,11312,TR13054 Update OMIM/HPO annotation load (new file),,,,,,,,,,Done
+DADT-282,11311,TR13009/htmpload/causing delete private data issue,,,,,,,,,,Done
+DADT-280,11309,TR13053/add GPT as new IMSR repository,,,,,,,,,,Done
+DADT-279,11308,TR13043/LTLO: Reviews are underlabeled in the database,,,,,,,,,,Done
+DADT-277,11306,TR13046/LTLO: adjustment to supplemental data report,,,,,,,,,,Done
+DADT-276,11305,TR13049/Change Noctua_SynGO attribution in our gpad and gaf,,,,,,,,,,Done
+DADT-264,11290,tr13005: New OMERO/NDP Report,,,,,,,,,,Done
+DADT-260,11285,TR12977 GXD customSQL,,,,,,,,,,Done
+DADT-259,11284,SUPPORT TR12986 PWI report for GXD,,,,,,,,,,Done
+DADT-258,11283,TR12763/Literature triage: eliminating reference section from searches,,,,,,,,,,Done
+DADT-257,11282,SUPPORT TR13041 GXD customSQL,,,,,,,,,,Done
+DADT-256,11281,"SUPPORT TR13034, report modification for Connie",,,,,,,,,,Done
+DADT-255,11279,Support: TR13012 EMBOSS Issue,,,,,,,,,,Done
+DADT-252,11276, TR13040: Incorrect link on downloads page,,,,,,,,,,To Do
+DADT-248,11272,TR13035/Change PAINT annotation output to our gaf/GPAD,,,,,,,,,,Done
+DADT-247,11269,TR12953/Report of new and revised MP-EMAPA mappings,,,,,,,,,,Done
+DADT-243,11265,TR13026/Remove obsolete reports from load index pages,,,,,,,,,,Done
+DADT-236,11255,TR12968/Image Permissions QC report - minor change,,,,,,,,,,Done
+DADT-234,11253,TR13031/Lit Triage: AP relevant in Discards,,,,,,,,,,Done
+DADT-225,11244,TR13030/Put generation date in ALL GO QC reports,,,,,,,,,,Done
+DADT-223,11242,TR13027/Ensembl 95,,,,,,,,,,Done
+DADT-222,11241,TR13029/new file location for FCP (aka GOC) load,,,,,,,,,,Done
+DADT-221,11240,TR13022/Custom reports for batch screening funneling all reviews to Tumor,,,,,,,,,,Done
+DADT-220,11239,TR13023/ P-WI not showing GXD summaries in a consistent manner,,,,,,,,,,Done
+DADT-218,11237,API: Update acc/ AccessionService and MGITypeService to use translator/clear paradigm,,,,,,,,,,Done
+DADT-216,11235,Remove MouseCyc links from the fewi TR13017,,,,,,,,,,Done
+DADT-215,11234,TR13011/Change in where we get Noctua files,,,,,,,,,,Done
+DADT-214,11233,TR12969/LTLO: nlm refresh error log issue,,,,,,,,,,Done
+DADT-209,11228,tr13005: NDP-OMERO Report,,,,,,,,,,Done
+DADT-204,11223,TR13010/Update GPAD qualifiers for GO BP annotations from InterPro,,,,,,,,,,Done
+DADT-203,11222,TR13017/retire mousecyc/backend,,,,,,,,,,Done
+DADT-200,11219,TR12989/Ensembl 94/EMBOSS,,,,,,,,,,Done
+DADT-199,11218,API: Knowledge transfer,,,,,,,,,,Done
+DADT-195,11214,UI: Show/edit transcript sequence info,,,,,,,,,,Done
+DADT-192,11211,TR12976/block PAINT annotations from GOA mouse load,,,,,,,,,,Done
+DADT-166,11185,TR12982/new PWI custom report - pubs in/not in MGI,,,,,,,,,,Done
+DADT-162,11181,TR12975/can't add >1 strain in MasterBib EI,,,,,,,,,,Done
+DADT-161,11180,TR12979/Cannot enter marker without allele in Strain Module,,,,,,,,,,Done
+DADT-158,11177,TR12980/Envigo logical DB absent from strain alt id table,,,,,,,,,,Done
+DADT-157,11176,TR12978/MasterBib - default reference type for strains,,,,,,,,,,Done
+DADT-156,11175,TR12989/Ensembl 94,,,,,,,,,,Done
+DADT-147,11166,API/Fix Lit Triage acc bug,,,,,,,,,,Done
+DADT-141,11160,TR12904/12355 pwi/GXD Expression,,,,,,,,,,Done
+DADT-103,11122,TR12994 - Debug issue with IMPC htmpload,,,,,,,,,,Done
+DADT-99,11118,TR12991 (part 2) - limit associations for 'Other feature type' markers,,,,,,,,,,To Do
+DADT-98,11117,TR12991 (part 1) - SNPs returned for QTL (should not be),,,,,,,,,,To Do
+DADT-75,11094,Knowledge Transfer,,,,,,,,,,Done
+DADT-70,11089,TR12988/ Alleles lost markers prob. related to alomrkload,,,,,,,,,,Done
+DADT-68,11087,TR12950/Ensembl 93/EMBOSS,,,,,,,,,,Done
+DADT-50,11069,TR12950/ENSEMBL 93,,,,,,,,,,Done
+DADT-36,11055,"TR 12115 - Load Implementation for IMPC crispr alleles
+",,,,,,,,,,Done
+DADT-32,11052,TR13001/Update HMDC HPO links,,,,,,,,,,Done
+DADT-31,11051,TR12355/ pWI: reporting strength of expression in results summary,,,,,,,,,,Done
+DADT-30,11050,TR12904/ pWI: adding results notes to results summary,,,,,,,,,,Done
+DADT-29,11049,TR12958/ Load backpopulated mgi discard PDFs,,,,,,,,,,Done
+B39-458,13534,Batch Rename (TR13233),,,,,,,,,WTS2-480,SME approval
+B39-457,13531,New QC report: Duplicate disease annotations (TR13264),,,,,,,,WTS2-497,,PO approval
+B39-455,13528,retire mirroring of genbank and refseq release files  (TR13484),,,,,,,,,,In Progress
+B39-451,13207,TR13463/changes to GO QC 3,,,,,,,,,,In Progress
+B39-449,13204,TR13442/Allele Module Extinct selection bug,,,,,,,,,,Done
+B39-448,13203,TR13441/Allele deletion despite strain association,,,,,,,,,,Done
+B39-443,13198,TR13307/Adding PMIDS from Noctua load into MGI,,,,,,,,,,Done
+B39-442,13197,TR13491/Add Sanity Check for Withdrawn Markers to MGI/GPI,,,,,,,,,,Done
+B39-441,13196,"TR13460/Add ""RHEA"" to GOA load providers",,,,,,,,,,Done
+B39-440,13195,TR13486/goload/GO_Central/skip withdrawn marker,,,,,,,,,,Done
+B39-439,13194,TR13489/Include additional properties in comments in MGI GO-CAM import file,,,,,,,,,,Done
+B39-438,13193,TR13487/Fix header on non-mouse annotation file,,,,,,,,,,Done
+B39-437,13192,TR13340 - Mouse dbSNP links no longer supported,,,,,,,,,,To Do
+B39-435,13190,TR13490 - Annotations are being incorrectly filtered from the Noctua load,,,,,,,,,,Done
+B39-433,13188,Report of Gene Trap alleles with annotations that lose marker associations in B39,,,,,,,,,,Done
+B39-428,13183,"TR13485: GO qc #15 error: Allele id being read is not what is in the db
+",,,,,,,,,,Done
+B39-427,13182,TR12965: LTLO: bioRxiv articles need a QC,,,,,,,,,,Done
+B39-414,13153,TR13482: EntrezGene Load - HomoloGene Technical Debt,,,,,,,,,,Done
+B39-413,13152,WTS2: TR Import - Add links to existing Jira stories,,,,,,,,,,Done
+B39-409,13116,TR13480/move pgdbutilities/bin/cleanSpecChar.sh to pgmgddbschema,,,,,,,,,,Done
+B39-407,13114,TR13478/PWI/GO Annotation/allow display of withdrawn markers,,,,,,,,,,Done
+B39-406,13113,TR13240 - update IMPC lacZ data in GXD/J:228563 - Load images.,,,,,,,,,,Done
+B39-401,13041,"TR13474 - Lit Triage: Search by associated gene, allele, strain",,,,,,,,,,To Do
+B39-397,12997,TR13240/update IMPC lacZ data in GXD/J:228563/create genotypes,,,,,,,,,,Done
+B39-396,12996,"TR13473/unmerge MGI:5610544, Gm37316 from MGI:1925848; A930014E01Rik",,,,,,,,,,Done
+B39-394,12970,TR13472/run complexes.tsv go_propery additions for every load,,,,,,,,,,Done
+B39-393,12969,TR13471/Changes to Proper places to get GO mapping files,,,,,,,,,,Done
+B39-392,12968,Import Active TRs,,,,,,,,,,Done
+B39-390,12966,TR13240 - update IMPC lacZ data in GXD/J:228563 - Fetch and Load images.,,,,,,,,,,Done
+B39-389,12953,TR13096 - LTLO: add column sorts to lit triage query summary,,,,,,,,,,To Do
+B39-388,12952,TR13469/proisoformload/GAF2.2 changes,,,,,,,,,,Done
+B39-379,12943,QS: Exclude Transgenes from genome features bucket,,,,,,,,,,Done
+B39-377,12940,TR13469/proisoformload/GAF2.2 changes,,,,,,,,,,Done
+B39-371,12925,TR13395 - Part 1 (continued) - push GO-PWI fix to Prod,,,,,,,,,,Done
+B39-363,12917,Create vocabs for LitTriage 2ndary triage Group routing keyword lists,,,,,,,,,,Done
+B39-359,12913,Tumor Secondary Triage/add criteria,,,,,,,,,,Done
+B39-354,12887,Part II: Report/Identify Gene Trap Alleles that need to be deleted for B39,,,,,,,,,,To Do
+B39-351,12879,TR13272/goload/GAF 2.1 -> 2.2,,,,,,,,,,Done
+B39-346,12873,Part I: Identify/report gene trap alleles that need to be deleted for B39,,,,,,,,,,Done
+B39-343,12870,TR13459 - Static link for Coronavirus Human Gene Report input file,,,,,,,,,,Done
+B39-342,12869,Re-run the coordinate reports for TR13397,,,,,,,,,,Done
+B39-338,12865,Organize event sequence and load for B39 transition,,,,,,,,,,Done
+B39-337,12863,TR13459 - Coronavirus Mouse Gene Report,,,,,,,,,,Done
+B39-335,12847,Move secondary triage log data into the Lit Triage PWI,,,,,,,,,,To Do
+B39-332,12844,TR13462 - move MP github account to MGI github,,,,,,,,,,Done
+B39-330,12840,Modify Routing criteria for Tumor secondary triage,,,,,,,,,,Done
+B39-323,12828,TR13461 - Markers with multiple strain genes,,,,,,,,,,To Do
+B39-322,12827,New Lit Triage QC reports,,,,,,,,,,To Do
+B39-321,12826,TR13459 - Coronavirus Human Gene Report,,,,,,,,,,Done
+B39-319,12824,Requirements wiki for Lit Triage PWI changes with auto-relevance,,,,,,,,,,Done
+B39-317,12822,TR13423 - ltlo: NLM-refresh not updating abstract,,,,,,,,,,To Do
+B39-315,12820,Change output limit for Lit Triage Relevance reports,,,,,,,,,,Done
+B39-314,12819,TR13459 - Coronavirus Strain/Allele Report,,,,,,,,,,Done
+B39-301,12806,Change Lit Triage nlmrefreshfind routine,,,,,,,,,,Done
+B39-297,12801,TR 13458 - Add Cmsu to Logical DB + EI,,,,,,,,,,Done
+B39-293,12797,TR13455 - slow rendering of pheno ribbon links,,,,,,,,,,Done
+B39-290,12792,TR13240 - update IMPC lacZ data in GXD/J:228563 - Analysis Part 2 - adult file parsing issue,,,,,,,,,,Done
+B39-286,12788,Retire PWI custom reports for secondary triage,,,,,,,,,,Done
+B39-285,12787,TR 13457 - IMPC htmp load failure,,,,,,,,,,Done
+B39-283,12785,TR13395 - fixes to GO-PWI (part 1),,,,,,,,,,Done
+B39-269,12767,TR13444 Representative Transcript Report,,,,,,,,,,Done
+B39-262,12757,Simplify script to build training data set - sdGetRawPrimTriage.py,,,,,,,,,,Done
+B39-249,12718,Copy relevance classifier training data to bhmgidevapp01,,,,,,,,,,Done
+B39-248,12717,QS: suppress transgene markers from feature bucket,,,,,,,,,,Done
+B39-247,12715,TR13358 - Incorrect MPD strain link,,,,,,,,,,In Progress
+B39-229,12692,TR13449 - Address novel genders in the htmpload,,,,,,,,,,Done
+B39-228,12691,"CI: Install webshare, and switch to tr12500(a)",,,,,,,,,,Done
+B39-224,12684,Prepare ML primary triage  presentation,,,,,,,,,,Done
+B39-222,12674,TR13240 - update IMPC lacZ data in GXD/J:228563 - loads,,,,,,,,,,SME approval
+B39-215,12637,Planning for https transition,,,,,,,,,,Done
+B39-214,12627,TR13272/GO CalTech changes,,,,,,,,,,Done
+B39-212,12625,TR12332/IMSR strains to MGI,,,,,,,,,,Done
+B39-211,12624,TR13439 Analysis iMitS/GenTar changes,,,,,,,,,,Done
+B39-210,12623,TR13438 Analysis Changes to IMPC FTP site,,,,,,,,,,Done
+B39-208,12621,Update autolittriage training set scripts for isDiscard schema change,,,,,,,,,,To Do
+B39-199,12608,TR13240 - update IMPC lacZ data in GXD/J:228563 - First step json parsing/analysis,,,,,,,,,,Done
+B39-198,12607,TR13295 - GXD Anatomical System filter issue,,,,,,,,,,Done
+B39-197,12606,TR13378 - GXD QF: mutated gene field bug,,,,,,,,,,Done
+B39-194,12601,TR13436 Links to MGV Issues,,,,,,,,,,In Progress
+B39-193,12599,"TR13431 - PWI Marker module API should convert chromosome to upper case as EI did.
+",,,,,,,,,,Done
+B39-190,12596,TR13398 - Creative Commons license issues/GXD image/help doc,,,,,,,,,,Done
+B39-189,12595,TR13415 - ArrayExpress is moving to BioStudies - Investigation and Plan,,,,,,,,,,Done
+B39-188,12594,TR13431 - Marker missing from location cache - disrupting MouseMine Build,,,,,,,,,,Done
+B39-184,12590,TR13394 - websql exception reporting,,,,,,,,,,Done
+B39-183,12589,TR13422 - new assoc type for strains and references,,,,,,,,,,Done
+B39-182,12588,TR13427 - hide xrefs from MP browser,,,,,,,,,,Done
+B39-181,12587,TR13323 - missing strain in fewi link to MGV,,,,,,,,,,Done
+B39-180,12586,TR13416 - fix EC links in fewi,,,,,,,,,,Done
+B39-165,12570,TR13435 : lit triage load failing with 429 errors,,,,,,,,,,Done
+B39-164,12569,TR13398 - Creative Commons license issues (Part IV),,,,,,,,,,Done
+B39-163,12568,TR13398 - Creative Commons license issues (Part III),,,,,,,,,,Done
+B39-162,12567,TR13398 - Creative Commons license issues (Part II),,,,,,,,,,Done
+B39-161,12566,TR13398 - Creative Commons license issues (Part I),,,,,,,,,,Done
+B39-157,12560,TR13433 - new GO report: pm2gene Refs not in MGI,,,,,,,,,,Done
+B39-148,12551,TR13432/pwi/allele/modify,,,,,,,,,,Done
+B39-147,12550,TR13424 -  antibody module: source searching broken,,,,,,,,,,Done
+B39-146,12549,TR13430 - Modify GO QC reports to exclude tagged references,,,,,,,,,,Done
+B39-141,12544," TR13410 gene trap alleles, add missing attributes",,,,,,,,,,Done
+B39-140,12543,TR13417 Test load of DO file,,,,,,,,,,Done
+B39-139,12541,TR13418 - Missing fields in the HMD_HumanPhenotype.rpt,,,,,,,,,,Done
+B39-135,12537,TR13399 - change marker association status for alleles,,,,,,,,,,Done
+B39-120,12522,Prototype/evaluate 2ndary triage loads,,,,,,,,,,Done
+B39-116,12518,Create Flowchart doc for new Relevance/Secondary Triage process,,,,,,,,,,To Do
+B39-115,12517,Update Lit Triage wiki docs,,,,,,,,,,To Do
+B39-113,12515,TR13408/report for new tumor 2ndary triage criteria,,,,,,,,,,Done
+B39-107,12509,Secondary triage loads/Requirements/Implementation,,,,,,,,,,Done
+B39-104,12506,Generate new training/test sets & train on latest Anaconda,,,,,,,,,,Done
+B39-85,12487,QS: reduce data transfer for feature bucket,,,,,,,,,,Done
+B39-79,12481,API: mgd_java_api/mgipython/Lit Triage/isDiscard,,,,,,,,,,Done
+B39-59,12460,TR13310 - fearload properties issue for expresses component,,,,,,,,,,Done
+B39-50,12451,Reports for Sequence Group (for Remap/ePCR) - TR13397,,,,,,,,,,Done
+B39-25,12426,Genetraps - Develop plan for gene trap load testing,,,,,,,,,,Done
+B39-22,12423,TR13396 - Ensembl 101,,,,,,,,,,Done
+B39-21,12422,TR13389 - NCBI 108.20200622,,,,,,,,,,Done
+B39-19,12420,"Done: TR13366/Modification of ""Lit Triage secondary-triage : Tumor"" Custom Report",,,,,,,,,,Done
+B39-18,12419,"Done: TR12749/journals in the MasterBib reported by curatorial group
+",,,,,,,,,,Done
+B39-15,12416,"The goal is to incorporate Jim's ""MGI-Relevance"" classifier into the Lit Triage process.",,,,,,,,,,To Do
+B39-14,12415,"This gives us a mechanism to maintain and enhance MGI infrastructure independent of Support TR work. The infrastructure work for the B39 project needs to be defined, but will likely be carry-over from the I20 Project.",,,,,,,,,,To Do
+B39-11,12411,Done: TR13320/Variant Module: modify type and effect pick lists,,,,,,,,,,Done
+B39-10,12410,Done: TR13302/Variant 'not reviewed' PWI QC report,,,,,,,,,,Done
+B39-8,12409,Done: TR13189/customSQL: gel lanes that use >1 structure and are of same TS,,,,,,,,,,Done
+B39-7,12405,TR13316/modify PubMed link on littriage module,,,,,,,,,,Done
+B39-6,12404,TR13072/DO browser bug displaying Alt IDs,,,,,,,,,,Done
+B39-5,12403,TR13339/modify DO loader,,,,,,,,,,Done
+B39-3,12031,TR13165 MP singularity build job,,,,,,,,,,To Do
+B39-1,12407,TR13249: Analysis and implementation: Variant module creating duplicate variant sequences,,,,,,,,,,Done

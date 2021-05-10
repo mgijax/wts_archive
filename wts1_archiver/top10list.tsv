@@ -1,0 +1,96 @@
+TR	Priority	Who	Title	Date	TR	Note1	Area	Note2
+TR 13194	1	Bug	fantom icons on tissue x stage matrix	2019-10-21	13194		frontend	
+TR 12684	2	Bug	errant behavior of grid checkmarks on CrePortal expression grids	2017-10-30	12684		frontend	The ALL_Cre_Cache table in the production database also shows images present for the allele reported as a problem.
+TR 13249	1	Carol	Variant data duplication error	2020-02-10	13249	Jon - TR in test	backend? Pwi? Hard to say.	Looks like issue may be in PWI translation from api json to pwi json and back. See TR
+TR 13233	2	Carol	Batch Rename	2020-01-27	13233	lec/in progress	backend/loads	
+TR 13340	3	Carol	Mouse dbSNP links no longer supported	2020-06-26	13340		frontend	
+TR 13044	4	Carol	Add Synteny Browser to MGI's Tools page	2019-02-11	13044		frontend	added note to TR; can be done by User Support outside a release -- jsb
+TR 13171	5	Carol	Remove Links to UniGene	2019-08-19	13171		frontend	
+TR 13232	6	Carol	Load miRBase IDs without coordinates (C4AM)	2020-01-27	13232		backend/loads	
+TR 13176	7	Carol	Variant Module: Don't Modify if Invalid Variant Ref is entered	2019-08-26	13176		backend/pwi/	
+TR 12798	8	Carol	Need new source for human genome coordinates for human genome features	2018-02-26	12798	not sure if it's support size but we need to do the analysis	sharon - started a conversation. It is in Carol/sequence group court now	
+TR 12961	9	Carol	SNP Summary: treat ? calls as non-calls	2018-10-01	12961	1st step: evaluate how hard	frontend	
+TR 12204	10	Carol	Update MRK_Homology_Class2.rpt to include current homology data in MGI	2016-02-25	12204	report needs revision	backend	Needs some reconsideration. We cannot exclude human QTL markers by marker type. Use "QTL" in marker name? Also will need to use Alliance homology.
+TR 12625	11	Carol	cM location not being calculated from genome coordinates	2017-07-03	12625	see TR12625 notes	backend	in limbo, we don't have a new cM file
+TR 12347	12	Carol	Extend relationships between markers to include QTL	2019-01-07	12347	see TR for update	lec/jrecla	
+TR 13466	13	Carol	Make the current build number easier to see	2021-02-26	13466		frontend/fwi	
+TR 13441	1	Cindy	Allele deletion despite strain association	2020-11-20	13441	lec/ready/build 39	backend/pwi	
+TR 13422	2	Cindy	Display indexed reference association for strains	2020-10-23	13422		frontend/mover	jsb - working on this
+TR 13474	3	Cindy	Lit Triage: Search by associated gene, allele, strain		13474		backend/pwi	
+TR 13439	4	Cindy	iMITS/GenTar	2020-11-13	13439	Sharon/analysis/waiting	backend/loads	
+TR 13448	5	Cindy	allele detail page: add display of allele symbol with carets	2020-12-18	13448		backend/pwi	
+TR 13364	6	Cindy	submissions response emails converting caret to paren	2020-08-14	13364		frontend/email response	
+TR 13450	7	Cindy	Add NCBI gene ID to allele driver	2021-01-14	13450		backend/pwi	
+TR 13358	8	Cindy	Incorrect MPD strain link	2020-07-17	13358		Lori thinks frontend issue - could a front end person look?	
+TR 13381	9	Cindy	lit triage AP indexing update bug/J number	2020-09-18	13381		backend/pwi	
+TR 13385	10	Cindy	lit triage/pwi visual changes	2020-09-18	13385		backend/pwi	
+TR 13165	11	Cindy	interface to support MP singularity build	2019-09-09	13165	in progress		
+TR 13185	12	Cindy	tweak legend on phenogrid	2019-10-07	13185	literally just a text change	frontend	
+TR 13264	13	Cindy	New QC report: Duplicate disease annotations	2020-02-24	13264		backend/qc reports	
+TR 13158	14	Cindy	Modify expresses component load - no mouse ortholog required	2019-07-29	13158	sc - backend/frontend effects analysis stories are done	Possibly more complicated than it seems?	Created analysis story for other components affected. fewi, mover, ei etc.
+TR 13003	15	Cindy	some MP definitions not being displayed	2019-01-07	13003		???	Need to investigate why,
+TR 13195	16	Cindy	sort order of models on DO browser	2019-10-28	13195		frontend	
+TR 12879	17	Cindy	set up MP build pipeline	2018-06-04	12879		olin	
+TR 12920	18	Cindy	Marker chromosome assignment WI display	2018-08-06	12920		frontend	
+TR 13298	19	Cindy	Deltagen/Lexicon links within data sheets	2020-04-06	13298		frontend	
+TR 12588	20	Cindy	incorrect CrePortal URL	2017-10-13	12588		frontend	IT referred this back to us; notes added to TR.
+TR 13426	21	Cindy	Genome Location option doesn't work on HMDC	2020-10-30	13426		frontend	jsb 11/5/20 -- Added note; bug likely due to Solr 8 upgrade.
+TR 13442	22	Cindy	Allele Module Extinct selection bug	2020-11-20	13442	lec/ready/build 39	backend/pwi	
+TR 13436	1	Joel	Links to MGV Issues	2020-11-13	13436			
+TR 13467	2	Joel	PWI/Lit Triage/DOI link out button issue	2021-02-26	13467		backend/pwi	
+TR 13174	3	Joel	fewi : handling for UTF8 and LATIN9 encoding	2019-08-26	13174		frontend	
+TR 13092	4	Joel	Success and Error popups in the PWI Marker Module	2019-04-29	13092	see TR/on hold	lec	
+TR 13484	5	Joel	retire mirroring of genbank and refseq release files	2021-03-26	13484		backend/misc	
+TR 13384	6	Joel	webshare/externalURL vs femover/actual_database	2020-09-18	13384			
+TR 13117	7	Joel	Java API Update: maven upgrade	2019-05-13	13117		backend	
+TR 13004	8	Joel	Research front end load balancing / throttling	2019-01-07	13004		frontend	
+TR 12000	9	Joel	femover/IMSR interaction improvements	2015-05-04	12000		frontend	
+TR 13480	10	Joel	move pgdbutilities/bin/cleanSpecChar.sh to pgmgddbschema	2021-03-19	13480		backend	
+TR 13307	1	Judy	Adding PMIDS from Noctua load into MGI	2020-05-04	13307	lec/in progress/build 39	backend/loads	
+TR 13481	2	Judy	Import GO text direct from Alliance	2021-03-19	13481	in progress		Dave - working on this
+TR 13494	3	Judy	Incorrect Evidence Code in MGI GPAD files	2021-04-09	13494		backend/reports/GO	
+TR 13416	4	Judy	EC links in MGi gene detail page not working	2020-10-23	13416		front end/links	jsb - working on this
+TR 13483	5	Judy	SGD link broken in GO detail page	2021-03-26	13483		frontend/fewi	
+TR 13488	6	Judy	Retire Quosa / automate pdf download from Elsevier	2021-04-02	13488	backend/littriage		
+TR 13470	7	Judy	GO meeting/CalTech/PWI tasks		13470	waiting	backend	
+TR 13478	8	Judy	PWI/GO Annotation/allow display of withdrawn markers	2021-03-12	13478	lec/ready/build 39	backend/pwi	
+TR 13434	9	Judy	Request for additional GO QC report: under-annotated genes	2020-11-06	13434		backend/qc	
+TR 13354	10	Judy	adjustment needed to "complete' in GO EI	2020-07-17	13354		backend/pwi	
+TR 13475	11	Judy	Add GlyGen links to MGI gene detail pages		13475		frontend/fewi	
+TR 13272	12	Judy	GO meeting/CalTech/tasks to-do	2020-03-16	13272	lec/in progress	backend/loads etc	
+TR 13137	13	Judy	Export gene lists to GeneWeaver from 3 specific places	2019-06-24	13137		frontend	
+TR 13463	14	Judy	changes to GO QC 3	2021-01-29	13463		backend/qc	
+TR 13319	15	Judy	Remove FuncBase link from the GO section of MGI gene detail page	2020-05-22	13319		frontend/fewi + backend/load (?)	
+TR 13191	16	Judy	Make old nomenclature history searchable in the PWI	2019-10-28	13191	see TR/on hold	monica	
+TR 13096	1	Martin	LTLO: add display of MGI id to return and make field sortable	2019-05-06	13096	id added; sorting not done	backend/pwi	
+TR 13476	2	Martin	J Biol Chem copyright links broken		13476		frontend/fewi	
+TR 13415	3	Martin	ArrayExpress is moving to BioStudies	2020-10-16	13415	Sharon to investigate	sc - changes have not all been released yet	
+TR 13413	4	Martin	HT index: sample metadata fetcher - python issues	2020-10-16	13413		pwi/mgipython	
+TR 13377	5	Martin	GXD QF: vocab term searching doesn't clear without reset	2020-09-04	13377		frontend	
+TR 13314	6	Martin	more RNA seq data (plus more EA links)	2020-05-22	13314		backend/load	
+TR 13142	7	Martin	exclude transgenes from GXD QF mutant searches	2019-06-10	13142		frontend	
+TR 13447	8	Martin	genotype module: duplicate clipboard add button	2020-12-18	13447		PWI	
+TR 13300	9	Martin	Expand UBERON in MP	2020-04-20	13300		backend/loads	
+TR 12641	10	Martin	HT indexing module: make raw data fields searchable	2018-08-28	12641		backend/pwi	
+TR 12694	11	Martin	HT indexing module: adding fwi-like specimen table	2018-08-28	12694		backend/pwi	
+TR 13192	12	Martin	modify gene sort so numbers last alphabetically	2019-10-28	13192		front end	
+TR 13254	13	Martin	Add RNA seq data to the Gene Expression Tissue Summary Page	2020-02-17	13254		frontend/mover	
+TR 13263	14	Martin	catching RNA seq experiment data load failures at the mover/fewi level	2020-02-24	13263		fewi/mover	
+TR 13271	15	Martin	GXD Supergrid bug: 1st click anatomy toggle	2020-03-02	13271		frontend/fewi	
+TR 13492	16	Martin	pWI results summary: placenta fail	2021-04-09	13492		backend/pwi/downlaods	
+TR 13493	17	Martin	GXD public stats: RNA seq results number inflated	2021-04-09	13493		frontend/stats	
+TR 13482	1	Richard	EntrezGene Load - HomoloGene Technical Debt	2021-03-19	13482	sc - ready - will release with B39 project	backend	
+TR 13466	2	Richard	Make the current build number easier to see		13466		frontend	
+TR 13416	3	Richard	EC links in MGi gene detail page not working	2020-10-16	13416		frontend	jsb - working on this (dup)
+TR 13421	4	Richard	NLM Refresh Load issue	2020-10-23	13421		backend/loads	
+TR 13423	5	Richard	ltlo: NLM-refresh not updating abstract	2020-10-23	13423	waiting	backend/littriage	
+TR 12965	6	Richard	LTLO: bioRxiv articles need a QC	2020-09-04	12965	sharon - done	backend/reports	
+TR 13288	7	Richard	Lit triage load - Handle text extraction problems better	2020-03-23	13288		back end/lit triage	
+TR 13341	8	Richard	Export to text bug	2020-06-26	13341		frontend	
+TR 13077	9	Richard	LTLO: Automate pdf download from PMC for several journals	2019-04-22	13077	see TR/needs Jon	backend/load/ltlo	Started as just Nat Commun - several additional journals added. Upgraded priority.
+TR 13386	10	Richard	modify pdfviewer to "skip" missing J files	2020-09-18	13386		backend/loads	
+TR 13344	11	Richard	LTLO: Plos doi extraction issue	2020-07-24	13344		backend/loads	
+TR 13336	12	Richard	Broken RIKEN/Fantom links	2020-07-10	13336		frontend	
+TR 13353	13	Richard	Discontinued IDs on Primer Detail	2020-07-10	13353		frontend	
+TR 13043	14	Richard	LTLO: Reviews are underlabeled in the database	2020-03-16	13043		backend/lit triage	
+TR 13287	15	Richard	Update structure autocomplete handling	2020-03-16	13287		front-end/fewi	
