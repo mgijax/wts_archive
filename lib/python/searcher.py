@@ -169,12 +169,13 @@ def _getData(filenames, parms, fileToSearch):
 
         out = []
         for sublist in _splitList(filenames):
-            r, o, e = grep('\|'.join(sublist), fileToSearch, '-i')
-            if (r != 0) or e:
-                raise Exception("Error in looking up data for %s: %s" % (filename, e))
+            if len(sublist) > 0:
+                r, o, e = grep('\|'.join(sublist), fileToSearch, '-i')
+                if (r != 0) or e:
+                    raise Exception("Error in looking up data for %s: %s" % (filename, e))
             
-            for line in o:
-                out.append(_extractData(line))
+                for line in o:
+                    out.append(_extractData(line))
             
         return out
 
