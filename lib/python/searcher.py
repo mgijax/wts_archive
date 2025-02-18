@@ -78,7 +78,7 @@ def _rawSearch(parms, fileToSearch):
         phrases = [ 'phrase1', 'phrase2', 'phrase3', 'phrase4' ]
         for phrase in phrases:
                 if (phrase in parms) and (parms[phrase].strip() != ''):
-                        r, o, e = grep(parms[phrase].strip(), fileToSearch, '-i')
+                        r, o, e = grep(parms[phrase].strip(), fileToSearch, '-ia')
                         out.append(o)
                         err = err + e
         return out, err
@@ -170,7 +170,7 @@ def _getData(filenames, parms, fileToSearch):
         out = []
         for sublist in _splitList(filenames):
             if len(sublist) > 0:
-                r, o, e = grep('\|'.join(sublist), fileToSearch, '-i')
+                r, o, e = grep('\|'.join(sublist), fileToSearch, '-ia')
                 if (r != 0) or e:
                     raise Exception("Error in looking up data for %s: %s" % (filename, e))
             
